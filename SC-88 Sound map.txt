@@ -1,0 +1,415 @@
+01 00 Piano 1
+01 08 Piano 1w
+01 10 Piano 1d
+02 00 Piano 2
+02 08 Piano 2w
+03 00 Piano 3
+03 01 EG+Rhodes1
+03 02 EG+Rhodes2
+03 08 Piano 3w
+04 00 Honky-tonk
+04 08 Old Upright
+05 00 E.Piano 1
+05 08 St.Soft EP
+05 10 FM+SA EP
+05 18 60's E.Piano
+05 19 Hard Rhodes
+05 1A MellowRhodes
+06 00 E.Piano 2
+06 08 Detuned EP 2
+06 10 St.FM EP
+06 18 Hard FM EP
+07 00 Harpsichord
+07 08 Coupled Hps.
+07 10 Harpsi.w
+07 18 Harpsi.o
+08 00 Clav.
+09 00 Celesta
+0A 00 Glockenspiel
+0B 00 Music Box
+0C 00 Vibraphone
+0C 01 Hard Vibe
+0C 08 Vib.w
+0D 00 Marimba
+0D 08 Marimba w
+0D 10 Barafon
+0D 11 Barafon 2
+0D 18 Log drum
+0E 00 Xylophone
+0F 00 Tublar-bell
+0F 08 Church Bell
+0F 09 Carillon
+10 00 Santur
+10 01 Santur 2
+10 08 Cambalon
+11 00 Organ 1
+11 01 Organ 101
+11 08 Detuned Or.1
+11 09 Organ 109
+11 10 60's Organ 1
+11 11 60's Organ 2
+11 12 60's Organ 3
+11 18 Cheese Organ 1
+11 20 Organ 4
+11 21 Even Bar
+11 28 Organ Bass
+12 00 Organ 2
+12 01 Organ 201
+12 08 Detuned Or.2
+12 20 Organ 5
+13 00 Organ 3
+13 08 Rotary Org.
+13 10 Rotary Org.S
+13 18 Rotary Org.F
+14 00 Church Org.1
+14 08 Church Org.2
+14 10 Church Org.3
+14 18 Organ Flute
+14 20 Term.Flute
+15 00 Reed Organ
+16 00 Accordion Fr
+16 08 Accordion It
+17 00 Harmonica
+17 01 Harmonica 2
+18 00 Bandoneon
+19 00 Nylon-str.Gt
+19 08 Ukulele
+19 10 Nylon Gt.o
+19 18 Velo Harmnix
+19 20 Nylon Gt.2
+19 28 Lequint Gt.
+1A 00 Steel-str.Gt
+1A 08 12-str.Gt
+1A 09 Nylon+Steel
+1A 10 Mandolin
+1A 20 Steel Gt.2
+1B 00 Jazz Gt.
+1B 01 Mellow Gt.
+1B 08 Pedal Steel
+1C 00 Clean Gt.
+1C 08 Chorus Gt.
+1D 00 Muted Gt.
+1D 01 Muted Dis.Gt
+1D 08 Funk Pop
+1D 10 Funk Gt.2
+1E 00 Overdrive Gt
+1F 00 DistortionGt
+1F 01 Dist. Gt2
+1F 02 Dazed Guitar
+1F 08 Feedback Gt.
+1F 09 Feedback Gt2
+1F 10 Power Guitar
+1F 11 Power Gt.2
+1F 12 5th Dist.
+1F 18 Rock Rhythm
+1F 19 Rock Rhythm2
+20 00 Gt.Harmonics
+20 08 Gt.Feedback
+20 10 Ac.Gt.Harmnx
+21 00 Acoustic Bs.
+22 00 Fingerd Bs.
+22 01 Fingerd Bs2
+22 02 Jazz Bass
+23 00 Picked Bass
+23 08 Muted PickBs.
+24 00 Fletless Bs.
+24 01 Fletless Bs2
+24 02 Fletless Bs3
+24 03 Fletless Bs4
+24 04 Syn Fletless
+24 05 Mr.Smooth
+25 00 Slap Bass 1
+25 08 Reso Slap
+26 00 Slap Bass 2
+27 00 Synth Bass 1
+27 01 SynthBass101
+27 08 Acid Bass
+27 09 TB303 Bass
+27 0A Tenko Bass
+27 10 Reso SH Bass
+28 00 Synth Bass 2
+28 01 SynthBass201
+28 02 Modular Bass
+28 03 Seq Bass
+28 08 Beef FM Bass
+28 09 X Wire Bass
+28 10 Rubber Bass
+28 11 SH101 Bass 1
+28 12 SH101 Bass 2
+28 13 Smooth Bass
+29 00 Violin
+29 08 Slow Violin
+2A 00 Viola
+2B 00 Cello
+2C 00 Contrabass
+2D 00 Tremolo Str
+2D 08 Slow Tremolo
+2D 09 Suspense Str
+2E 00 PizzicatoStr
+2F 00 Harp
+30 00 Timpani
+31 00 Strings
+31 01 Strings 2
+31 08 Orchestra
+31 09 Orchestra 2
+31 0A Tremolo Orch
+31 0B Choir Str.
+31 10 St.Strings
+31 18 Velo Strings
+32 00 Slow Strings
+32 01 SlowStrings2
+32 08 Legato Str.
+32 09 Warm Strings
+32 0A St.Slow Str.
+33 00 Syn.Strings1
+33 01 OB Strings
+33 08 Syn.Strings3
+34 00 Syn.Strings2
+35 00 Choir Aahs
+35 08 St.Choir
+35 09 Mello Choir
+35 20 Choir Aahs 2
+36 00 Voice Oohs
+37 00 SynVox
+37 08 Syn.Voice
+38 00 OrchestraHit
+38 08 Impact Hit
+38 09 Philly Hit
+38 0A Double Hit
+38 10 Lo Fi Rave
+39 00 Trumpet
+39 01 Trumpet 2
+39 08 Flugel Horn
+39 18 Bright Tp.
+39 19 Warm Tp.
+3A 00 Trombone
+3A 01 Trombone 2
+3B 00 Tuba
+3B 01 Tuba 2
+3C 00 MutedTrumpet
+3D 00 French Horns
+3D 01 Fr.Horn 2
+3D 08 Fr.Horn Solo
+3D 10 Horn Orch
+3E 00 Brass 1
+3E 08 Brass 2
+3E 10 Brass Fall
+3F 00 Synth Brass1
+3F 01 Poly Brass
+3F 08 Synth Brass3
+3F 09 Quack Brass
+3F 10 Octave Brass
+40 00 Synth Brass2
+40 01 Soft Brass
+40 08 Synth Brass4
+40 10 Velo Brass 1
+40 11 Velo Brass 2
+41 00 Soprano Sax
+42 00 Alto Sax
+42 08 Hyper Alto
+43 00 Tenor Sax
+43 08 BreathyTenor
+44 00 Baritone Sax
+45 00 Oboe
+46 00 English Horn
+47 00 Bassoon
+48 00 Clarinet
+48 08 Bs Clarinet
+49 00 Piccolo
+4A 00 Flute
+4B 00 Recorder
+4C 00 Pan Flute
+4C 08 Kawala
+4D 00 Bottle Blow
+4E 00 Shakuhachi
+4F 00 Whistle
+50 00 Ocarina
+51 00 Square Wave
+51 01 Square
+51 02 Hollow Mini
+51 03 Mellow FM
+51 04 CC Solo
+51 05 Shmoog
+51 06 LM Square
+51 08 Sine Wave
+52 00 Saw Wave
+52 01 Saw
+52 02 Pulse Saw
+52 03 Feline GR
+52 04 Big Lead
+52 05 Velo Lead
+52 06 GR-300
+52 07 LA Saw
+52 08 Doctor Solo
+52 10 Waspy Synth
+53 00 Syn.Calliope
+53 01 Vent Synth
+53 02 Pure PanLead
+54 00 Chiffer Lead
+55 00 Charang
+55 08 Dist.Lead
+56 00 Solo Vox
+57 00 5th Saw Wave
+57 01 Big Fives
+58 00 Bass & Lead
+58 01 Big & Raw
+58 02 Fat & Perky
+59 00 Fantasia
+59 01 Fantasia 2
+5A 00 Warm Pad
+5A 01 Thick Pad
+5A 02 Horn Pad
+5A 03 Rotary Strng
+5A 04 Soft Pad
+5B 00 Polysynth
+5B 01 80's PolySyn
+5C 00 Space Voice
+5C 01 Heaven II
+5D 00 Bowed Glass
+5E 00 Metal Pad
+5E 01 Tine Pad
+5E 02 Panner Pad
+5F 00 Halo Pad
+60 00 Sweep Pad
+60 01 Polar Pad
+60 08 Converge
+60 09 Shwimmer
+60 0A Celestial Pd
+61 00 Ice Rain
+61 01 Harmo Rain
+61 02 African wood
+61 08 Clavi Pad
+62 00 Soundtrack
+62 01 Ancestral
+62 02 Prologue
+62 08 Rave
+63 00 Crystal
+63 01 Syn Mallet
+63 02 Soft Crystal
+63 03 Round Glock
+63 04 Loud Glock
+63 05 GlockenChime
+63 06 Clear Bells
+63 07 ChristmasBel
+63 08 Vibra Bells
+63 09 Digi Bells
+63 10 Choral Bells
+63 11 Air Bells
+63 12 Bell Harp
+63 13 Gamelimba
+64 00 Atmosphere
+64 01 Warm Atomos
+64 02 Nylon Harp
+64 03 Harpvox
+64 04 HollowReleas
+64 05 Nylon+Rhodes
+64 06 Ambient Pad
+65 00 Brightness
+66 00 Goblin
+66 01 Goblinson
+66 02 50's Sci-Fi
+67 00 Echo Drops
+67 01 Echo Bell
+67 02 Echo Pan
+67 03 Echo Pan 2
+67 04 Big Panner
+67 05 Reso Panner
+67 06 Water Piano
+68 00 Star Theme
+68 01 Star Theme 2
+69 00 Sitar
+69 01 Sitar 2
+69 02 Detune Sitar
+69 08 Tambra
+69 10 Tamboura
+6A 00 Banjo
+6A 01 Muted Banjo
+6A 08 Rabab
+6A 10 Gopichant
+6A 18 Oud
+6B 00 Shamisen
+6B 01 Tsugaru
+6C 00 Koto
+6C 08 Taisho Koto
+6C 10 Kanoon
+6D 00 Kalimba
+6E 00 Bagpipe
+6F 00 Fiddle
+70 00 Shanai
+70 01 Shanai 2
+70 08 Pungi
+70 10 Hichiriki
+71 00 Tinkle Bell
+71 08 Bonang
+71 09 Gender
+71 0A Gamelan Gong
+71 0B St.Gamelan
+71 10 RAMA Cymbal
+72 00 Agogo
+72 08 Atarigane
+73 00 Steel Drums
+74 00 Woodblock
+74 08 Castanets
+75 00 Taiko
+75 08 Concert BD
+76 00 Melo. Tom 1
+76 01 Real Tom
+76 08 Melo. Tom 2
+76 09 Rock Tom
+77 00 Synth Drum
+77 08 808 Tom
+77 09 Elec Perc
+78 00 Reverse Cym.
+78 01 Reverse Cym2
+78 08 Rev.Snare 1
+78 09 Rev.Snare 2
+78 10 Rev.Kick 1
+78 11 Rev.ConBD
+78 18 Rev.Tom 1
+78 19 Rev.Tom 2
+79 03 Gt.CutNoise2
+79 04 Dist.CutNoise
+79 05 Bass Slide
+79 06 Pick Scrape
+7A 00 Breath Noise
+7A 01 Fl.Key Click
+7B 00 Seashore
+7B 01 Rain
+7B 02 Thunder
+7B 03 Wind
+7B 04 Stream
+7B 05 Bubble
+7C 00 Bird
+7C 01 Dog
+7C 02 Horse-Gallop
+7C 03 Bird 2
+7C 04 Kitty
+7C 05 Growl
+7D 00 Telephone 1
+7D 01 Telephone 2
+7D 02 DoorCreaking
+7D 03 Door
+7D 04 Scratch
+7D 05 Wind Chimes
+7D 07 Scratch 2
+7E 00 Helicopter
+7E 01 Car-Engine
+7E 02 Car-Stop
+7E 03 Car-Pass
+7E 04 Car-Crash
+7E 05 Siren
+7E 06 Train
+7E 07 Jetplane
+7E 08 Starship
+7E 09 Burst Noise
+7F 00 Applause
+7F 01 Laughing
+7F 02 Screaming
+7F 03 Punch
+7F 04 Heart Beat
+7F 05 Footsteps
+7F 06 Applause 2
+80 00 Gun Shot
+80 01 Machine Gun
+80 02 Lasergun
+80 03 Explosion

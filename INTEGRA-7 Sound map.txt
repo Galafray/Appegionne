@@ -1,0 +1,6087 @@
+55 00 00 Integra Preview
+55 00 01 Full Orch Set
+55 00 02 Chamber Orch Set
+55 00 03 Electro Set
+55 00 04 Techno Set
+55 00 05 Rock Band Set
+55 00 06 Jazz Band Set
+55 00 07 Big Band Set
+55 00 08 Ac Pop Set
+55 00 09 R&B Set
+55 00 0A Country Set
+55 00 0B World Pop Set
+55 00 0C Keyboard Set
+55 00 0D Guitar Set
+55 00 0E House Set
+55 00 0F Game Set
+55 00 10 INIT STUDIO
+55 00 11 INIT STUDIO
+55 00 12 INIT STUDIO
+55 00 13 INIT STUDIO
+55 00 14 INIT STUDIO
+55 00 15 INIT STUDIO
+55 00 16 INIT STUDIO
+55 00 17 INIT STUDIO
+55 00 18 INIT STUDIO
+55 00 19 INIT STUDIO
+55 00 1A INIT STUDIO
+55 00 1B INIT STUDIO
+55 00 1C INIT STUDIO
+55 00 1D INIT STUDIO
+55 00 1E INIT STUDIO
+55 00 1F INIT STUDIO
+55 00 20 INIT STUDIO
+55 00 21 INIT STUDIO
+55 00 22 INIT STUDIO
+55 00 23 INIT STUDIO
+55 00 24 INIT STUDIO
+55 00 25 INIT STUDIO
+55 00 26 INIT STUDIO
+55 00 27 INIT STUDIO
+55 00 28 INIT STUDIO
+55 00 29 INIT STUDIO
+55 00 2A INIT STUDIO
+55 00 2B INIT STUDIO
+55 00 2C INIT STUDIO
+55 00 2D INIT STUDIO
+55 00 2E INIT STUDIO
+55 00 2F INIT STUDIO
+55 00 30 INIT STUDIO
+55 00 31 INIT STUDIO
+55 00 32 INIT STUDIO
+55 00 33 INIT STUDIO
+55 00 34 INIT STUDIO
+55 00 35 INIT STUDIO
+55 00 36 INIT STUDIO
+55 00 37 INIT STUDIO
+55 00 38 INIT STUDIO
+55 00 39 INIT STUDIO
+55 00 3A INIT STUDIO
+55 00 3B INIT STUDIO
+55 00 3C INIT STUDIO
+55 00 3D INIT STUDIO
+55 00 3E INIT STUDIO
+55 00 3F INIT STUDIO
+56 40 00 Pop DrumSet 1
+56 40 01 Pop DrumSet 2
+56 40 02 Power DrumSet
+56 40 03 RaveDrumSet
+56 40 04 JazzDrumSet2
+56 40 05 OrchDrumSet
+56 40 06 PowerDrmSet2
+56 40 07 PowerRaveSet
+56 40 08 XV Pop Kit
+56 40 09 XV Rock Kit
+56 40 0A XV Jazz Kit
+56 40 0B XV Rust Kit
+56 40 0C XV WayHipKit
+56 40 0D XV Bully Kit
+57 40 00 128voicePno
+57 40 01 Bright Piano
+57 40 02 Classique
+57 40 03 Nice Piano
+57 40 04 Piano Thang
+57 40 05 Power Grand
+57 40 06 House Piano
+57 40 07 E .Grand
+57 40 08 MIDIed Grand
+57 40 09 Piano Blend
+57 40 0A West Coast
+57 40 0B PianoStrings
+57 40 0C Bs/Pno+Brs
+57 40 0D Water EP
+57 40 0E S .A .E .P .
+57 40 0F SA EP 1
+57 40 10 SA EP 2
+57 40 11 Stiky EP
+57 40 12 Dig EP
+57 40 13 Nylon EPiano
+57 40 14 Nylon EP
+57 40 15 EP Mix
+57 40 16 Psycho EP
+57 40 17 Tremo EP
+57 40 18 MK-80 EP
+57 40 19 MK-80 Phaser
+57 40 1A Delicate EP
+57 40 1B Octa EP 1
+57 40 1C Octa EP 2
+57 40 1D JV EP+
+57 40 1E EP+Mod Pad
+57 40 1F Mr .Mellow
+57 40 20 Comp Clav
+57 40 21 Klavinet
+57 40 22 Winger Clav
+57 40 23 Phaze Clav 1
+57 40 24 Phaze Clav 2
+57 40 25 Phuzz Clav
+57 40 26 Chorus Clav
+57 40 27 Claviduck
+57 40 28 Velo-Rez Clv
+57 40 29 Clavicembalo
+57 40 2A Analog Clav1
+57 40 2B Analog Clav2
+57 40 2C Metal Clav
+57 40 2D Full Stops
+57 40 2E Ballad B
+57 40 2F Mellow Bars
+57 40 30 AugerMentive
+57 40 31 Perky B
+57 40 32 The Big Spin
+57 40 33 Gospel Spin
+57 40 34 Roller Spin
+57 40 35 Rocker Spin
+57 40 36 Tone Wh .Solo
+57 40 37 Purple Spin
+57 40 38 60?s LeadORG
+57 40 39 Assalt Organ
+57 40 3A D-50 Organ
+57 40 3B Cathedral
+57 40 3C Church Pipes
+57 40 3D Poly Key
+57 40 3E Poly Saws
+57 40 3F Poly Pulse
+57 40 40 Dual Profs
+57 40 41 Saw Mass
+57 40 42 Poly Split
+57 40 43 Poly Brass
+57 40 44 Stackoid
+57 40 45 Poly Rock
+57 40 46 D-50 Stack
+57 40 47 Fantasia JV
+57 40 48 Jimmee Dee
+57 40 49 Heavenals
+57 40 4A Mallet Pad
+57 40 4B Huff N Stuff
+57 40 4C Puff 1080
+57 40 4D BellVox 1080
+57 40 4E Fantasy Vox
+57 40 4F Square Keys
+57 40 50 Childlike
+57 40 51 Music Box
+57 40 52 Toy Box
+57 40 53 Wave Bells
+57 40 54 Tria Bells
+57 40 55 Beauty Bells
+57 40 56 Music Bells
+57 40 57 Pretty Bells
+57 40 58 Pulse Key
+57 40 59 Wide Tubular
+57 40 5A AmbienceVibe
+57 40 5B Warm Vibes
+57 40 5C Dyna Marimba
+57 40 5D Bass Marimba
+57 40 5E Nomad Perc
+57 40 5F Ethno Metals
+57 40 60 Islands Mlt
+57 40 61 Steelin Keys
+57 40 62 Steel Drums
+57 40 63 Voicey Pizz
+57 40 64 Sitar
+57 40 65 Drone Split
+57 40 66 Ethnopluck
+57 40 67 Jamisen
+57 40 68 Dulcimer
+57 40 69 East Melody
+57 40 6A MandolinTrem
+57 40 6B Nylon Gtr
+57 40 6C Gtr Strings
+57 40 6D Steel Away
+57 40 6E Heavenly Gtr
+57 40 6F 12str Gtr 1
+57 40 70 12str Gtr 2
+57 40 71 Jz Gtr Hall
+57 40 72 LetterFrmPat
+57 40 73 Jazz Scat
+57 40 74 Lounge Gig
+57 40 75 JC Strat
+57 40 76 Twin Strats
+57 40 77 JV Strat
+57 40 78 Syn Strat
+57 40 79 Rotary Gtr
+57 40 7A Muted Gtr
+57 40 7B SwitchOnMute
+57 40 7C Power Trip
+57 40 7D Crunch Split
+57 40 7E Rezodrive
+57 40 7F RockYurSocks
+57 41 00 Dist Gtr 1
+57 41 01 Dist Gtr 2
+57 41 02 R&R Chunk
+57 41 03 Phripphuzz
+57 41 04 Grungeroni
+57 41 05 Black Widow
+57 41 06 Velo-Wah Gtr
+57 41 07 Mod-Wah Gtr
+57 41 08 Pick Bass
+57 41 09 Hip Bass
+57 41 0A Perc .Bass
+57 41 0B Homey Bass
+57 41 0C Finger Bass
+57 41 0D Nylon Bass
+57 41 0E Ac .Upright
+57 41 0F Wet Fretls
+57 41 10 Fretls Dry
+57 41 11 Slap Bass 1
+57 41 12 Slap Bass 2
+57 41 13 Slap Bass 3
+57 41 14 Slap Bass 4
+57 41 15 4 Pole Bass
+57 41 16 Tick Bass
+57 41 17 House Bass
+57 41 18 Mondo Bass
+57 41 19 Clk AnalogBs
+57 41 1A Bass In Face
+57 41 1B 101  Bass
+57 41 1C Noiz Bass
+57 41 1D Super Jup Bs
+57 41 1E Occitan Bass
+57 41 1F Hugo Bass
+57 41 20 Multi Bass
+57 41 21 Moist Bass
+57 41 22 BritelowBass
+57 41 23 Untamed Bass
+57 41 24 Rubber Bass
+57 41 25 Stereoww Bs
+57 41 26 Wonder Bass
+57 41 27 Deep Bass
+57 41 28 Super JX Bs
+57 41 29 W<RED>-Bass
+57 41 2A HI-Ring Bass
+57 41 2B Euro Bass
+57 41 2C SinusoidRave
+57 41 2D Alternative
+57 41 2E Acid Line
+57 41 2F Auto TB-303
+57 41 30 Hihat Tekno
+57 41 31 Velo Tekno 1
+57 41 32 Raggatronic
+57 41 33 Blade Racer
+57 41 34 S&H Pad
+57 41 35 Syncrosonix
+57 41 36 Fooled Again
+57 41 37 Alive
+57 41 38 Velo Tekno 2
+57 41 39 Rezoid
+57 41 3A Raverborg
+57 41 3B Blow Hit
+57 41 3C Hammer Bell
+57 41 3D Seq Mallet
+57 41 3E Intentions
+57 41 3F Pick It
+57 41 40 Analog Seq
+57 41 41 Impact Vox
+57 41 42 TeknoSoloVox
+57 41 43 X-Mod Man
+57 41 44 Paz <==> Zap
+57 41 45 4 Hits 4 You
+57 41 46 Impact
+57 41 47 Phase Hit
+57 41 48 Tekno Hit 1
+57 41 49 Tekno Hit 2
+57 41 4A Tekno Hit 3
+57 41 4B Reverse Hit
+57 41 4C SquareLead 1
+57 41 4D SquareLead 2
+57 41 4E You and Luck
+57 41 4F Belly Lead
+57 41 50 WhistlinAtom
+57 41 51 Edye Boost
+57 41 52 MG Solo
+57 41 53 FXM Saw Lead
+57 41 54 Sawteeth
+57 41 55 Smoothe
+57 41 56 MG Lead
+57 41 57 MG Interval
+57 41 58 Pulse Lead 1
+57 41 59 Pulse Lead 2
+57 41 5A Little Devil
+57 41 5B Loud SynLead
+57 41 5C Analog Lead
+57 41 5D 5th Lead
+57 41 5E Flute
+57 41 5F Piccolo
+57 41 60 VOX Flute
+57 41 61 Air Lead
+57 41 62 Pan Pipes
+57 41 63 Airplaaane
+57 41 64 Taj Mahal
+57 41 65 Raya Shaku
+57 41 66 Oboe mf
+57 41 67 Oboe Express
+57 41 68 Clarinet mp
+57 41 69 ClariExpress
+57 41 6A Mitzva Split
+57 41 6B ChamberWinds
+57 41 6C ChamberWoods
+57 41 6D Film Orch
+57 41 6E Sop .Sax mf
+57 41 6F Alto Sax
+57 41 70 AltoLead Sax
+57 41 71 Tenor Sax
+57 41 72 Baritone Sax
+57 41 73 Take A Tenor
+57 41 74 Sax Section
+57 41 75 Bigband Sax
+57 41 76 Harmonica
+57 41 77 Harmo Blues
+57 41 78 BluesHarp
+57 41 79 Hillbillys
+57 41 7A French Bags
+57 41 7B Majestic Tpt
+57 41 7C Voluntare
+57 41 7D 2Trumpets
+57 41 7E Tpt Sect
+57 41 7F Mute TP mod
+57 42 00 Harmon Mute
+57 42 01 Tp&Sax Sect
+57 42 02 Sax+Tp+Tb
+57 42 03 Brass Sect
+57 42 04 Trombone
+57 42 05 Hybrid Bones
+57 42 06 Noble Horns
+57 42 07 Massed Horns
+57 42 08 Horn Swell
+57 42 09 Brass It!
+57 42 0A Brass Attack
+57 42 0B Archimede
+57 42 0C Rugby Horn
+57 42 0D MKS-80 Brass
+57 42 0E True ANALOG
+57 42 0F Dark Vox
+57 42 10 RandomVowels
+57 42 11 Angels Sing
+57 42 12 Pvox Oooze
+57 42 13 Longing . . .
+57 42 14 Arasian Morn
+57 42 15 Beauty Vox
+57 42 16 Mary-AnneVox
+57 42 17 Belltree Vox
+57 42 18 Vox Panner
+57 42 19 Spaced Voxx
+57 42 1A Glass Voices
+57 42 1B Tubular Vox
+57 42 1C Velo Voxx
+57 42 1D Wavox
+57 42 1E Doos
+57 42 1F Synvox Comps
+57 42 20 Vocal Oohz
+57 42 21 LFO Vox
+57 42 22 St .Strings
+57 42 23 Warm Strings
+57 42 24 Somber Str
+57 42 25 Marcato
+57 42 26 Bright Str
+57 42 27 String Ens
+57 42 28 TremoloStrng
+57 42 29 Chambers
+57 42 2A ViolinCello
+57 42 2B Symphonique
+57 42 2C Film Octaves
+57 42 2D Film Layers
+57 42 2E Bass Pizz
+57 42 2F Real Pizz
+57 42 30 Harp On It
+57 42 31 Harp
+57 42 32 JP-8 Str 1
+57 42 33 JP-8 Str 2
+57 42 34 E-Motion Pad
+57 42 35 JP-8 Str 3
+57 42 36 Vintage Orch
+57 42 37 JUNO Strings
+57 42 38 Gigantalog
+57 42 39 PWM Strings
+57 42 3A Warmth
+57 42 3B ORBit Pad
+57 42 3C Deep Strings
+57 42 3D Pulsify
+57 42 3E Pulse Pad
+57 42 3F Greek Power
+57 42 40 Harmonicum
+57 42 41 D-50 Heaven
+57 42 42 Afro Horns
+57 42 43 Pop Pad
+57 42 44 Dreamesque
+57 42 45 Square Pad
+57 42 46 JP-8 Hollow
+57 42 47 JP-8Haunting
+57 42 48 Heirborne
+57 42 49 Hush Pad
+57 42 4A Jet Pad 1
+57 42 4B Jet Pad 2
+57 42 4C Phaze Pad
+57 42 4D Phaze Str
+57 42 4E Jet Str Ens
+57 42 4F Pivotal Pad
+57 42 50 3D Flanged
+57 42 51 Fantawine
+57 42 52 Glassy Pad
+57 42 53 Moving Glass
+57 42 54 Glasswaves
+57 42 55 Shiny Pad
+57 42 56 ShiftedGlass
+57 42 57 Chime Pad
+57 42 58 Spin Pad
+57 42 59 Rotary Pad
+57 42 5A Dawn 2 Dusk
+57 42 5B Aurora
+57 42 5C Strobe Mode
+57 42 5D Albion
+57 42 5E Running Pad
+57 42 5F Stepped Pad
+57 42 60 Random Pad
+57 42 61 SoundtrkDANC
+57 42 62 Flying Waltz
+57 42 63 Vanishing
+57 42 64 5th Sweep
+57 42 65 Phazweep
+57 42 66 Big BPF
+57 42 67 MG Sweep
+57 42 68 CeremonyTimp
+57 42 69 Dyno Toms
+57 42 6A Sands ofTime
+57 42 6B Inertia
+57 42 6C Vektogram
+57 42 6D Crash Pad
+57 42 6E Feedback VOX
+57 42 6F Cascade
+57 42 70 Shattered
+57 42 71 NextFrontier
+57 42 72 Pure Tibet
+57 42 73 Chime Wash
+57 42 74 Night Shade
+57 42 75 Tortured
+57 42 76 Dissimilate
+57 42 77 Dunes
+57 42 78 Ocean Floor
+57 42 79 Cyber Space
+57 42 7A Biosphere
+57 42 7B Variable Run
+57 42 7C Ice Hall
+57 42 7D ComputerRoom
+57 42 7E Inverted
+57 42 7F Terminate
+57 43 00 Echo Piano
+57 43 01 Upright Pno
+57 43 02 RD-1000
+57 43 03 Player?s EP
+57 43 04 D-50 EP
+57 43 05 Innocent EP
+57 43 06 Echo EP
+57 43 07 See-Thru EP
+57 43 08 FM BellPiano
+57 43 09 Ring E .Piano
+57 43 0A Soap Opera
+57 43 0B Dirty Organ
+57 43 0C Surf?s Up!
+57 43 0D Organesque
+57 43 0E pp Harmonium
+57 43 0F PieceOfCheez
+57 43 10 Harpsy Clav
+57 43 11 Exotic Velo
+57 43 12 HolidayCheer
+57 43 13 Morning Lite
+57 43 14 Prefab Chime
+57 43 15 Belfry Chime
+57 43 16 Stacc .Heaven
+57 43 17 2 .2 Bell Pad
+57 43 18 Far East
+57 43 19 Wire Pad
+57 43 1A PhaseBlipper
+57 43 1B Sweep Clav
+57 43 1C Glider
+57 43 1D Solo Steel
+57 43 1E DesertCrystl
+57 43 1F Clear Guitar
+57 43 20 Solo Strat
+57 43 21 Feed Me!
+57 43 22 Tube Smoke
+57 43 23 Creamy
+57 43 24 Blusey OD
+57 43 25 Grindstone
+57 43 26 OD 5ths
+57 43 27 East Europe
+57 43 28 Dulcitar
+57 43 29 Atmos Harp
+57 43 2A Pilgrimage
+57 43 2B 202 Rude Bs
+57 43 2C 2pole Bass
+57 43 2D 4pole Bass
+57 43 2E Phaser MC
+57 43 2F Miniphaser
+57 43 30 Acid TB
+57 43 31 Full Orchest
+57 43 32 Str + Winds
+57 43 33 Flute 2080
+57 43 34 Scat Flute
+57 43 35 Sax Choir
+57 43 36 Ballad Trump
+57 43 37 Sm .Brass Grp
+57 43 38 Royale
+57 43 39 Brass Mutes
+57 43 3A Breathy Brs
+57 43 3B 3 Osc Brass
+57 43 3C P5 Polymod
+57 43 3D Triumph Brs
+57 43 3E Techno Dream
+57 43 3F Organizer
+57 43 40 Civilization
+57 43 41 Mental Chord
+57 43 42 House Chord
+57 43 43 Sequalog
+57 43 44 Booster Bips
+57 43 45 VintagePlunk
+57 43 46 Plik-Plok
+57 43 47 RingSequence
+57 43 48 Cyber Swing
+57 43 49 Keep :-)
+57 43 4A Resojuice
+57 43 4B B?on d?moov!
+57 43 4C Dist TB-303
+57 43 4D Temple of JV
+57 43 4E Planet Asia
+57 43 4F Afterlife
+57 43 50 Trancing Pad
+57 43 51 Pulsatronic
+57 43 52 Cyber Dreams
+57 43 53 Warm Pipe
+57 43 54 Pure Pipe
+57 43 55 SH-2000
+57 43 56 X  ? Whistle
+57 43 57 Jay Vee Solo
+57 43 58 Progresso Ld
+57 43 59 Adrenaline
+57 43 5A Enlighten
+57 43 5B Glass Blower
+57 43 5C Earth Blow
+57 43 5D JX SqrCarpet
+57 43 5E Dimensional
+57 43 5F Jupiterings
+57 43 60 Analog Drama
+57 43 61 Rich Dynapad
+57 43 62 Silky Way
+57 43 63 Gluey Pad
+57 43 64 BandPass Mod
+57 43 65 Soundtraque
+57 43 66 Translucence
+57 43 67 Darkshine
+57 43 68 D?light
+57 43 69 December Sky
+57 43 6A Octapad
+57 43 6B JUNO Power!
+57 43 6C Spectrum Mod
+57 43 6D Stringsheen
+57 43 6E GR500 TmpDly
+57 43 6F Mod DirtyWav
+57 43 70 Silicon Str
+57 43 71 D50FantaPerc
+57 43 72 Rotodreams
+57 43 73 Blue Notes
+57 43 74 RiversOfTime
+57 43 75 Phobos
+57 43 76 2  0  8  0
+57 43 77 Unearthly
+57 43 78 Glistening
+57 43 79 Sci-Fi Str
+57 43 7A Shadows
+57 43 7B Helium Queen
+57 43 7C Sci-Fi FX x4
+57 43 7D Perky Noize
+57 43 7E Droplet
+57 43 7F Rain Forest
+57 44 00 Grand XV
+57 44 01 Contemplate
+57 44 02 Rock Piano
+57 44 03 RockPiano Ch
+57 44 04 Pianomonics
+57 44 05 Piano+SftPad
+57 44 06 WarmVoxPiano
+57 44 07 Y2K Concerto
+57 44 08 Piano+AirPad
+57 44 09 ChoraLeader
+57 44 0A SparklePiano
+57 44 0B Retro EP
+57 44 0C Fat EP
+57 44 0D EP Trem
+57 44 0E Phaser Dyno
+57 44 0F Hit EP
+57 44 10 Sweet Tynes
+57 44 11 Pluk EP
+57 44 12 EP Trip
+57 44 13 Ambi EP
+57 44 14 Rholitzer
+57 44 15 Wurlie
+57 44 16 FM Delight
+57 44 17 Cutter Clav
+57 44 18 Mute Clav D6
+57 44 19 PhazeWahClav
+57 44 1A St .Harpsichd
+57 44 1B 3PartInventn
+57 44 1C Soft Perky
+57 44 1D Fullness
+57 44 1E Paleface 1
+57 44 1F Paleface 2
+57 44 20 Soft B
+57 44 21 British B
+57 44 22 Rocker Org
+57 44 23 Split B
+57 44 24 PercInterval
+57 44 25 Happy 60s
+57 44 26 96 Years
+57 44 27 Glory Us Rok
+57 44 28 Church Harmn
+57 44 29 Cathdr Harmn
+57 44 2A Morph Pad
+57 44 2B Air Pad
+57 44 2C Soft Padding
+57 44 2D Warmth Pad
+57 44 2E ClassicJPpad
+57 44 2F Jupiter Str
+57 44 30 Fat Pad
+57 44 31 GR700 Pad
+57 44 32 Paradise
+57 44 33 Moonchimes
+57 44 34 SusPed Swap
+57 44 35 PhasingPad
+57 44 36 Ethereal Str
+57 44 37 Velcropad
+57 44 38 NothrnLights
+57 44 39 Sun Dive
+57 44 3A Brite Vox 1
+57 44 3B Brite Vox 2
+57 44 3C Ooh)Aah Mod
+57 44 3D Vocals: Ooh
+57 44 3E Vocals: Scat
+57 44 3F Vocals: Boys
+57 44 40 St . Choir
+57 44 41 SampleThe80s
+57 44 42 Sacred Tree
+57 44 43 VP330 OctEko
+57 44 44 XV Strings
+57 44 45 Fat Strings
+57 44 46 Dolce  p/m/f
+57 44 47 Sad Strings
+57 44 48 Lush Strings
+57 44 49 Strings4Film
+57 44 4A Marcato Str
+57 44 4B End Titles
+57 44 4C ChmbrQuartet
+57 44 4D ChamberSect .
+57 44 4E FullChmbrStr
+57 44 4F Tape Strings
+57 44 50 Henry VIII
+57 44 51 Prelude
+57 44 52 Str&Brs Orch
+57 44 53 Hornz
+57 44 54 TudorFanfare
+57 44 55 ChamberPlyrs
+57 44 56 Flute/Clari
+57 44 57 Orch Reeds
+57 44 58 Dual Flutes
+57 44 59 Jazzer Flute
+57 44 5A LegatoBamboo
+57 44 5B Ambience Flt
+57 44 5C The Andes
+57 44 5D Deja Vlute
+57 44 5E Simply Brass
+57 44 5F FullSt Brass
+57 44 60 Dragnet
+57 44 61 NewR&RBrass
+57 44 62 Tower Trumps
+57 44 63 BigBrassBand
+57 44 64 Lil?BigHornz
+57 44 65 VoyagerBrass
+57 44 66 Symph Horns
+57 44 67 Trombone Atm
+57 44 68 XV Trombone
+57 44 69 XV Trumpet
+57 44 6A JupiterHorns
+57 44 6B Solo SoprSax
+57 44 6C Solo AltoSax
+57 44 6D XV DynoTenor
+57 44 6E Honker Bari
+57 44 6F Full Saxz
+57 44 70 Soaring Hrns
+57 44 71 Glass Orbit
+57 44 72 5th Atm /Aft
+57 44 73 Lo-fi Sweep
+57 44 74 Modular Life
+57 44 75 Oscillations
+57 44 76 Combing
+57 44 77 Rolling 5ths
+57 44 78 Analogue Str
+57 44 79 Lunar Strngs
+57 44 7A BPFsweep Mod
+57 44 7B Queen V
+57 44 7C SkinnyBounce
+57 44 7D SquareBounce
+57 44 7E Galactic
+57 44 7F Powerwiggle
+57 45 00 80s Retrosyn
+57 45 01 Power Stack
+57 45 02 Don?t Jump
+57 45 03 Big Bubbles
+57 45 04 X-mod Sweep
+57 45 05 Bag O? Bones
+57 45 06 AirSoThin
+57 45 07 Analogical
+57 45 08 Waspy Pulse
+57 45 09 Soaring Saws
+57 45 0A Square Roots
+57 45 0B BOG
+57 45 0C Talking Box
+57 45 0D Retro Lead
+57 45 0E LivingInSync
+57 45 0F Leads United
+57 45 10 Dirty Sync
+57 45 11 DistortaSync
+57 45 12 Blistering
+57 45 13 Guttural
+57 45 14 Flyin? High
+57 45 15 Soft Tooth
+57 45 16 Soaring Sqr
+57 45 17 Soaring Sync
+57 45 18 Nasal Spray
+57 45 19 Lamb Lead
+57 45 1A Creamer
+57 45 1B Sine System
+57 45 1C Soft Nylon
+57 45 1D Nylozzicato
+57 45 1E Mutezzicato
+57 45 1F Hybrid Nylon
+57 45 20 XV SteelGt 1
+57 45 21 XV SteelGt 2
+57 45 22 Comp?Steel
+57 45 23 Double Steel
+57 45 24 Folk Guitar
+57 45 25 SpanishNight
+57 45 26 Plug n? Play
+57 45 27 Fab 4 Guitar
+57 45 28 Searing Lead
+57 45 29 Punker
+57 45 2A LouderPlease
+57 45 2B XV Upright
+57 45 2C XV Ac .Bass
+57 45 2D LookMaNoFret
+57 45 2E XV Fretless
+57 45 2F Basic F?less
+57 45 30 8-str F?less
+57 45 31 Tap Bass
+57 45 32 Pop Bass
+57 45 33 P .Bs Chorus
+57 45 34 TremCho Bs
+57 45 35 Creamy Bass
+57 45 36 Buster Bass
+57 45 37 TB Squelch
+57 45 38 Ticker Bass
+57 45 39 Muscle Bass
+57 45 3A Grounded Bs
+57 45 3B West End Bs
+57 45 3C Snap Bass
+57 45 3D 700 Bassboy
+57 45 3E 8VCO MonoSyn
+57 45 3F ResoMoist Bs
+57 45 40 Kickin? Bass
+57 45 41 Sub Zero
+57 45 42 Liquid Bass
+57 45 43 Hefty Bass
+57 45 44 Severe Ow Bs
+57 45 45 Chime Bells
+57 45 46 Celestabox
+57 45 47 Brass Tubes
+57 45 48 Dreams East
+57 45 49 Synergistic
+57 45 4A Andreas Cave
+57 45 4B AmbiPizza
+57 45 4C Voxy Nylon
+57 45 4D EastrnEurope
+57 45 4E Celtic Harp
+57 45 4F Reso Sitar
+57 45 50 The Ganges
+57 45 51 MountainFolk
+57 45 52 Byzantine
+57 45 53 AsiaPlectrum
+57 45 54 VelHarp)Harm
+57 45 55 Pluckaphone
+57 45 56 Slap Timps
+57 45 57 Suite Combo
+57 45 58 Jet Voxs
+57 45 59 Dirty Hit
+57 45 5A MOVE!
+57 45 5B Reel Slam
+57 45 5C OffTheRecord
+57 45 5D 2ndRateChord
+57 45 5E RageInYouth
+57 45 5F MinorIncidnt
+57 45 60 Phunky DC
+57 45 61 Agent X
+57 45 62 Winky
+57 45 63 Looney 2nz
+57 45 64 Shortrave
+57 45 65 DeeperBeeper
+57 45 66 Percolator
+57 45 67 Filter Morph
+57 45 68 Choir Bounce
+57 45 69 Rippling
+57 45 6A SteppingPhsr
+57 45 6B Trance Fair
+57 45 6C GermanBounce
+57 45 6D Acid JaZZ
+57 45 6E Cutter>ModWh
+57 45 6F Blades
+57 45 70 Mad Bender
+57 45 71 Shapeshifter
+57 45 72 ForestMoon
+57 45 73 Predator 2
+57 45 74 Dark Side
+57 45 75 The Beast
+57 45 76 X-mod Reso
+57 45 77 Planet Meta
+57 45 78 Nexus
+57 45 79 Halographix
+57 45 7A Moon Rise
+57 45 7B Gruvacious
+57 45 7C Windy Dunes
+57 45 7D Ice Blasts
+57 45 7E Ringy Thingy
+57 45 7F Atmospherics
+57 46 00 Power Octs
+57 46 01 WaterPiano2
+57 46 02 Swimming EP
+57 46 03 XV Crystal
+57 46 04 Cold Roadz
+57 46 05 Back EP
+57 46 06 Amped Wurlie
+57 46 07 Dirty Wurlie
+57 46 08 Musicbox XV
+57 46 09 Klubb Organ
+57 46 0A Drew?s Bee
+57 46 0B Velvet Organ
+57 46 0C Distorted B
+57 46 0D Radikal B
+57 46 0E Boogie Organ
+57 46 0F Mood Ringz
+57 46 10 Wedo-Wodo
+57 46 11 S .O .S .trings
+57 46 12 Syncronicity
+57 46 13 DanceMachina
+57 46 14 Vox Chopper
+57 46 15 SlicingSyVox
+57 46 16 PressureDome
+57 46 17 Quasar  /Aft
+57 46 18 Ionizer
+57 46 19 MilleniumStr
+57 46 1A Bounce Baby!
+57 46 1B Bounce Daddy
+57 46 1C Bounce Mama!
+57 46 1D Bounce Noize
+57 46 1E What a Gate!
+57 46 1F Mini Sequenz
+57 46 20 Slice & Dice
+57 46 21 BrushingSaw1
+57 46 22 BrushingSaw2
+57 46 23 Cultivate
+57 46 24 5080 Random
+57 46 25 XV Stepping
+57 46 26 India Garden
+57 46 27 Belly Pad
+57 46 28 Spectre
+57 46 29 SoaringHrns2
+57 46 2A Sabbath Day
+57 46 2B XV BlowPad
+57 46 2C White Arcade
+57 46 2D Borealis
+57 46 2E OvertoneScan
+57 46 2F Whisper Vox
+57 46 30 Jupiter 21
+57 46 31 Filt Strings
+57 46 32 HybStringsXV
+57 46 33 Soft Symphny
+57 46 34 Wood Symphny
+57 46 35 HybOrchestra
+57 46 36 Brassy Symph
+57 46 37 Biggie Brass
+57 46 38 BiggieBrass2
+57 46 39 LA Sax?s
+57 46 3A Wind Wood
+57 46 3B Lonely Oboe
+57 46 3C Harmonica XV
+57 46 3D Tooters Lead
+57 46 3E Digi Phased
+57 46 3F Synth Ethics
+57 46 40 Harm is Fine
+57 46 41 D-2000
+57 46 42 Ackward East
+57 46 43 Powersoaker
+57 46 44 Mean Thing
+57 46 45 Jet Sync
+57 46 46 Crying Solo
+57 46 47 Southern Fry
+57 46 48 Strum Distrt
+57 46 49 Match Drive
+57 46 4A Stacked
+57 46 4B 2-Stack Over
+57 46 4C COSM Searing
+57 46 4D COSM Loud Gt
+57 46 4E Blue Mutes
+57 46 4F Metal 5150
+57 46 50 Crunch Phase
+57 46 51 Alt Dist Gtr
+57 46 52 So nice!
+57 46 53 Punch Bass
+57 46 54 COSM Bass
+57 46 55 Stream Bell
+57 46 56 Shuffle Bell
+57 46 57 Echo Vibe
+57 46 58 Tremolo Vibe
+57 46 59 True Vibe
+57 46 5A Marimbula
+57 46 5B Hit Bitz
+57 46 5C 80s LoFi Hit
+57 46 5D Auto Chord
+57 46 5E 3rdTeenChord
+57 46 5F Bend a Chord
+57 46 60 DiscreteChrd
+57 46 61 Ambi Voices
+57 46 62 Say Yeah !
+57 46 63 Xcuse me
+57 46 64 5ths in 4ths
+57 46 65 Pretty Ugly
+57 46 66 Con Sequence
+57 46 67 BermudaShort
+57 46 68 Saw n? 202
+57 46 69 Technoheadz
+57 46 6A Boss?d Synth
+57 46 6B Cross Fire
+57 46 6C Techno Cave
+57 46 6D Generator
+57 46 6E GenderBender
+57 46 6F Xtremities
+57 46 70 AM 05:59
+57 46 71 Happy Brass
+57 46 72 Runaway Rez
+57 46 73 Dropplets
+57 46 74 Indian Guru
+57 46 75 Cosmic Rain
+57 46 76 Trying Winds
+57 46 77 Space Whiz
+57 46 78 DigitalDrone
+57 46 79 Space Race
+57 46 7A Bowed Bell
+57 46 7B X-Tension
+57 46 7C DUB!!!
+57 46 7D Dream Diver
+57 46 7E Flashback
+57 46 7F St .LoFiNoise
+58 40 00 Session Kit
+58 40 01 Studio Kit
+58 40 02 Tight Kit
+58 40 03 Regular Kit
+58 40 04 Dry Funk Kit
+58 40 05 Loud Gig
+58 40 06 Jazz Kit
+58 40 07 Dry Jazz Kit
+58 40 08 Jazz Brushes
+58 40 09 LA Studio
+58 40 0A Medium Room
+58 40 0B Vintage Rock
+58 40 0C MuffledMaple
+58 40 0D Solid Kit
+58 40 0E Alternative
+58 40 0F 80?s Live
+58 40 10 Fat Kit
+58 40 11 Big Garage
+58 40 12 Bit Crash
+58 40 13 Lo-Fi Kit
+58 40 14 Orchestra
+58 40 15 Snare Menu
+58 40 16 BD/T/HH Menu
+58 40 17 Cymbal Menu
+58 40 18 Perc Menu 1
+58 40 19 Perc Menu 2
+58 65 00 SFX 1
+58 65 01 SFX 2
+58 65 02 SFX 1 Mono
+58 65 03 SFX 2 Mono
+58 65 04 SFX Menu 1
+58 65 05 SFX Menu 2
+58 65 06 SFX Menu 3
+59 40 00 Full Grand 1
+59 40 01 Full Grand 2
+59 40 02 Full Grand 3
+59 40 03 Deep Grand
+59 40 04 BrightGrand
+59 40 05 UprightPiano
+59 40 06 Mono Grand
+59 40 07 Rock Grand
+59 40 08 HonkyTonk Pf
+59 40 09 ?76 Pure
+59 40 0A ?73 Pure
+59 40 0B ?76 Stage
+59 40 0C ?73 Stage
+59 40 0D ?76 Tine
+59 40 0E ?73 Tine
+59 40 0F ?81 Tine
+59 40 10 Felt Tine
+59 40 11 Dyno Tine
+59 40 12 Tea Time
+59 40 13 Small Space
+59 40 14 Phaser Dyno
+59 40 15 90 Shift EP
+59 40 16 SlowSpin EP
+59 40 17 Phaser Tine
+59 40 18 TcDlyEP CC18
+59 40 19 Flanger Tine
+59 40 1A Chorus Tine
+59 40 1B JC ChorusEP
+59 40 1C Dirty Tine
+59 40 1D Pure Reed
+59 40 1E ?68 Reed
+59 40 1F Vibrato Reed
+59 40 20 Dirty Reed
+59 40 21 Super Clav
+59 40 22 Pure ClavCA1
+59 40 23 Pure ClavCA2
+59 40 24 Pure ClavCB1
+59 40 25 Pure ClavCB2
+59 40 26 Deep Clav
+59 40 27 Drive Clav
+59 40 28 Dist Clav
+59 40 29 Phaser Clav1
+59 40 2A Phaser Clav2
+59 40 2B Spacy Clav
+59 40 2C SoftSpinClav
+59 40 2D Twah Clav
+59 40 2E Awah Clav
+59 40 2F PwahClv1CC18
+59 40 30 PwahClv2CC18
+59 40 31 B3 Jazz 1
+59 40 32 B3 Jazz 2
+59 40 33 B3 Jazz 3
+59 40 34 B3 Jazz 4
+59 40 35 B3 Jazz 5
+59 40 36 B3 Jazz 6
+59 40 37 B3 Jazz 7
+59 40 38 B3 Full D
+59 40 39 B3 Bossa
+59 40 3A C3 Rock 1
+59 40 3B C3 Rock 2
+59 40 3C C3 Rock 3
+59 40 3D C3 Rock 4
+59 40 3E C3 Rock 5
+59 40 3F C3 Rock 6
+59 40 40 Pure Wheel 1
+59 40 41 Pure Wheel 2
+59 40 42 Pure Wheel 3
+59 40 43 Nostalgie 1
+59 40 44 Nostalgie 2
+59 40 45 Nostalgie 3
+59 40 46 Nostalgie 4
+59 40 47 Clean Cutter
+59 40 48 Flanger Cut
+59 40 49 Funk Cutting
+59 40 4A PhaseCutting
+59 40 4B Retro Phaser
+59 40 4C Twah Cutting
+59 40 4D PwahCut CC18
+59 40 4E AutoWah Back
+59 40 4F FunkMeister
+59 40 50 CleanTheater
+59 40 51 Warm Clean
+59 40 52 DelayedTwin
+59 40 53 Crunch Phase
+59 40 54 Clean Twin
+59 40 55 Clean Spirit
+59 40 56 Flange Clean
+59 40 57 Heart Break
+59 40 58 T-Bird Surf
+59 40 59 ClassicClean
+59 40 5A Groove Clean
+59 40 5B JC-Chorus
+59 40 5C Sweet Home
+59 40 5D Transistor
+59 40 5E Smooth Clean
+59 40 5F NY Clean
+59 40 60 Clean Dirty
+59 40 61 60s BritRock
+59 40 62 StandardJazz
+59 40 63 FingeredJazz
+59 40 64 Modern Jazz
+59 40 65 Mr .Octave
+59 40 66 Bright Live
+59 40 67 Stack Lead
+59 40 68 USA Legend
+59 40 69 Lead Legend
+59 40 6A Rotary Riff
+59 40 6B Big Wing
+59 40 6C Crunch Chord
+59 40 6D 60s Fuzz
+59 40 6E Cream Crunch
+59 40 6F Bunch Crunch
+59 40 70 Pwah OD CC18
+59 40 71 60s RockRiff
+59 40 72 70s RockRiff
+59 40 73 Texas Tusher
+59 40 74 Blues Master
+59 40 75 House Blues
+59 40 76 Apartment
+59 40 77 TWah Lead
+59 40 78 Warm Drive
+59 40 79 Hi-Gain Rock
+59 40 7A Metal Stack
+59 40 7B Purple Stack
+59 40 7C Lead Stack
+59 40 7D Cah Solo
+59 40 7E FeelGood Doc
+59 40 7F BullsOnRage
+59 41 00 Big Riff
+59 41 01 Hi-GainMetal
+59 41 02 Nice Touch
+59 41 03 Mild Solo
+59 41 04 Chorale
+59 41 05 PwahDst CC18
+59 41 06 Ac Bass 1
+59 41 07 Ac Bass 2
+59 41 08 Fing Bass 1
+59 41 09 Fing Bass 2
+59 41 0A Comp FingBs
+59 41 0B Phaser Fing1
+59 41 0C Phaser Fing2
+59 41 0D Slap Bass
+59 41 0E Pick Bass
+59 41 0F Muted Bass
+59 41 10 LowBoostPick
+59 41 11 OD Pick Bass
+59 41 12 Fretless 1
+59 41 13 Fretless 2
+59 41 14 CompFretless
+59 41 15 Mr .Fretless
+59 41 16 Classic Gtr
+59 41 17 Solid GutGt
+59 41 18 Gut Guitar
+59 41 19 Flamenco Gtr
+59 41 1A Rasgueado
+59 41 1B Warm Spanish
+59 41 1C ArpegSteelGt
+59 41 1D StrumSteelGt
+59 41 1E French Accrd
+59 41 1F ItalianAccrd
+59 41 20 Bandoneon 1
+59 41 21 Bandoneon 2
+59 41 22 Harmonica
+59 41 23 Southern
+59 41 24 Blues Reed
+59 41 25 Vibraphone
+59 41 26 Vibes Hard
+59 41 27 Vibes Trem
+59 41 28 Vibes Soft
+59 41 29 Marimba
+59 41 2A Marimba Soft
+59 41 2B Marimba Hard
+59 41 2C Glocken Hard
+59 41 2D Glocken Soft
+59 41 2E Glocken Cho
+59 41 2F Xylophone
+59 41 30 Hard Xylo
+59 41 31 TubulrBells1
+59 41 32 TubulrBells2
+59 41 33 Steel Drums
+59 41 34 Timpani
+59 41 35 Timpani Roll
+59 41 36 Harp
+59 41 37 Gliss Dim
+59 41 38 Gliss C Mixo
+59 41 39 Gliss C HMin
+59 41 3A Gliss C Dori
+59 41 3B Harp Nail
+59 41 3C Violin 1
+59 41 3D Violin 2
+59 41 3E Viola
+59 41 3F Cello 1
+59 41 40 Cello 2
+59 41 41 Contrabass
+59 41 42 Violin1 Pizz
+59 41 43 Violin2 Pizz
+59 41 44 Violin1 Stac
+59 41 45 Viola Pizz
+59 41 46 Cello1 Pizz
+59 41 47 Cello2 Pizz
+59 41 48 Cello1 Stac
+59 41 49 ContrabassPz
+59 41 4A StringsSect1
+59 41 4B StringsSect2
+59 41 4C 5th Down Str
+59 41 4D Slow Strings
+59 41 4E Tape Strings
+59 41 4F Marcato Str
+59 41 50 MarcatoWarm
+59 41 51 Strings Stac
+59 41 52 Strings Pizz
+59 41 53 Strings Trem
+59 41 54 LargeChoirAh
+59 41 55 LargeChoirOo
+59 41 56 BoysChoir Ah
+59 41 57 BoysChoir Oo
+59 41 58 Choir Pad
+59 41 59 Trumpet 1
+59 41 5A Light Tp
+59 41 5B Mellow Tp
+59 41 5C MutedTrumpet
+59 41 5D Bold MuteTp
+59 41 5E DooBapMuteTp
+59 41 5F Wah Trumpet
+59 41 60 Trombone 1
+59 41 61 Breathy Tb
+59 41 62 Tb Staccato
+59 41 63 Muted Tb
+59 41 64 Bold MuteTb
+59 41 65 French Horn
+59 41 66 Sop Sax 1
+59 41 67 SopSax1 Soft
+59 41 68 Alto Sax 1
+59 41 69 A .Sax 1 Soft
+59 41 6A TenorSax 1
+59 41 6B T .Sax 1 Soft
+59 41 6C T .Sax Growl
+59 41 6D Bari Sax 1
+59 41 6E B .Sax 1 Soft
+59 41 6F Oboe 1
+59 41 70 Oboe 2
+59 41 71 Bassoon
+59 41 72 Clarinet 1
+59 41 73 Clarinet 2
+59 41 74 ClassicFlute
+59 41 75 Jazz Flute
+59 41 76 Piccolo Fl
+59 41 77 Pan Flute
+59 41 78 Sitar 1
+59 41 79 Sitar 2
+59 41 7A Elec Sitar
+59 41 7B Shakuhachi
+59 41 7C UilleanPipes
+59 41 7D Bag Pipes
+59 41 7E Erhu
+59 41 7F AirFromChina
+59 60 00 YangChin 1
+59 60 01 YangChin 2
+59 60 02 YangChin 3
+59 60 03 Santoor 1
+59 60 04 Santoor 2
+59 60 05 Sarangi
+59 60 06 Ryuteki
+59 60 07 Kalimba
+59 60 08 Kalimba Buzz
+59 60 09 Tsugaru
+59 60 0A TsugaruUpPck
+59 60 0B Sanshin
+59 60 0C SanshinUpPck
+59 60 0D Koto
+59 60 0E Koto Gliss
+59 60 0F Taisho Koto
+59 60 10 Tin Whistle
+59 61 00 Sop Sax 2
+59 61 01 Alto Sax 2
+59 61 02 A .Sax Fuzz
+59 61 03 Tenor Sax 2
+59 61 04 T .Sax Blow
+59 61 05 Bari Sax 2
+59 61 06 Flute 2
+59 61 07 Bass Cl
+59 61 08 English Horn
+59 61 09 Sop Ocarina1
+59 61 0A Sop Ocarina2
+59 61 0B Alto Ocarina
+59 61 0C Bass Ocarina
+59 61 0D Sop Recorder
+59 61 0E AltoRecorder
+59 61 0F TenrRecorder
+59 61 10 BassRecorder
+59 62 00 Warm Cutting
+59 62 01 LP Clean
+59 62 02 LP Chorus
+59 62 03 Old Clean
+59 62 04 J .B . Goode
+59 62 05 60s Surfing
+59 62 06 Long Train
+59 62 07 Aero Dream
+59 62 08 Modern Blues
+59 62 09 Contemporary
+59 62 0A Progressive
+59 62 0B The Fingers
+59 62 0C Thumb Octave
+59 62 0D Jazz Clean
+59 62 0E Smooth Lead
+59 62 0F Early Blues
+59 62 10 BluesSession
+59 62 11 Hecka-Caster
+59 62 12 CountryShred
+59 62 13 Chorus Lead
+59 62 14 Bontique OD
+59 62 15 On The HWY
+59 62 16 Nu-Punk
+59 62 17 Driven Rock
+59 62 18 80s RockRiff
+59 62 19 The Erupting
+59 62 1A Texas Riff
+59 62 1B FX Lead
+59 62 1C R-Fier Lead
+59 62 1D Lead Flanger
+59 62 1E Bottom Line
+59 62 1F Soakin?Metal
+59 62 20 Walking Way
+59 62 21 Tone Journey
+59 62 22 Phatt Rock
+59 62 23 Jungle Guns
+59 62 24 Sweet Baby
+59 62 25 Baby DS CC18
+59 62 26 Upright Bs
+59 62 27 Rockabilly
+59 62 28 Jazz Bass 1
+59 62 29 Jazz Bass 2
+59 62 2A Comp JazzBs
+59 62 2B Phaser Jazz1
+59 62 2C Phaser Jazz2
+59 62 2D Slap Jazz
+59 62 2E Rock Bass
+59 62 2F Muted Rock
+59 62 30 Boost Rock
+59 62 31 Drive Bass
+59 63 00 12StringsGtr
+59 63 01 Deturned12Gt
+59 63 02 Ukulele
+59 63 03 UkuleleStrum
+59 63 04 FingSteelGtr
+59 63 05 FingStlStrum
+59 63 06 SoftPckStlGt
+59 63 07 SftPkStlStrm
+59 63 08 NylonGt2
+59 63 09 NylonGt2Strm
+59 63 0A MandolinGt
+59 63 0B MandolinStum
+59 64 00 Flugel Horn
+59 64 01 Trumpet 2
+59 64 02 Mariachi Tp
+59 64 03 Classic Tp
+59 64 04 CupMute Tp
+59 64 05 StraightMtTp
+59 64 06 FrenchHorn2
+59 64 07 FHorn2 Stc
+59 64 08 Trombone 2
+59 64 09 Bass Tb
+59 64 0A Tuba
+59 64 0B TubaStaccato
+5C 00 00 Poppin KIT
+5C 00 01 StdRock1 KIT
+5C 00 02 TightRck1KIT
+5C 00 03 StudioJz KIT
+5C 00 04 Latin KIT
+5C 00 05 BigRock1 KIT
+5C 00 06 Pwr Blld KIT
+5C 00 07 TightRck2KIT
+5C 00 08 Dry Rock KIT
+5C 00 09 StdRock2 KIT
+5C 00 0A OhBabyRckKIT
+5C 00 0B StudioFatKIT
+5C 00 0C RoomBlld KIT
+5C 00 0D Big Blld KIT
+5C 00 0E BigRock2 KIT
+5C 00 0F All Beef KIT
+5C 00 10 Disco KIT
+5C 00 11 VintagFnkKIT
+5C 00 12 Phunque KIT
+5C 00 13 70JzFunk KIT
+5C 00 14 Jazz Mix KIT
+5C 00 15 DynBrush KIT
+5C 00 16 70?sBrushKIT
+5C 00 17 PwrBrush KIT
+5C 00 18 Latin Dry K
+5C 00 19 Cool Dry K
+5C 00 1A Disco/Funk K
+5C 00 1B Old Funk K
+5C 00 1C Power Rock K
+5C 00 1D StudioRock K
+5C 00 1E StreetRock K
+5C 00 1F Big Rock K
+5C 00 20 Wham Bam K
+5C 00 21 StandrdJaz K
+5C 00 22 Jazz Soul K
+5C 00 23 Old Funk Sn
+5C 00 24 70Phunque Sn
+5C 00 25 Latin Sn
+5C 00 26 HiPiccolo Sn
+5C 00 27 Tight Sn
+5C 00 28 Std Rock1 Sn
+5C 00 29 Std Rock2 Sn
+5C 00 2A OhBabyRck Sn
+5C 00 2B Poppin Sn
+5C 00 2C StudioFat Sn
+5C 00 2D JazzStick Sn
+5C 00 2E StudioJz Sn
+5C 00 2F Ballad Sn
+5C 00 30 PwrBallad Sn
+5C 00 31 All Beef Sn
+5C 00 32 Big Rock Sn
+5C 00 33 70?s BrushSn
+5C 00 34 JazzBrush Sn
+5C 00 35 Latin Tom
+5C 00 36 Tight Tom
+5C 00 37 JzStick Tom
+5C 00 38 Old Funk Tom
+5C 00 39 Oh Baby Tom
+5C 00 3A PwrBalladTom
+5C 00 3B Big Rock Tom
+5C 00 3C OldBrush Tom
+5C 00 3D Oh Baby Hat
+5C 00 3E JzStick Hat
+5C 00 3F Latin Hat
+5C 00 40 Disco Hat
+5C 00 41 Old Funk Hat
+5C 00 42 Street Hat
+5C 00 43 Big Rock Hat
+5C 00 44 OldBrush Hat
+5C 00 45 Stndrd Crash
+5C 00 46 Jazz Crash
+5C 00 47 Rock Crash
+5C 00 48 Ballad Crash
+5C 00 49 Brush Crash
+5C 00 4A Jazz Ride
+5C 00 4B Rock Ride
+5C 00 4C Ballad Ride
+5C 00 4D Latin Ride
+5C 00 4E Brush Ride
+5C 02 00 WideRock KIT
+5C 02 01 WideJazz KIT
+5C 02 02 TightRoomKIT
+5C 02 03 3rdBalladKIT
+5C 02 04 Studio 1 KIT
+5C 02 05 Studio 2 KIT
+5C 02 06 Studio 3 KIT
+5C 02 07 Studio 4 KIT
+5C 02 08 HipHop KIT
+5C 02 09 Dyn .Perc KIT
+5C 02 0A Drums MENU
+5C 02 0B Perc . MENU
+5C 04 00 PhatTrak Kit
+5C 04 01 Euro Kit
+5C 04 02 Urban Kit
+5C 04 03 Tight Kit
+5C 04 04 BitzOHitzKit
+5C 04 05 Intl .Tek Kit
+5C 04 06 GloblHousKit
+5C 04 07 BreakBts Kit
+5C 04 08 Trip Kit
+5C 04 09 Bright Kit
+5C 04 0A Soulful Kit
+5C 04 0B LiteStep Kit
+5C 04 0C 4onFloorKit
+5C 04 0D Street Kit
+5C 04 0E Machine Kit
+5C 04 0F LoTek Kit
+5C 04 10 Solid Kit
+5C 04 11 TekTrio Kit
+5C 04 12 TekQuartoKit
+5C 04 13 Hit Menu
+5C 04 14 Kick Menu 1
+5C 04 15 Kick Menu 2
+5C 04 16 Snare Menu 1
+5C 04 17 Snare Menu 2
+5C 04 18 Snare Menu 3
+5C 04 19 RimShot Menu
+5C 04 1A Tom Menu
+5C 04 1B HiHats Menu
+5C 04 1C Clap Menu
+5C 04 1D Cymbal Menu
+5C 04 1E Perc . Menu
+5C 04 1F FX Menu
+5C 04 20 SynPerc .Menu
+5C 04 21 All TR Menu
+5C 07 00 Orch . Kit 1
+5C 07 01 Orch . Kit 2
+5C 07 02 Melo OrchKit
+5C 07 03 GM AssignKit
+5C 07 04 All Orch Kit
+5C 0B 00 Ring Kit
+5C 0B 01 Slam Kit
+5C 0B 02 Verb Kit
+5C 0B 03 Slap Kit
+5C 0B 04 RockOn Kit
+5C 0B 05 DryFat Kit
+5C 0B 06 LiteFunk Kit
+5C 0B 07 Warm Ki
+5C 0B 08 HiTune Kit
+5C 0B 09 AnalogRhyKit
+5C 0B 0A AllRhy Menu
+5C 0F 00 Techno Kit 2
+5C 0F 01 HipHop Kit
+5C 0F 02 House Kit 2
+5C 0F 03 Trance Kit
+5C 0F 04 DnB Kit
+5C 0F 05 BrekBeatsKit
+5C 0F 06 R&B Kit 3
+5C 0F 07 TR-909 Kit
+5C 0F 08 TR-808 Kit
+5C 0F 09 TR606/707Kit
+5C 0F 0A Kick Menu
+5C 0F 0B Snare1 Menu
+5C 0F 0C Snr2&RimMenu
+5C 0F 0D HHat&TomMenu
+5C 0F 0E Cym&Clp Menu
+5C 0F 0F Hit&StabMenu
+5C 0F 10 Perc . Menu
+5C 0F 11 Vox Menu
+5C 0F 12 FX Menu
+5C 0F 13 Beat Menu 1
+5C 0F 14 Beat Menu 2
+5C 13 00 LatinDrmKit
+5C 13 01 AsiaDrm Kit
+5C 13 02 IndiaDrmKit
+5C 13 03 MidEastDrKit
+5C 13 04 World Phrase
+5C 13 05 Gtr Phrase
+5C 13 06 Latin Menu1
+5C 13 07 Latin Menu2
+5C 13 08 Latin Menu3
+5C 13 09 Asia Menu
+5C 13 0A India Menu
+5C 13 0B MidEast Menu
+5D 00 00 Kick 1  Menu
+5D 00 01 Kick 2  Menu
+5D 00 02 Kick 3  Menu
+5D 00 03 Kick 4  Menu
+5D 00 04 OldFnkS Menu
+5D 00 05 Latin S Menu
+5D 00 06 HiPiccS Menu
+5D 00 07 Tight S Menu
+5D 00 08 StdRk1S Menu
+5D 00 09 StdRk2S Menu
+5D 00 0A OhBabyS Menu
+5D 00 0B PoppinS Menu
+5D 00 0C StdFatS Menu
+5D 00 0D JazStkS Menu
+5D 00 0E StdJazS Menu
+5D 00 0F BalladS Menu
+5D 00 10 PwrBldS Menu
+5D 00 11 AlBeefS Menu
+5D 00 12 BigRckS Menu
+5D 00 13 70BrshS Menu
+5D 00 14 JzBrshS Menu
+5D 00 15 CrsStk  Menu
+5D 00 16 Latin T Menu
+5D 00 17 Tight T Menu
+5D 00 18 JazStkT Menu
+5D 00 19 OldFnkT Menu
+5D 00 1A OhBabyT Menu
+5D 00 1B PwrBldT Menu
+5D 00 1C BigRckT Menu
+5D 00 1D OldBrsT Menu
+5D 00 1E OhBabyH Menu
+5D 00 1F JazStkH Menu
+5D 00 20 Latin H Menu
+5D 00 21 Disco H Menu
+5D 00 22 OldFnkH Menu
+5D 00 23 StreetH Menu
+5D 00 24 BigRckH Menu
+5D 00 25 OldBrsH Menu
+5D 00 26 Crash   Menu
+5D 00 27 Ride    Menu
+5D 00 28 OthrCym Menu
+5D 01 00 PremierGrand
+5D 01 01 Steady Grand
+5D 01 02 DynamicGrand
+5D 01 03 Concert Hall
+5D 01 04 Bright Grand
+5D 01 05 Classical
+5D 01 06 SoftPdlGrand
+5D 01 07 OnMicPremier
+5D 01 08 OnMic Bright
+5D 01 09 OnMicSoftPdl
+5D 01 0A Premier Mono
+5D 01 0B Bright Mono
+5D 01 0C SoftPdl Mono
+5D 01 0D Mellow Piano
+5D 01 0E Enhanced Pno
+5D 01 0F Comp .Piano
+5D 01 10 HonkytonkPno
+5D 01 11 NewAgeGrand1
+5D 01 12 NewAgeGrand2
+5D 01 13 Requiem
+5D 01 14 Soundscape
+5D 01 15 Grand w/Str
+5D 01 16 Concerto 1
+5D 01 17 Concerto 2
+5D 01 18 SoftpadGrand
+5D 01 19 Synpad Grand
+5D 01 1A Vox Grand 1
+5D 01 1B Vox Grand 2
+5D 01 1C Oohs Piano
+5D 01 1D Air Grand
+5D 01 1E GtrPad Grand
+5D 01 1F PhasePad Pno
+5D 01 20 HeavenPadPno
+5D 01 21 Somber Pad
+5D 01 22 Wet Chorus
+5D 01 23 Nylon Grand
+5D 01 24 FM EP Grand
+5D 01 25 Bell Grand
+5D 01 26 Bellvox Pno
+5D 01 27 StackedGrand
+5D 01 28 Hard Stack 1
+5D 01 29 Hard Stack 2
+5D 01 2A PianoBrass
+5D 01 2B PianoBrs fff
+5D 01 2C Gig Split 1
+5D 01 2D Gig Split 2
+5D 01 2E Gig Split 3
+5D 01 2F Throb Piano
+5D 01 30 Feedback Pno
+5D 01 31 Eastern 5th
+5D 02 00 Y2K Plus One
+5D 02 01 Pastoral
+5D 02 02 Majestic
+5D 02 03 Twin Strings
+5D 02 04 Taxi EP
+5D 02 05 Peru Heights
+5D 02 06 String Cloud
+5D 02 07 Mysteria
+5D 02 08 Mutes To Go
+5D 02 09 HeavyMute/sw
+5D 02 0A Wheel D-bar
+5D 02 0B Kid?s Glory
+5D 02 0C GuitarInMist
+5D 02 0D Overdrones
+5D 02 0E RockAcoustic
+5D 02 0F Piano Duel
+5D 02 10 Chorus LA
+5D 02 11 70?s Blend
+5D 02 12 OctopusPiano
+5D 02 13 Rehoisal
+5D 02 14 US EP
+5D 02 15 Studio EP
+5D 02 16 All EP
+5D 02 17 Sens . EP
+5D 02 18 Harmonic Seq
+5D 02 19 Still drumin
+5D 02 1A B3 Mod/Aft
+5D 02 1B B3 Perc
+5D 02 1C DynOrgan
+5D 02 1D Voxx Organ
+5D 02 1E South Border
+5D 02 1F Bright Nyle
+5D 02 20 Rolin?Fingrs
+5D 02 21 Nylon Vel
+5D 02 22 Flamenco&Gtr
+5D 02 23 Studio 12Str
+5D 02 24 All AGuitars
+5D 02 25 RichElec12st
+5D 02 26 Electro-Ac .
+5D 02 27 Jazzy /Slide
+5D 02 28 Clean Comp
+5D 02 29 Jazz Clean
+5D 02 2A Jazz VelOct
+5D 02 2B 335 Amp+Chrs
+5D 02 2C Switched On
+5D 02 2D Tremolo Gtr
+5D 02 2E NoThat Clean
+5D 02 2F OhWow Guitar
+5D 02 30 RED 5ths
+5D 02 31 Touch Solo
+5D 02 32 Fingr Tap?n
+5D 02 33 Blues Grunge
+5D 02 34 6-Str Bass
+5D 02 35 Thumb&PullBs
+5D 02 36 42nd Bass
+5D 02 37 Mr . Jazz
+5D 02 38 Picked JBass
+5D 02 39 Upright Pizz
+5D 02 3A Gt/BsNz MENU
+5D 02 3B Lo Pizz Sect
+5D 02 3C Octo Orch
+5D 02 3D WindsFX MENU
+5D 02 3E FluteVibrato
+5D 02 3F Legato Flt 3
+5D 02 40 Alto Flute
+5D 02 41 Atk Flute
+5D 02 42 SpaceFlute 2
+5D 02 43 The Pan Pipe
+5D 02 44 Breathy Pan
+5D 02 45 Moceno
+5D 02 46 Puffers
+5D 02 47 Amazone
+5D 02 48 Aztek ketzA
+5D 02 49 Afro Flute
+5D 02 4A SingingFlute
+5D 02 4B GTR/Flt Scat
+5D 02 4C Vox/Flt Scat
+5D 02 4D Tape Flute
+5D 02 4E Solo Trumpet
+5D 02 4F Penny Tpt
+5D 02 50 Mello TrBone
+5D 02 51 DynamicBones
+5D 02 52 Trumps&Bones
+5D 02 53 Bigger Brass
+5D 02 54 Brass Cooker
+5D 02 55 Mod Sfz
+5D 02 56 After Hours
+5D 02 57 Mic?d Mute
+5D 02 58 WarmBrsPad
+5D 02 59 VCOs and As
+5D 02 5A MG Brass
+5D 02 5B Alto Sax Vel
+5D 02 5C Honky Tenor
+5D 02 5D Barely Bari
+5D 02 5E Sax Sect mp
+5D 02 5F Saxx-shun
+5D 02 60 Psycho Sax
+5D 02 61 HardSlidLead
+5D 02 62 MonoLeads x2
+5D 02 63 Tiny Love
+5D 02 64 Soft Jup? LD
+5D 02 65 MultiTap OB
+5D 02 66 Night Blade
+5D 02 67 Velo OB Str
+5D 02 68 Meadow
+5D 02 69 OB 5th Strng
+5D 02 6A GhettoStrngz
+5D 02 6B Octa Poly
+5D 02 6C Pipewind
+5D 02 6D Big & Gentle
+5D 02 6E Ethernal
+5D 02 6F 3D MovingPad
+5D 02 70 VintgStackSt
+5D 02 71 St .ChldChoir
+5D 02 72 HybrdChoirVS
+5D 02 73 Swirly Mist
+5D 02 74 St M+F Choir
+5D 02 75 Cool Choir
+5D 02 76 Mutatovox
+5D 02 77 Dance Doos
+5D 02 78 Dance OB
+5D 02 79 Sliced Bread
+5D 02 7A On&On&On
+5D 02 7B Temptation
+5D 02 7C Old Cartoon
+5D 02 7D Swingtime
+5D 02 7E Solar Winds
+5D 02 7F Western
+5D 03 00 Epic Strings
+5D 03 01 sfz! Crsc/sw
+5D 03 02 Trem/sw Fine
+5D 03 03 Fast Stac/sw
+5D 03 04 Str Attack
+5D 03 05 Full Pizz mp
+5D 03 06 Violins ^/sw
+5D 03 07 Violas ^/sw
+5D 03 08 Celli  ^/sw
+5D 03 09 Basses ^/sw
+5D 03 0A Fast Section
+5D 03 0B F .Str  ^/sw
+5D 03 0C SymphStrings
+5D 03 0D SymphStrngs2
+5D 03 0E Vibrato /Aft
+5D 03 0F Expressimo
+5D 03 10 Spc release
+5D 03 11 Hall Strings
+5D 03 12 Warm Section
+5D 03 13 4Section ^
+5D 03 14 4Section Vib
+5D 03 15 Sad Strings2
+5D 03 16 Pizz&ArcSplt
+5D 03 17 So Swell
+5D 03 18 Full Section
+5D 03 19 Vibrato /sw
+5D 03 1A Octave ^
+5D 03 1B Full Sect 2
+5D 03 1C Attack Sect
+5D 03 1D Velo Strings
+5D 03 1E Full Tremolo
+5D 03 1F Trem Decresc
+5D 03 20 Tension Trem
+5D 03 21 F .StrTrm/Mrc
+5D 03 22 F .Str Trm/sw
+5D 03 23 Trm /Mod&Aft
+5D 03 24 F .Str/ModTrm
+5D 03 25 Spc Marc /sw
+5D 03 26 WarmStaccSec
+5D 03 27 StackNirvana
+5D 03 28 Spc Sect .8va
+5D 03 29 Spc-Mrc /sw
+5D 03 2A Mrc-Spc /sw
+5D 03 2B Full Spc /sw
+5D 03 2C Marc & Pizz
+5D 03 2D PizzL+SpiccR
+5D 03 2E Pizz Sect
+5D 03 2F Full Pizz pp
+5D 03 30 Full Pizz ff
+5D 03 31 4Sect . Pz ff
+5D 03 32 Double Pizz
+5D 03 33 sfz! Vln /sw
+5D 03 34 Violin Sect1
+5D 03 35 Violin Sect2
+5D 03 36 Violin Sect3
+5D 03 37 Warm Vln Sec
+5D 03 38 GrandVln&Vcs
+5D 03 39 Vln Sect mp
+5D 03 3A Slow Atk Vln
+5D 03 3B Vln/Mod Pizz
+5D 03 3C Vln  Stc/Mrc
+5D 03 3D Vn Piz/Spcff
+5D 03 3E Vln Marcato
+5D 03 3F Vln Pizz /sw
+5D 03 40 sfz! Va /sw
+5D 03 41 Viola Sect 1
+5D 03 42 Viola Sect 2
+5D 03 43 Va  Stc/Mrc
+5D 03 44 Va /Mod Pizz
+5D 03 45 Va Marcato
+5D 03 46 Va Pizz /sw
+5D 03 47 sfz! Vc /sw
+5D 03 48 Cello Sect 1
+5D 03 49 Cello Sect 2
+5D 03 4A Warm Vc Sect
+5D 03 4B Vc Pizz /sw
+5D 03 4C Vc /Mod Pizz
+5D 03 4D Vc Marcato
+5D 03 4E Vc  Stc/Mrc
+5D 03 4F Vc Piz/Spcff
+5D 03 50 sfz! Cb /sw
+5D 03 51 Cb /Mod Pizz
+5D 03 52 Bass Sect 1
+5D 03 53 Cbs Marcato
+5D 03 54 Cbs  Stc/Mrc
+5D 03 55 Cbs Pizz /sw
+5D 03 56 Symphonique2
+5D 03 57 Soundtrk Str
+5D 03 58 LargeStrings
+5D 03 59 Slow Atk Str
+5D 03 5A LushStrings2
+5D 03 5B Pop Strings
+5D 03 5C 102 Violins
+5D 03 5D MultiStakato
+5D 03 5E Spicatto Arp
+5D 03 5F Dim . Pizz
+5D 03 60 RhythmicPizz
+5D 03 61 Harp StrPad
+5D 03 62 Trem-Guitar
+5D 03 63 Baroque Ens2
+5D 03 64 ImitatEP Pad
+5D 03 65 Daybreak Ens
+5D 03 66 Grand Unison
+5D 03 67 Va Sect&Glkn
+5D 03 68 SRX Symphony
+5D 03 69 XV Orchestra
+5D 03 6A Full Orch 1
+5D 03 6B Orc with Str
+5D 03 6C Symphnic Orc
+5D 03 6D Strings&Hrns
+5D 03 6E Strgs&Hrns 2
+5D 03 6F Octa StrEns
+5D 03 70 Antique Str
+5D 03 71 SweepSectStr
+5D 03 72 Stereo Tron!
+5D 03 73 Horror Str .
+5D 03 74 DanzSurround
+5D 03 75 Ether Strngs
+5D 03 76 MoveFX Str
+5D 03 77 Phase /Aft
+5D 03 78 PhazeStrngs2
+5D 03 79 Reverse Str2
+5D 03 7A Haunted
+5D 03 7B Rewind Vln
+5D 03 7C Synthy Sweep
+5D 03 7D Ripple
+5D 03 7E Mystery 2
+5D 03 7F Rising STR
+5D 04 00 SecretDancer
+5D 04 01 Mean Streets
+5D 04 02 E-tronic
+5D 04 03 License2chil
+5D 04 04 Scratch Menu
+5D 04 05 Hit Specials
+5D 04 06 Motivation
+5D 04 07 Sine Vibrato
+5D 04 08 Acid Punch
+5D 04 09 E .Gtr Menu
+5D 04 0A Brite Flange
+5D 04 0B Dance Vibes
+5D 04 0C N-Trance
+5D 04 0D Phatt
+5D 04 0E DoubleDown
+5D 04 0F LoopFX Dark
+5D 04 10 Yo DJ
+5D 04 11 HH Piledrivr
+5D 04 12 Trush Head
+5D 04 13 Rap 21
+5D 04 14 Teknobeat
+5D 04 15 Filter Beat
+5D 04 16 FashionStyle
+5D 04 17 Strobobeat
+5D 04 18 SpaceGroove2
+5D 04 19 Underground
+5D 04 1A Extra Drive
+5D 04 1B NakedPrey
+5D 04 1C Mod It!
+5D 04 1D Broken?Roll
+5D 04 1E Drew Groove
+5D 04 1F Beat Menu
+5D 04 20 Sinewave Bs
+5D 04 21 808 Bass
+5D 04 22 Low Bass 2
+5D 04 23 Low Bass 3
+5D 04 24 Low Bass 4
+5D 04 25 Hood Bass 2
+5D 04 26 Rubber Bs 21
+5D 04 27 Cheezee Bass
+5D 04 28 Bend Bs /sw
+5D 04 29 Saws Bass
+5D 04 2A Bass Kadett
+5D 04 2B Qube Bass
+5D 04 2C LegatoSynBs
+5D 04 2D 15inch Bass
+5D 04 2E MG Filter Bs
+5D 04 2F Plk Bass
+5D 04 30 Flat SawBass
+5D 04 31 SH-101 Bass
+5D 04 32 Pulsing Bs
+5D 04 33 Arrpy
+5D 04 34 Acid Bass 2
+5D 04 35 Euro Bass 21
+5D 04 36 DarkEchoBass
+5D 04 37 UnisonSwBass
+5D 04 38 Dirty Bass
+5D 04 39 Comp NzBass
+5D 04 3A JunoDistBass
+5D 04 3B TB Dist Bs 1
+5D 04 3C TB Dist Bs 2
+5D 04 3D TB Dist Bs 3
+5D 04 3E Human Bass
+5D 04 3F Interferenz
+5D 04 40 16th SeqBass
+5D 04 41 Woofer Blow
+5D 04 42 Guitaron Oct
+5D 04 43 Finger Bass6
+5D 04 44 Noisy P .Bass
+5D 04 45 FeelBass
+5D 04 46 Ethno Bass 3
+5D 04 47 FAT Rave
+5D 04 48 JUNO Rave
+5D 04 49 4 x Saws
+5D 04 4A Euro Saws
+5D 04 4B Super Sawz
+5D 04 4C Step Phaser
+5D 04 4D Vade Retro
+5D 04 4E Pulse Keys
+5D 04 4F P5 Pluck
+5D 04 50 Alpha Waves
+5D 04 51 Andes
+5D 04 52 Northern Pls
+5D 04 53 R&B Pluck 2
+5D 04 54 SynHarpsi
+5D 04 55 Saw Wave HQ
+5D 04 56 Sqr Wave HQ
+5D 04 57 JU2 Wave 1
+5D 04 58 JU2 Wave 2
+5D 04 59 Pulse Wave 1
+5D 04 5A Pulse Wave 2
+5D 04 5B SpectrumWave
+5D 04 5C Pure Sine 2
+5D 04 5D Slippers
+5D 04 5E Climb Maj7th
+5D 04 5F Return2Minor
+5D 04 60 FallingStar
+5D 04 61 Convulsions
+5D 04 62 CrazZzeee
+5D 04 63 Creative
+5D 04 64 Juno Slice
+5D 04 65 Epic Slice
+5D 04 66 Klang Werk
+5D 04 67 Ouverture
+5D 04 68 Tropic Slice
+5D 04 69 Strained
+5D 04 6A Wicked DJ 2
+5D 04 6B Ultra Noise
+5D 04 6C JunoArpeggio
+5D 04 6D Autoarpeggio
+5D 04 6E SeqOctarveEP
+5D 04 6F Sync Vox
+5D 04 70 Stack Clavi
+5D 04 71 Pump up
+5D 04 72 Sine Seq
+5D 04 73 Seq Saws
+5D 04 74 Finale Hit
+5D 04 75 Big Hit 3
+5D 04 76 AnswerMe!Hit
+5D 04 77 LoungeLizard
+5D 04 78 Disco Stabs
+5D 04 79 12x12?sDisco
+5D 04 7A LittleDots
+5D 04 7B TribalTechno
+5D 04 7C Minor Bumwah
+5D 04 7D Bobs Slide
+5D 04 7E BrassHit 1
+5D 04 7F BrassHit 2
+5D 05 00 BrassHit 3
+5D 05 01 BrassHit 4
+5D 05 02 BrassHit 5
+5D 05 03 BrassHit 6
+5D 05 04 BrassHit 7
+5D 05 05 SymphHit 1
+5D 05 06 SymphHit 2
+5D 05 07 SymphHit 3
+5D 05 08 OrgTrnsplnt
+5D 05 09 Organ Hit 3
+5D 05 0A Organ Hit 4
+5D 05 0B Chord Hit 1
+5D 05 0C Chord Hit 2
+5D 05 0D Chord Hit 3
+5D 05 0E Chord Hit 4
+5D 05 0F Crystal Hit
+5D 05 10 Stamp Hit
+5D 05 11 ThousandHit
+5D 05 12 9th Hit
+5D 05 13 Slap Hit 1
+5D 05 14 Slap Hit 2
+5D 05 15 Dust Hit
+5D 05 16 Dist Hit 1
+5D 05 17 Dist Hit 2
+5D 05 18 Wah Hit
+5D 05 19 Tremble Hit
+5D 05 1A Dah Hit
+5D 05 1B Pretty Hit
+5D 05 1C Smoky Hit
+5D 05 1D Fist Hit
+5D 05 1E Clavy Hit
+5D 05 1F Tread Hit
+5D 05 20 Old Org Hit
+5D 05 21 Cave Hit
+5D 05 22 Thru Hit
+5D 05 23 Mull Hit
+5D 05 24 Electronica
+5D 05 25 Ripper
+5D 05 26 Bounce Hit1
+5D 05 27 Bounce Hit2
+5D 05 28 Hit OneShots
+5D 05 29 Brass Stab
+5D 05 2A Null Zone
+5D 05 2B Loop Techno
+5D 05 2C Tribal RaveX
+5D 05 2D Raverlisious
+5D 05 2E 2FingerRifff
+5D 05 2F UK Garage 01
+5D 05 30 UKgarage2002
+5D 05 31 XV-303
+5D 05 32 Psy-Tron
+5D 05 33 House128bpm
+5D 05 34 NewAcid Line
+5D 05 35 Raver Saws
+5D 05 36 Dist Saws
+5D 05 37 BoosterBips2
+5D 05 38 Auto 101
+5D 05 39 BPF Sweep
+5D 05 3A Elektrico
+5D 05 3B What The ??
+5D 05 3C PlayEuroRiff
+5D 05 3D MayhemAppegi
+5D 05 3E AmbientTranz
+5D 05 3F DanceStrSect
+5D 05 40 5thIn4th Tri
+5D 05 41 5th Vox
+5D 05 42 Kompakt Voic
+5D 05 43 Resound
+5D 05 44 StrikeWhstle
+5D 05 45 Rocket Blast
+5D 05 46 Future Drain
+5D 05 47 Foilage
+5D 05 48 JP-8000 Pad
+5D 05 49 SynthChord01
+5D 05 4A PWM
+5D 05 4B Introductory
+5D 05 4C Miracle Pad
+5D 05 4D 5th Sweep 2
+5D 05 4E Choir Sweep
+5D 05 4F Retro Pad
+5D 05 50 Beautiful:-]
+5D 05 51 Steam Pad
+5D 05 52 AggressiveLd
+5D 05 53 I know Juno
+5D 05 54 Def Lead 21
+5D 05 55 HiPass
+5D 05 56 DynaPulseLd
+5D 05 57 Dist Lead
+5D 05 58 80?s Memory
+5D 05 59 OD SyncLead
+5D 05 5A 80?sTechLead
+5D 05 5B 3-SquareLead
+5D 05 5C PortaSynLead
+5D 05 5D Tri Lead
+5D 05 5E Corrupt Sine
+5D 05 5F Neonlight
+5D 05 60 Higher&Highr
+5D 05 61 Waspy Solo1
+5D 05 62 Waspy Solo2
+5D 05 63 Vib Sine
+5D 05 64 Legato Saw
+5D 05 65 Wet Saw Ld
+5D 05 66 Dry BassLead
+5D 05 67 PluckLead
+5D 05 68 Comp Piano 2
+5D 05 69 a Tack Piano
+5D 05 6A Analog Piano
+5D 05 6B Tri EP
+5D 05 6C Pulsing EP
+5D 05 6D Cool EP 2
+5D 05 6E EP Chd Menu
+5D 05 6F EP Maj 9th
+5D 05 70 EP Maj 11th
+5D 05 71 EP Min 11th
+5D 05 72 NoisySynthEP
+5D 05 73 CompClav/Rls
+5D 05 74 Comp Clavi
+5D 05 75 HarmoOrg/Mod
+5D 05 76 ZigZag Organ
+5D 05 77 Notre Organ
+5D 05 78 SpectrumBell
+5D 05 79 Square Bell1
+5D 05 7A Square Bell2
+5D 05 7B ClnGtr Slide
+5D 05 7C Gtr TrmDown
+5D 05 7D Waw Chord
+5D 05 7E Wha Wha Wha
+5D 05 7F Wha De Da
+5D 06 00 Fuzz Phaze
+5D 06 01 Ringmod Ting
+5D 06 02 BPF Strings
+5D 06 03 LoFiStringz
+5D 06 04 LightStrings
+5D 06 05 Flange Str
+5D 06 06 4th-LayerStr
+5D 06 07 LA Pizz
+5D 06 08 DanceClustor
+5D 06 09 CaveStrHit
+5D 06 0A StrChd Menu
+5D 06 0B StrScaleMaj
+5D 06 0C StrSpread
+5D 06 0D EuroBeat Brs
+5D 06 0E OB Brass 2
+5D 06 0F Funny Brass
+5D 06 10 Saws Brass
+5D 06 11 AnalogMaster
+5D 06 12 OneKeyMajor
+5D 06 13 Danz Braz
+5D 06 14 WindFX Menu
+5D 06 15 Flute FX 1
+5D 06 16 Flute FX 2
+5D 06 17 Flute FX 3
+5D 06 18 Sax FX 1
+5D 06 19 Sax FX 2
+5D 06 1A Sax FX 3
+5D 06 1B VINYL VOX
+5D 06 1C PsycheVocals
+5D 06 1D Vox Menu
+5D 06 1E Yeah F
+5D 06 1F Ho F
+5D 06 20 Oh F
+5D 06 21 Wow Yeah F
+5D 06 22 Ring Mod
+5D 06 23 Hydrolyze
+5D 06 24 Hydrolyze 2
+5D 06 25 Danger Zone
+5D 06 26 Danger Zone2
+5D 06 27 Horror
+5D 06 28 Space Scrach
+5D 06 29 OldSkool FX
+5D 06 2A Snare Bomb
+5D 06 2B CymbalMusic
+5D 06 2C Recollection
+5D 06 2D Dive Start !
+5D 06 2E DJ Mayhem
+5D 06 2F TurnOff>Rev
+5D 06 30 Scratch 4
+5D 06 31 Scratch 5
+5D 06 32 Scratch 6
+5D 06 33 Scratch 7
+5D 06 34 Scratch 8
+5D 06 35 Scratch 9
+5D 06 36 Scratch 10
+5D 06 37 Vinyl Nz
+5D 07 00 WarmVlns SRX
+5D 07 01 Legato Vlns
+5D 07 02 NaturalVlnsS
+5D 07 03 Agitato Vlns
+5D 07 04 Vlns-Spc /
+5D 07 05 Vl&Va Spicct
+5D 07 06 Arco Vas SRX
+5D 07 07 Agitato Vas
+5D 07 08 Vlas-Spc /
+5D 07 09 Marc Vas SRX
+5D 07 0A Vc Sec mf
+5D 07 0B Fast Cellos
+5D 07 0C Vcs Legato
+5D 07 0D 3 Cellos
+5D 07 0E Cellos
+5D 07 0F CelloSectMrc
+5D 07 10 Marcato Vcs
+5D 07 11 Agitato Vcs
+5D 07 12 Vcs+Cbs SRX
+5D 07 13 Arco Vcs+Cbs
+5D 07 14 Thick Basses
+5D 07 15 Cb Sect SRX
+5D 07 16 WideBasses S
+5D 07 17 Agitato Cbs
+5D 07 18 BIG StrgEns
+5D 07 19 Big Strings2
+5D 07 1A Orch p
+5D 07 1B Orch p>f/Mod
+5D 07 1C StrsArco SRX
+5D 07 1D StrSwel/ModS
+5D 07 1E StStrOrcp/fS
+5D 07 1F SlowResinStr
+5D 07 20 Adagio Strs
+5D 07 21 LegatoStrngs
+5D 07 22 Intim StrSec
+5D 07 23 DramaStrsSRX
+5D 07 24 St Str p/f
+5D 07 25 SlowEpic Str
+5D 07 26 Real Strings
+5D 07 27 4Seasons SRX
+5D 07 28 VlVaVcCb SRX
+5D 07 29 StudioString
+5D 07 2A Quartet SRX
+5D 07 2B VibSwStrings
+5D 07 2C Str Swell
+5D 07 2D OuvertureSRX
+5D 07 2E Cluster Sect
+5D 07 2F Velo Str SRX
+5D 07 30 Agitato to 0
+5D 07 31 DynaMarc SRX
+5D 07 32 VivaceStrSRX
+5D 07 33 Agitato STR
+5D 07 34 STR SpiccSRX
+5D 07 35 StacctoSectn
+5D 07 36 Spicc/releas
+5D 07 37 STR Marcato
+5D 07 38 Big Marcato!
+5D 07 39 Spicc Sect
+5D 07 3A Spc+Pz/rleas
+5D 07 3B Piz-Spc /
+5D 07 3C RoomPizz SRX
+5D 07 3D Stage Pizz
+5D 07 3E Nite Pizzico
+5D 07 3F VIOLIN solo
+5D 07 40 Solo Vln /
+5D 07 41 Solo Violin
+5D 07 42 Sad S .VlnSRX
+5D 07 43 Solo Viola
+5D 07 44 AgitatoVaSRX
+5D 07 45 Solo Cello 1
+5D 07 46 Solo Cello 2
+5D 07 47 The V Cello
+5D 07 48 Solo Vc /
+5D 07 49 Marcato Vc
+5D 07 4A Vln&Vcl
+5D 07 4B Solo Cb /
+5D 07 4C Tape Orc SRX
+5D 07 4D Tape Str SRX
+5D 07 4E Old Tale
+5D 07 4F Mellow Tape
+5D 07 50 Cystaline Pd
+5D 07 51 SynStrings
+5D 07 52 Full Orc SRX
+5D 07 53 St .OrcUniSRX
+5D 07 54 OrchUnif SRX
+5D 07 55 GRAND OrcSRX
+5D 07 56 WavinGoodbye
+5D 07 57 DynOrchestr1
+5D 07 58 Pathetique
+5D 07 59 Oboes & Sect
+5D 07 5A SlowEpicOrch
+5D 07 5B Grand Tutti
+5D 07 5C Ultimate Orc
+5D 07 5D SuspenceOrch
+5D 07 5E Tremolo /
+5D 07 5F TremOrc /Mod
+5D 07 60 ORC full+BD
+5D 07 61 Finally Orch
+5D 07 62 Orch & Choir
+5D 07 63 NowWeAreFree
+5D 07 64 Too Tense
+5D 07 65 OrchestrlSRX
+5D 07 66 DynOrchestr2
+5D 07 67 GiantOrchest
+5D 07 68 Strngs&Horns
+5D 07 69 Full Orch . 1
+5D 07 6A Full Orch . 2
+5D 07 6B Full Orch . 3
+5D 07 6C End Titles
+5D 07 6D HornStrs SRX
+5D 07 6E SRX Full Orc
+5D 07 6F Harp & Flute
+5D 07 70 Celesta&Flt
+5D 07 71 ProkofievSRX
+5D 07 72 MassInCeeSRX
+5D 07 73 PentatnicSRX
+5D 07 74 DawnSynphony
+5D 07 75 Bad Ending
+5D 07 76 Epic Ending
+5D 07 77 Catwalk
+5D 07 78 OrchStaccato
+5D 07 79 Staccato SRX
+5D 07 7A OrchHitStack
+5D 07 7B Dynam Hit
+5D 07 7C MondoHit SRX
+5D 07 7D OrchHit SRX
+5D 07 7E OrcHitMajSRX
+5D 07 7F OrcHitMinSRX
+5D 08 00 OrcHitDimSRX
+5D 08 01 Big Hit Maj1
+5D 08 02 Big Hit Maj2
+5D 08 03 Big Hit Min
+5D 08 04 Big Hit Dim
+5D 08 05 Sfz! Hit-Maj
+5D 08 06 Sfz! Hit-Min
+5D 08 07 Suspense
+5D 08 08 Hit/Off-Maj
+5D 08 09 Trem Hit-Maj
+5D 08 0A Trem Hit-Min
+5D 08 0B Trem Hit-Dim
+5D 08 0C Orc/Prc 5-1^
+5D 08 0D Drama Stab
+5D 08 0E Maj Concern
+5D 08 0F OrcGlsMajSRX
+5D 08 10 OrcGlsMinSRX
+5D 08 11 Harp Up Hit
+5D 08 12 Harp Dn Hit
+5D 08 13 BrassStabSRX
+5D 08 14 Finale
+5D 08 15 Tuned HIT
+5D 08 16 YourMissionS
+5D 08 17 Big Hit SRX
+5D 08 18 HorrorHitSRX
+5D 08 19 Perc Hit
+5D 08 1A BrassFallSRX
+5D 08 1B Tp Fall
+5D 08 1C BrsStacc SRX
+5D 08 1D Finale SRX /
+5D 08 1E Orch Piccolo
+5D 08 1F Picc Vel Tr
+5D 08 20 Piccolo Trio
+5D 08 21 Orch Flute
+5D 08 22 Vibra Flute
+5D 08 23 FluteAtm/Aft
+5D 08 24 Picc/Fl 8va
+5D 08 25 Double Flute
+5D 08 26 Fl/EH Usn
+5D 08 27 Calliope SRX
+5D 08 28 DynoCelt SRX
+5D 08 29 Ethnic Flute
+5D 08 2A AmbiFluteSRX
+5D 08 2B T .WhistleDly
+5D 08 2C TinWhistle
+5D 08 2D Sop Recorder
+5D 08 2E Tnr Recorder
+5D 08 2F Whistle SRX
+5D 08 30 Solo Clari
+5D 08 31 Unison Clari
+5D 08 32 Orch Clar
+5D 08 33 Bs Clairenet
+5D 08 34 Orch Bs Clar
+5D 08 35 Cl/Bs Cl 8va
+5D 08 36 Fl/Cl Usn
+5D 08 37 Fl/Cl 8va
+5D 08 38 Orch Oboe
+5D 08 39 Sweet Oboe
+5D 08 3A Cor Oboe
+5D 08 3B OBOE Solo
+5D 08 3C 2 Close Oboe
+5D 08 3D Orch Eng Hrn
+5D 08 3E Horn?o U .K .
+5D 08 3F Orch Bassoon
+5D 08 40 Bassoon III
+5D 08 41 BassFoons
+5D 08 42 Cl/Bsn Usn
+5D 08 43 Cl/Bsn 8va
+5D 08 44 Fl/Ob Usn
+5D 08 45 Fl/EH 8va
+5D 08 46 Fl/Bsn 8va
+5D 08 47 BsCl/Bsn 8vb
+5D 08 48 BsCl/Bsn Usn
+5D 08 49 Cl/Hrn/Bsn 1
+5D 08 4A Cl/Hrn/Bsn 2
+5D 08 4B Ob/Hrns/Bsns
+5D 08 4C Ob/Bsn 8va
+5D 08 4D Ob/EH Usn
+5D 08 4E Ob/EH 8va
+5D 08 4F EH/Bsn Usn
+5D 08 50 EH/Bsn 8va
+5D 08 51 EH/Cl Usn
+5D 08 52 EH/Bs Cl 8va
+5D 08 53 Ob/Cl Usn
+5D 08 54 Ob/BsCl 15va
+5D 08 55 Hrns/Bsns
+5D 08 56 Really Reeds
+5D 08 57 Reed Duet
+5D 08 58 Multi Reeds
+5D 08 59 Medieval Rds
+5D 08 5A ScottishPIPE
+5D 08 5B Hill&Sheeps
+5D 08 5C HilndChr SRX
+5D 08 5D Solo Fr .Horn
+5D 08 5E SoloF .HrnSRX
+5D 08 5F HrnAccompSRX
+5D 08 60 Orch Hrns Sw
+5D 08 61 Hornz Stereo
+5D 08 62 Orch Hrns ff
+5D 08 63 FizzHorns ff
+5D 08 64 Fr .Horns SRX
+5D 08 65 Dynamic Hrns
+5D 08 66 Horn Sect /
+5D 08 67 Fr .HrnSfzSRX
+5D 08 68 MuteFr .Horns
+5D 08 69 F .Horn Rip
+5D 08 6A Trumpet Plus
+5D 08 6B Natural Tmpt
+5D 08 6C Real Tp SRX
+5D 08 6D El Bono SRX
+5D 08 6E Coronet
+5D 08 6F Flugelhorn
+5D 08 70 Mute Tp SRX
+5D 08 71 HrmnMute SRX
+5D 08 72 WahMute /Mod
+5D 08 73 Trumpeters
+5D 08 74 Tp Ens SRX
+5D 08 75 Trumps fff!!
+5D 08 76 Softy Bones
+5D 08 77 Bone Fluegal
+5D 08 78 Natural Tbn
+5D 08 79 Trombone SRX
+5D 08 7A SoloTb SRX 1
+5D 08 7B SoloTb SRX 2
+5D 08 7C Bs Tb
+5D 08 7D Tbn One
+5D 08 7E Bone Boys
+5D 08 7F Bones sectn
+5D 09 00 BigBones SRX
+5D 09 01 BsBoneSctSRX
+5D 09 02 Noblesse
+5D 09 03 Brass Choral
+5D 09 04 BrassEns/Mod
+5D 09 05 Small Brass
+5D 09 06 Brass Orche
+5D 09 07 Switch Fall
+5D 09 08 4-Pc Brs Scn
+5D 09 09 BiggieBrsSRX
+5D 09 0A SoloTuba SRX
+5D 09 0B Tuba sfz/Mod
+5D 09 0C Tuba SRX
+5D 09 0D Medieval Brs
+5D 09 0E Full Brass
+5D 09 0F Brass ff
+5D 09 10 Brass Sect /
+5D 09 11 Multi Sax
+5D 09 12 St .EuroPiano
+5D 09 13 JoyoClassics
+5D 09 14 Empathy
+5D 09 15 Piano & Strs
+5D 09 16 Pno Concerto
+5D 09 17 Song Wish
+5D 09 18 HpsFrntSRX 1
+5D 09 19 HpsFrntSRX 2
+5D 09 1A HpsFrntSRX 3
+5D 09 1B HpsBackSRX 1
+5D 09 1C HpsBackSRX 2
+5D 09 1D HpsBackSRX 3
+5D 09 1E Hps F/B SRX
+5D 09 1F Hps F4/B SRX
+5D 09 20 Hps F/B/B4 S
+5D 09 21 HpsLuteSRX 1
+5D 09 22 HpsLute 2
+5D 09 23 HpsLute 3
+5D 09 24 FullHarpsi 1
+5D 09 25 FullHarpsi 2
+5D 09 26 Continuo Pdl
+5D 09 27 Celesta SRX
+5D 09 28 MusicBellSRX
+5D 09 29 Water Mallet
+5D 09 2A Newborn
+5D 09 2B Victoriana 1
+5D 09 2C St .M .Box SRX
+5D 09 2D Victoriana 2
+5D 09 2E ChurchBellS1
+5D 09 2F BlfryChm SRX
+5D 09 30 ChurchBellS2
+5D 09 31 Tub .Bells S1
+5D 09 32 Tub .Bells S2
+5D 09 33 BsMarimbSRX1
+5D 09 34 BsMarimbSRX2
+5D 09 35 MultiMallets
+5D 09 36 Glocken
+5D 09 37 Glockeneste
+5D 09 38 GlocknlstSRX
+5D 09 39 Clear Glock
+5D 09 3A Xylorimba
+5D 09 3B Xylophone S1
+5D 09 3C Xylophone S2
+5D 09 3D Mallet Stack
+5D 09 3E OrgFlutes S1
+5D 09 3F OrgFlutes S2
+5D 09 40 OrgFlutes S3
+5D 09 41 OrgFlute 8?S
+5D 09 42 Psyche Pipes
+5D 09 43 ChrchPipes S
+5D 09 44 Organ&Recdr
+5D 09 45 Early Harmn
+5D 09 46 CathedralSRX
+5D 09 47 Harmonium
+5D 09 48 ChurchOrgSRX
+5D 09 49 OrganChrdSRX
+5D 09 4A Musaccordion
+5D 09 4B Mystery Pad
+5D 09 4C Psychedelic1
+5D 09 4D Psychedelic2
+5D 09 4E Eylsium  m7^
+5D 09 4F Eylsium 9th^
+5D 09 50 Eylsium  +7^
+5D 09 51 Eylsium  b9^
+5D 09 52 Vln RunUp Mj
+5D 09 53 Vln RunUp Mn
+5D 09 54 Vln RunDn Mj
+5D 09 55 Vln RunDn Mn
+5D 09 56 Maj/MinHarps
+5D 09 57 9th/b9 Harps
+5D 09 58 Harp m7 SRX
+5D 09 59 Harp 9th SRX
+5D 09 5A Harp +7 SRX
+5D 09 5B Harp b9 SRX
+5D 09 5C Harpm7SclSRX
+5D 09 5D Harp9thScrlS
+5D 09 5E Harp+7SclSRX
+5D 09 5F Harpb9SclSRX
+5D 09 60 Cluster Gong
+5D 09 61 Sus .Perc Hit
+5D 09 62 Prc Ens6-Maj
+5D 09 63 Prc Ens7-Min
+5D 09 64 Prc Ens8-Dim
+5D 09 65 Cluster SRX
+5D 09 66 HorrorClustr
+5D 09 67 Hell Section
+5D 09 68 Legettimare
+5D 09 69 Limbus SRX
+5D 09 6A Backword
+5D 09 6B Dreamseq SRX
+5D 09 6C Midnight SRX
+5D 09 6D Colombus SRX
+5D 09 6E Once Upon A
+5D 09 6F Desert Dream
+5D 09 70 AncientTimes
+5D 09 71 Tension SRX
+5D 09 72 Wreck
+5D 09 73 Eclipse SRX
+5D 09 74 PulsingVox S
+5D 09 75 SynthStr .Pad
+5D 09 76 Meditate PAD
+5D 09 77 Choir
+5D 09 78 Angelic Pad
+5D 09 79 BoysChoirSRX
+5D 09 7A Sing! /Mod
+5D 09 7B SmockyVoices
+5D 09 7C Smooth Choir
+5D 09 7D X   Vox SRX
+5D 09 7E RealChoirSRX
+5D 09 7F StChrMm/Ah S
+5D 0A 00 Mmms & Aaahs
+5D 0A 01 Choir /Mod
+5D 0A 02 Close Mouths
+5D 0A 03 Voice Stax
+5D 0A 04 MorphieChoir
+5D 0A 05 Morph4Choir
+5D 0A 06 17th Movemnt
+5D 0A 07 Matins
+5D 0A 08 Quartet II 5
+5D 0A 09 Scat /
+5D 0A 0A Scatmen! SRX
+5D 0A 0B The Voices
+5D 0A 0C VocalCollect
+5D 0A 0D GregorianCho
+5D 0A 0E Soprano&co .
+5D 0A 0F Tenor solo
+5D 0A 10 ClarsahHarpS
+5D 0A 11 Heavens Harp
+5D 0A 12 C .Hrp/padSRX
+5D 0A 13 PhaseClarsah
+5D 0A 14 ClearHarpSRX
+5D 0A 15 Nails Harp
+5D 0A 16 Harp SRX
+5D 0A 17 Natural Harp
+5D 0A 18 Warm Harp
+5D 0A 19 Bousouk&Harp
+5D 0A 1A Etheral Lute
+5D 0A 1B DelicateCOMB
+5D 0A 1C St .CymblnSRX
+5D 0A 1D CymblnDuoSRX
+5D 0A 1E Bohemian SRX
+5D 0A 1F Bousouki Pic
+5D 0A 20 Bousouki
+5D 0A 21 PulcinelaSRX
+5D 0A 22 SN Roll SRX/
+5D 0A 23 Perc Ens 1^
+5D 0A 24 Perc Ens 2^
+5D 0A 25 Perc Ens 3^
+5D 0A 26 Perc Ens 4^
+5D 0A 27 Perc Ens 5^
+5D 0A 28 Orch Percs
+5D 0A 29 BodhranSplit
+5D 0A 2A BodhranVel S
+5D 0A 2B CrazyBodhrnS
+5D 0A 2C BodhranMenuS
+5D 0A 2D Perc Mix SRX
+5D 0A 2E MassiveTimpa
+5D 0A 2F 4-way Timps
+5D 0A 30 DynaTimpsSRX
+5D 0A 31 TimpaniRoll1
+5D 0A 32 TimpaniRoll2
+5D 0A 33 MultiTimpani
+5D 0A 34 Roll > Klang
+5D 0A 35 Timpani /
+5D 0A 36 Big Orc .Perc
+5D 0A 37 WindChimeSRX
+5D 0A 38 FingerCymSRX
+5D 0A 39 ConcertBDSRX
+5D 0A 3A BD Roll SRX/
+5D 0A 3B Tam Tam SRX
+5D 0A 3C Piatti!! SRX
+5D 0A 3D SleighBellsS
+5D 0A 3E SlapstickS /
+5D 0A 3F TambourineS/
+5D 0A 40 CastanetsS /
+5D 0B 00 Stereo Piano
+5D 0B 01 Gran?Piano
+5D 0B 02 Easy Rocker
+5D 0B 03 Stage Grand
+5D 0B 04 SA Rocker
+5D 0B 05 Padded Pno
+5D 0B 06 Suitcase EP
+5D 0B 07 Real Thing
+5D 0B 08 Fusiontastic
+5D 0B 09 Inspiration
+5D 0B 0A Touch EP SRX
+5D 0B 0B Stage73 SRX
+5D 0B 0C Stage EP 2
+5D 0B 0D BalladPanner
+5D 0B 0E 80?s EP
+5D 0B 0F SweetStagePN
+5D 0B 10 Padded EP
+5D 0B 11 Nursery Tine
+5D 0B 12 Sine EP
+5D 0B 13 70s Ballad
+5D 0B 14 Church Mouse
+5D 0B 15 ClaviQ EP
+5D 0B 16 FlaredTrouzr
+5D 0B 17 70?EP Bs
+5D 0B 18 Swurly
+5D 0B 19 Dyno-Wurli
+5D 0B 1A 60s Bros
+5D 0B 1B Pianohner
+5D 0B 1C Pianette 2K
+5D 0B 1D Cheapy Ep1
+5D 0B 1E Rox 668 St
+5D 0B 1F 80?s FM
+5D 0B 20 The 70?EP
+5D 0B 21 Heavens Tine
+5D 0B 22 Sparkle EPno
+5D 0B 23 FirstDigital
+5D 0B 24 Vox Harpsi
+5D 0B 25 Harpsiclav
+5D 0B 26 E .Harpsi
+5D 0B 27 Clav 1 SRX
+5D 0B 28 Clav 2 SRX
+5D 0B 29 VeloClav SRX
+5D 0B 2A Clav 3 SRX
+5D 0B 2B Generic Clav
+5D 0B 2C Clav Pluck
+5D 0B 2D Vintage Clav
+5D 0B 2E Dyno Clav
+5D 0B 2F PhaserClavi
+5D 0B 30 CompClav SRX
+5D 0B 31 MuteClv1 SRX
+5D 0B 32 MuteClv2 SRX
+5D 0B 33 Clav Supremo
+5D 0B 34 Clav By III
+5D 0B 35 Funk Synclav
+5D 0B 36 Quacky Clav
+5D 0B 37 GuitClav SRX
+5D 0B 38 Juno Clavi
+5D 0B 39 PhazynClvSRX
+5D 0B 3A Moogy Pulse
+5D 0B 3B JP8 Clav SRX
+5D 0B 3C HyperClv SRX
+5D 0B 3D Twinkle Bell
+5D 0B 3E Troika Ride
+5D 0B 3F Analog Bell
+5D 0B 40 Goodnite SRX
+5D 0B 41 2 .2 SEQ SRX
+5D 0B 42 Vibraphone!
+5D 0B 43 SA Vibe  SRX
+5D 0B 44 Blue B  SRX
+5D 0B 45 FullPerc SRX
+5D 0B 46 NiceFeel SRX
+5D 0B 47 GreenB /Pdl
+5D 0B 48 Mello
+5D 0B 49 LA Blues SRX
+5D 0B 4A 2BorNot2B3 2
+5D 0B 4B Gospel B SRX
+5D 0B 4C Bookin?B SRX
+5D 0B 4D Hush B3 SRX
+5D 0B 4E Real Organ
+5D 0B 4F Tenamos L100
+5D 0B 50 Harm .Organ
+5D 0B 51 Harm .Organ2
+5D 0B 52 Power B SRX
+5D 0B 53 AllStarB3SRX
+5D 0B 54 GoodLord/Mod
+5D 0B 55 CabnetSeries
+5D 0B 56 Absolute B3
+5D 0B 57 Rox368-B/Mod
+5D 0B 58 Suitcase B3
+5D 0B 59 BalladB /Mod
+5D 0B 5A 70?sKeysMix
+5D 0B 5B Leslied B3
+5D 0B 5C Dyna Hammnd
+5D 0B 5D SaltyDog SRX
+5D 0B 5E Swt&Mllw SRX
+5D 0B 5F Mellow 4?SRX
+5D 0B 60 ZomBee SRX
+5D 0B 61 Perky Twin B
+5D 0B 62 BluesPercSRX
+5D 0B 63 Club Organ
+5D 0B 64 888 +3rd SRX
+5D 0B 65 8888+3rd SRX
+5D 0B 66 Velo Perc
+5D 0B 67 Jazzy B
+5D 0B 68 Gutsy C3
+5D 0B 69 B3 888000004
+5D 0B 6A 60s Brothers
+5D 0B 6B FirePerc SRX
+5D 0B 6C PercNorm3rd
+5D 0B 6D PercSoft3rd
+5D 0B 6E 858808880SRX
+5D 0B 6F Mad Organ
+5D 0B 70 Touchy B Fst
+5D 0B 71 Souvenirs
+5D 0B 72 R&R B3 SRX
+5D 0B 73 B3Sermon SRX
+5D 0B 74 AllSkate!SRX
+5D 0B 75 BalladB3 SRX
+5D 0B 76 Ultimate B 4
+5D 0B 77 Purple SRX
+5D 0B 78 GimmeSomeSRX
+5D 0B 79 Smoked Water
+5D 0B 7A HardPerc3rd
+5D 0B 7B FuzzheadSRX
+5D 0B 7C Tron B
+5D 0B 7D ShimmerOrgan
+5D 0B 7E AnimalModSRX
+5D 0B 7F SurfMnkysSRX
+5D 0C 00 TelstarOrgan
+5D 0C 01 Continental
+5D 0C 02 Organfest?66
+5D 0C 03 PalisadesSRX
+5D 0C 04 New Riders
+5D 0C 05 The Sham SRX
+5D 0C 06 CrummyOrgSRX
+5D 0C 07 IronFarf SRX
+5D 0C 08 FarfComboSRX
+5D 0C 09 Farfisorium
+5D 0C 0A Farf 8? + 2?
+5D 0C 0B RoxOrgan SRX
+5D 0C 0C DittyDoo SRX
+5D 0C 0D Tranny Organ
+5D 0C 0E 2 .2 Organ
+5D 0C 0F VS Organ SRX
+5D 0C 10 D50 OrganSRX
+5D 0C 11 OrganbellSRX
+5D 0C 12 PhazedOrgSRX
+5D 0C 13 Das Limpet
+5D 0C 14 Spanish Gtr
+5D 0C 15 Nylon SoSoft
+5D 0C 16 Nylon on Pad
+5D 0C 17 Moody Nylon
+5D 0C 18 Conquest
+5D 0C 19 Heaven Nylon
+5D 0C 1A In Peace
+5D 0C 1B NashvilleSRX
+5D 0C 1C Caster Delay
+5D 0C 1D Ricken12stGT
+5D 0C 1E Narnia
+5D 0C 1F Gtr PopArps
+5D 0C 20 Touchy Mutes
+5D 0C 21 Disto-Chunky
+5D 0C 22 Rock Mute
+5D 0C 23 Telemaster
+5D 0C 24 Plugged!
+5D 0C 25 MutedDsBlief
+5D 0C 26 MM Bass /
+5D 0C 27 MMFatSlapSRX
+5D 0C 28 HyperFunkSRX
+5D 0C 29 MillerPopSRX
+5D 0C 2A Funk Bass
+5D 0C 2B Abe 4way SRX
+5D 0C 2C AL3way/NzSRX
+5D 0C 2D ALDarkSlpSRX
+5D 0C 2E John 4waySRX
+5D 0C 2F JPBritSlpSRX
+5D 0C 30 John w/NzSRX
+5D 0C 31 6strngBASS +
+5D 0C 32 Big Bad AL
+5D 0C 33 Comp 6tr Bas
+5D 0C 34 AbeLimitrSRX
+5D 0C 35 JP P .Bs 1SRX
+5D 0C 36 JP P .Bs 2SRX
+5D 0C 37 Abe?sP .BsSRX
+5D 0C 38 AL Solid SRX
+5D 0C 39 AL2wayFngSRX
+5D 0C 3A AL SoftBs/Nz
+5D 0C 3B MarcusJB SRX
+5D 0C 3C MM JB SRX
+5D 0C 3D Pick UP SRX
+5D 0C 3E JP Rock SRX
+5D 0C 3F PickedJzBass
+5D 0C 40 BritePickSRX
+5D 0C 41 PhsrMute SRX
+5D 0C 42 DarkPick SRX
+5D 0C 43 Country Mute
+5D 0C 44 FretlessBASS
+5D 0C 45 SoloFls SRX
+5D 0C 46 JP6StrFlsSRX
+5D 0C 47 MM OctFlsSRX
+5D 0C 48 MMSmthFlsSRX
+5D 0C 49 ALFlsSoloSRX
+5D 0C 4A JPSoloFlsSRX
+5D 0C 4B Contrabbasso
+5D 0C 4C InYerFaceBas
+5D 0C 4D BriteUpright
+5D 0C 4E Uplectric
+5D 0C 4F JPSoftAB SRX
+5D 0C 50 JPHardAB SRX
+5D 0C 51 Dry AcB SRX
+5D 0C 52 WildThangSRX
+5D 0C 53 Dist Bs SRX
+5D 0C 54 StickyBs SRX
+5D 0C 55 FunkinWahSRX
+5D 0C 56 Harm A#9 SRX
+5D 0C 57 Harm E69 SRX
+5D 0C 58 SlidesNz SRX
+5D 0C 59 AllSlidesSRX
+5D 0C 5A AllNoisesSRX
+5D 0C 5B Ac .Bs Nz SRX
+5D 0C 5C WildSynth101
+5D 0C 5D SH Dullbass
+5D 0C 5E 101 Bass
+5D 0C 5F SH101 Bass
+5D 0C 60 SH-2 Bs SRX
+5D 0C 61 Bassic101SRX
+5D 0C 62 Fat Butt
+5D 0C 63 JP-4 Bs SRX
+5D 0C 64 Systm700 SRX
+5D 0C 65 BigSubBs SRX
+5D 0C 66 TickerBs SRX
+5D 0C 67 202 Bass
+5D 0C 68 101ZapBs SRX
+5D 0C 69 Housy Bass
+5D 0C 6A HousineBsSRX
+5D 0C 6B WooferBs SRX
+5D 0C 6C System100SRX
+5D 0C 6D Low Bass SRX
+5D 0C 6E TB3O3 Reso
+5D 0C 6F MeanderingBs
+5D 0C 70 Acid TB Bs
+5D 0C 71 MonsterMGSRX
+5D 0C 72 Rogue Bs SRX
+5D 0C 73 Classic Bs
+5D 0C 74 Fat Bass
+5D 0C 75 ResoMG BsSRX
+5D 0C 76 MG Punchbass
+5D 0C 77 Spike Bs SRX
+5D 0C 78 WetMG Bs SRX
+5D 0C 79 2-way Bass
+5D 0C 7A Oct stinger
+5D 0C 7B BsPedals SRX
+5D 0C 7C MG PedalsSRX
+5D 0C 7D OB Bass SRX
+5D 0C 7E 8VCO Mono
+5D 0C 7F Thick OBass
+5D 0D 00 The Synbass
+5D 0D 01 Dark~~~~BASS
+5D 0D 02 Valve5thBass
+5D 0D 03 Rezidence
+5D 0D 04 OrganSawBass
+5D 0D 05 Organ Bass
+5D 0D 06 SquareBs SRX
+5D 0D 07 SlobbryBsSRX
+5D 0D 08 Super Bs SRX
+5D 0D 09 STronSTringz
+5D 0D 0A TrnStrDrySRX
+5D 0D 0B Tron Vls SRX
+5D 0D 0C MelloVlnsSRX
+5D 0D 0D JP8 Str1 SRX
+5D 0D 0E JP8 Str2 SRX
+5D 0D 0F JP+OB StrSRX
+5D 0D 10 M12 Strings
+5D 0D 11 Wavestr SRX
+5D 0D 12 MemoryMG SRX
+5D 0D 13 Solina SRX
+5D 0D 14 Omni Strings
+5D 0D 15 Big Str SRX
+5D 0D 16 Solo Flute
+5D 0D 17 TouchFlt SRX
+5D 0D 18 StrawberTRON
+5D 0D 19 Flute School
+5D 0D 1A Calli SRX
+5D 0D 1B TpSoloistSRX
+5D 0D 1C Pop Fanfare
+5D 0D 1D Oct Brass
+5D 0D 1E SessnBrs SRX
+5D 0D 1F R&R Bras SRX
+5D 0D 20 SuperTnr SRX
+5D 0D 21 T .Sax f SRX
+5D 0D 22 Cool Sax
+5D 0D 23 Duelin? Saxs
+5D 0D 24 SoftSaxesSRX
+5D 0D 25 AmazngEchSRX
+5D 0D 26 FlaxOstinato
+5D 0D 27 2voiceLd SRX
+5D 0D 28 Hollo Lead
+5D 0D 29 Sinusolo SRX
+5D 0D 2A Shmoog SRX
+5D 0D 2B Sine
+5D 0D 2C SH2000VoxSRX
+5D 0D 2D FM Lead SRX
+5D 0D 2E TrickTailEnd
+5D 0D 2F 4 Old Saws
+5D 0D 30 Saw Bowed
+5D 0D 31 VoxSaws Lead
+5D 0D 32 GR500 Ld SRX
+5D 0D 33 LimonaireSRX
+5D 0D 34 NakdCheseSRX
+5D 0D 35 PromarsLdSRX
+5D 0D 36 Sweeze Lead
+5D 0D 37 Homey Lead
+5D 0D 38 MG Lead SRX
+5D 0D 39 Dreams Saw
+5D 0D 3A The Real Pat
+5D 0D 3B H 2 O
+5D 0D 3C PulseLd SRX
+5D 0D 3D Mono FM Lead
+5D 0D 3E VCO OctLdSRX
+5D 0D 3F Saws Lead
+5D 0D 40 Changes
+5D 0D 41 P5 Lead
+5D 0D 42 SH-2&5 Sqr
+5D 0D 43 Cutting Solo
+5D 0D 44 Racy Lead
+5D 0D 45 Speedometer
+5D 0D 46 Rotary Lead
+5D 0D 47 BuzzzzzzzSRX
+5D 0D 48 Telstar Lead
+5D 0D 49 Pattern It
+5D 0D 4A Carbonite
+5D 0D 4B The Pipe 5th
+5D 0D 4C Buzzy Beez
+5D 0D 4D Look Back
+5D 0D 4E Razzert
+5D 0D 4F Raveferenz
+5D 0D 50 SupremeCheez
+5D 0D 51 Exit
+5D 0D 52 MousBoxesCat
+5D 0D 53 Riff the 5th
+5D 0D 54 Ice Man
+5D 0D 55 DncStack1SRX
+5D 0D 56 DncStack2SRX
+5D 0D 57 DncStack3SRX
+5D 0D 58 DncStack4SRX
+5D 0D 59 DncStack5SRX
+5D 0D 5A Euro BrsSRX
+5D 0D 5B ThipsBlipSRX
+5D 0D 5C FaveoravoSRX
+5D 0D 5D Cleanse
+5D 0D 5E Mer
+5D 0D 5F B-lieve
+5D 0D 60 Blue Light
+5D 0D 61 Progress
+5D 0D 62 Modularswirl
+5D 0D 63 Sparkly
+5D 0D 64 Undertones
+5D 0D 65 HappyLFOsSRX
+5D 0D 66 AeroInsctSRX
+5D 0D 67 MC8 Seq SRX
+5D 0D 68 Legato Rip
+5D 0D 69 Steam Valve
+5D 0D 6A Scanner7
+5D 0D 6B Haunted Tron
+5D 0D 6C Experimental
+5D 0D 6D Megatron
+5D 0D 6E Outer Spaces
+5D 0D 6F Martian Bell
+5D 0D 70 Ethereal SRX
+5D 0D 71 Meow 5thsSRX
+5D 0D 72 MantrawavSRX
+5D 0D 73 RSS SpinnerS
+5D 0D 74 Comp Net SRX
+5D 0D 75 SpitBrs SRX
+5D 0D 76 Pro-10BrsSRX
+5D 0D 77 OBStabBrsSRX
+5D 0D 78 Pro-5 BrsSRX
+5D 0D 79 Quack BrsSRX
+5D 0D 7A M .MG Brs SRX
+5D 0D 7B FM Brs SRX
+5D 0D 7C D50Belpd1SRX
+5D 0D 7D D50Belpd2SRX
+5D 0D 7E D50Belpd3SRX
+5D 0D 7F KlmbSynthSRX
+5D 0E 00 B Higher
+5D 0E 01 Reflections
+5D 0E 02 VintagLayers
+5D 0E 03 HandleW/Care
+5D 0E 04 StaccHvn SRX
+5D 0E 05 TimefliesSRX
+5D 0E 06 JP6SqKeySRX
+5D 0E 07 CS Squared
+5D 0E 08 MawnlowerMan
+5D 0E 09 Glidiator
+5D 0E 0A Spit Synthie
+5D 0E 0B Raver One
+5D 0E 0C Slop-a-ramaS
+5D 0E 0D Big PWM SRX
+5D 0E 0E WavesyncSRX
+5D 0E 0F T8 Sync SRX
+5D 0E 10 SyncRush SRX
+5D 0E 11 DreaminOfJMJ
+5D 0E 12 Arp Saws SRX
+5D 0E 13 QuixelateSRX
+5D 0E 14 SpikedChzSRX
+5D 0E 15 Planet-S SRX
+5D 0E 16 Iceburg
+"5D 0E 17 Old,Warm OBX"
+5D 0E 18 Poly 3osc SH
+5D 0E 19 PortaSyn SRX
+5D 0E 1A RazrVCOs SRX
+5D 0E 1B Medusa SRX
+5D 0E 1C PhazeNRG SRX
+5D 0E 1D Build-Up SRX
+5D 0E 1E WavetableSRX
+5D 0E 1F DigiChoirSRX
+5D 0E 20 Rezidue SRX
+5D 0E 21 Combing SRX
+5D 0E 22 PhzslopadSRX
+5D 0E 23 OBThickPdSRX
+5D 0E 24 OBSftPad SRX
+5D 0E 25 RealStrSynth
+5D 0E 26 Rezonant Ens
+5D 0E 27 PG Phaser
+5D 0E 28 SynthOdyssey
+5D 0E 29 Liquid Lunch
+5D 0E 2A JP SquPadSRX
+5D 0E 2B Chewy Pad
+5D 0E 2C Hollow SRX
+5D 0E 2D Too Heaven
+5D 0E 2E Slow 3D Vox
+5D 0E 2F JP Spirit
+5D 0E 30 Classic OB
+5D 0E 31 Aulophony
+5D 0E 32 Dark Shadow
+5D 0E 33 Drawning Pad
+5D 0E 34 Sawed String
+5D 0E 35 R .I .P .
+5D 0E 36 K World
+5D 0E 37 CanyonDreams
+5D 0E 38 Mysterioso
+5D 0E 39 S/HTexturSRX
+5D 0E 3A VP-330ChrSRX
+5D 0E 3B Mellorkestra
+5D 0E 3C Tron Mass
+5D 0E 3D PreSampleVox
+5D 0E 3E Gamma Girls
+5D 0E 3F Lo-Tek Choir
+5D 0E 40 Tron Vox SRX
+5D 0E 41 Vox JX8P SRX
+5D 0E 42 VP303 Arpeg
+5D 0E 43 DrumLP DemoS
+5D 0E 44 Pursuit 90
+5D 0E 45 Arcade 132
+5D 0E 46 SeventhHeavn
+5D 0E 47 TrollDrummin
+5D 0E 48 Chem Burn120
+5D 0E 49 Rockshow 126
+5D 0E 4A T-Pop 132
+5D 0E 4B Valentine 76
+5D 0E 4C Nocturne
+5D 0E 4D Cool At 102
+5D 0E 4E Circuit 112
+5D 0E 4F Hurt 90
+5D 0E 50 Orleans 90
+5D 0E 51 FunkyDrummer
+5D 0E 52 Circuit 90
+5D 0E 53 SweepingLP S
+5D 0E 54 Kick Menu
+5D 0E 55 Snare Menu 1
+5D 0E 56 Snare Menu 2
+5D 0E 57 Snare Menu 3
+5D 0E 58 Hi-Hat Menu
+5D 0E 59 Tom-Tom Menu
+5D 0E 5A Cymbals Menu
+5D 0F 00 Autopilot
+5D 0F 01 ElasticHouse
+5D 0F 02 Smash Beat
+5D 0F 03 SawPortaLead
+5D 0F 04 Pure Bass
+5D 0F 05 Jazz Parrotz
+5D 0F 06 Nicer Slicer
+5D 0F 07 Masssive
+5D 0F 08 Trance Line1
+5D 0F 09 Subtle Pads
+5D 0F 0A Look Back
+5D 0F 0B VesperTONE
+5D 0F 0C Hit&FX Menu
+5D 0F 0D Crowd 84
+5D 0F 0E Hop Chop SRX
+5D 0F 0F Skid 92
+5D 0F 10 Predator 92
+5D 0F 11 Scream! SRX
+5D 0F 12 1978 116BPM
+5D 0F 13 X-Tronic SRX
+5D 0F 14 Trans SRX
+5D 0F 15 AcidRiff 125
+5D 0F 16 FullHous SRX
+5D 0F 17 Funk E 125
+5D 0F 18 Le Punk 125
+5D 0F 19 TekOp SRX
+5D 0F 1A Cauldron 138
+5D 0F 1B Punken 144
+5D 0F 1C Blitzkrieg
+5D 0F 1D Hauln 166
+5D 0F 1E Antenna 61
+5D 0F 1F Barry 76
+5D 0F 20 Slipn 80
+5D 0F 21 UndrTheStair
+5D 0F 22 Slam 86
+5D 0F 23 Only Human
+5D 0F 24 BAD 88
+5D 0F 25 Drama 89
+5D 0F 26 Mon 90
+5D 0F 27 McSick 90
+5D 0F 28 Meanstreet
+5D 0F 29 Meow 92
+5D 0F 2A Blvd 96
+5D 0F 2B Coder 98
+5D 0F 2C iROBOT 120
+5D 0F 2D Lifeform 120
+5D 0F 2E Haiti 120
+5D 0F 2F Hiphouse 125
+5D 0F 30 OW! 125
+5D 0F 31 CHI 125
+5D 0F 32 Miami 125
+5D 0F 33 Swing 125
+5D 0F 34 ObsessionSRX
+5D 0F 35 PJ 144
+5D 0F 36 Sky 160
+5D 0F 37 Aerosol Can
+5D 0F 38 Triggroove
+5D 0F 39 De Final CUT
+5D 0F 3A Chemiclspill
+5D 0F 3B DerangedBeat
+5D 0F 3C Cubit Dance
+5D 0F 3D Multi Level
+5D 0F 3E Random Beat
+5D 0F 3F Sonic Beat
+5D 0F 40 Fuzzy Wuzzy
+5D 0F 41 Cyclone 125
+5D 0F 42 Electrolux
+5D 0F 43 Bongo Congo
+5D 0F 44 Tricky Beat
+5D 0F 45 Windmill 132
+5D 0F 46 SlamSymphony
+5D 0F 47 Time Pulse
+5D 0F 48 TrainAComin
+5D 0F 49 House Rules
+5D 0F 4A Mother Ship
+5D 0F 4B YankyDoodlDo
+5D 0F 4C Elven Kbds
+5D 0F 4D DnB SRX
+5D 0F 4E Beat Menu 1
+5D 0F 4F Beat Menu 2
+5D 0F 50 TarzanBottom
+5D 0F 51 Subporter
+5D 0F 52 Subsonics
+5D 0F 53 Sub Bass
+5D 0F 54 HiLo303/Mod
+5D 0F 55 Bass Ment 1
+5D 0F 56 Bass Ment 2
+5D 0F 57 TB SawBs SRX
+5D 0F 58 TB OwBs SRX
+5D 0F 59 Acidic Testz
+5D 0F 5A Talk Bass
+5D 0F 5B VocoBass SRX
+5D 0F 5C Massive Bass
+5D 0F 5D TB Sqr SRX
+5D 0F 5E SQR Reso Bs
+5D 0F 5F SH-5 Synbass
+5D 0F 60 Juno Bs SRX
+5D 0F 61 SlippyBs SRX
+5D 0F 62 Arrpy Bs SRX
+5D 0F 63 TB / SRX
+5D 0F 64 TB-notTB SRX
+5D 0F 65 Si<n>ck Bass
+5D 0F 66 Deep Fat Bas
+5D 0F 67 7 bit bass
+5D 0F 68 DistortObass
+5D 0F 69 Double Bass
+5D 0F 6A Killer Bass
+5D 0F 6B Dancer Bass
+5D 0F 6C Rave Bass
+5D 0F 6D Big Bad Bass
+5D 0F 6E Fat FM Bass
+5D 0F 6F JackYourBody
+5D 0F 70 Solid Bs SRX
+5D 0F 71 Thick Bass
+5D 0F 72 Deep Bass 2
+5D 0F 73 Bassamatazz
+5D 0F 74 Juno 6 Bass
+5D 0F 75 Da JuBs SRX
+5D 0F 76 Fizzle Bass
+5D 0F 77 Ringin` bass
+5D 0F 78 No Rez 4 You
+5D 0F 79 Boomer
+5D 0F 7A OrgAtk Bass
+5D 0F 7B WahBassMod X
+5D 0F 7C LFO SqrBass
+5D 0F 7D FallBend Bs
+5D 0F 7E Hocket Bass
+5D 0F 7F FatBs / SRX
+5D 10 00 LoFi A .BsSRX
+5D 10 01 ProcesBs SRX
+5D 10 02 Solo flight
+5D 10 03 Euro mix SRX
+5D 10 04 Nitty Gritty
+5D 10 05 Alias Lead
+5D 10 06 Old Fi
+5D 10 07 Dist-O-Matic
+5D 10 08 Lead Dirt
+5D 10 09 RetroRave
+5D 10 0A Skreech Lead
+5D 10 0B Outrage
+5D 10 0C HipassTB SRX
+5D 10 0D TB Squared
+5D 10 0E TB Saw
+5D 10 0F DistortedSaw
+5D 10 10 Nail Driver
+5D 10 11 Nasty 303
+5D 10 12 Dance Baby
+5D 10 13 5th Rave
+5D 10 14 Auto 101
+5D 10 15 Sine me in
+5D 10 16 SoloSin SRX1
+5D 10 17 SoloSin SRX2
+5D 10 18 Piccolo solo
+5D 10 19 Ana Flt SRX
+5D 10 1A JUResLd SRX1
+5D 10 1B Med Solo SRX
+5D 10 1C MilkyWay SRX
+5D 10 1D Shalot SRX
+5D 10 1E 3D Lead
+5D 10 1F JUResLd SRX2
+5D 10 20 Gringeley
+5D 10 21 EuroSteroidz
+5D 10 22 Operator
+5D 10 23 NeverStopRvn
+5D 10 24 TheSteamRoks
+5D 10 25 TechnoAttack
+5D 10 26 Formantz
+5D 10 27 SRX Talker
+5D 10 28 Nanite Pops
+5D 10 29 TechnoAmbint
+5D 10 2A Ringywig
+5D 10 2B OrganOran
+5D 10 2C Piddlee-Dee
+5D 10 2D Cool Beam
+5D 10 2E First Synth
+5D 10 2F Santaz House
+5D 10 30 Sub Melodic
+5D 10 31 Landing Crew
+5D 10 32 Chime Blocks
+5D 10 33 Chordon Bleu
+5D 10 34 Porter Rix
+5D 10 35 PhenomenaSRX
+5D 10 36 Club Hit
+5D 10 37 ChrdMaj7 SRX
+5D 10 38 ChrdMin7 SRX
+5D 10 39 CordintheAct
+5D 10 3A MetroPoly
+5D 10 3B Lava Flow
+5D 10 3C Panorama
+5D 10 3D Nautilus
+5D 10 3E Sliced Bread
+5D 10 3F Time Machine
+5D 10 40 Ana Logic
+5D 10 41 Bass & More
+5D 10 42 In The Lab
+5D 10 43 Galaxia
+5D 10 44 Charmer
+5D 10 45 BrainWaveSRX
+5D 10 46 Replicants
+5D 10 47 Speak Delay
+5D 10 48 Location
+5D 10 49 Cyber SRX
+5D 10 4A EtheraltySRX
+5D 10 4B IceDream SRX
+5D 10 4C UpperStepper
+5D 10 4D Padestrians
+5D 10 4E Starlite XV
+5D 10 4F Trance Line2
+5D 10 50 Eurosynth
+5D 10 51 Fat JP
+5D 10 52 EuroDnc SRX1
+5D 10 53 EuroDnc SRX2
+5D 10 54 XpressiveSRX
+5D 10 55 Organ-ized
+5D 10 56 Juno Pluck
+5D 10 57 Juno Plucked
+5D 10 58 Rubberized
+5D 10 59 Intense Vibe
+5D 10 5A Intense Euro
+5D 10 5B Generation e
+5D 10 5C NewSkool 70s
+5D 10 5D SyncDiffrent
+5D 10 5E Kill Eyeopee
+5D 10 5F FM Ringer
+5D 10 60 Live at 5
+5D 10 61 Octo
+5D 10 62 Alpha Fizz
+5D 10 63 FunkyJunoHrp
+5D 10 64 Steel Piano
+5D 10 65 Velorez 8000
+5D 10 66 JU Keys SRX
+5D 10 67 Euronal Syn
+5D 10 68 Daft
+5D 10 69 Neurotic Syn
+5D 10 6A Deep Forest
+5D 10 6B Pip Square
+5D 10 6C Funky Pluck
+5D 10 6D Tight TB
+5D 10 6E Saw Yr Point
+5D 10 6F Shortsawz
+5D 10 70 Tropical Syn
+5D 10 71 JU Pluck SRX
+5D 10 72 TB AtkDst
+5D 10 73 Amber
+5D 10 74 Vox Switcher
+5D 10 75 Juno Strings
+5D 10 76 DetuneSawStr
+5D 10 77 Wavebreaker
+5D 10 78 Vintage Pad
+5D 10 79 Glitz
+5D 10 7A Discrete
+5D 10 7B VntageRevSRX
+5D 10 7C Explore SRX
+5D 10 7D AfterPad SRX
+5D 10 7E Euro Strings
+5D 10 7F Powder
+5D 11 00 JU&JP PhsSRX
+5D 11 01 Lost In Time
+5D 11 02 Europad
+5D 11 03 Avalon SRX
+5D 11 04 Dreames SRX
+5D 11 05 SirenSng SRX
+5D 11 06 CricketChoir
+5D 11 07 TV Drama
+5D 11 08 Elven Times
+5D 11 09 TwilightPad
+5D 11 0A WarmerPd SRX
+5D 11 0B SoftStrngSRX
+5D 11 0C AlphaWavePad
+5D 11 0D Micromusic
+5D 11 0E LitleDowners
+5D 11 0F Fulcanelli03
+5D 11 10 Galaxial
+5D 11 11 It?s Outside
+5D 11 12 Alien Life
+5D 11 13 Prey 160
+5D 11 14 Transender
+5D 11 15 Steel Drone
+5D 11 16 Trissle
+5D 11 17 Dimensions
+5D 11 18 TuneBrethSRX
+5D 11 19 Sonic Saucer
+5D 11 1A Alter Native
+5D 11 1B Evolution
+5D 11 1C Outer Space
+5D 11 1D Hyperspace
+5D 11 1E WhaleUnitSRX
+5D 11 1F Orcafreq SRX
+5D 11 20 CrepedOutSRX
+5D 11 21 Bombay Drone
+5D 11 22 Fathoms SRX
+5D 11 23 MothrshipSRX
+5D 11 24 Cleansers
+5D 11 25 Vinylprelude
+5D 11 26 Turbine SRX
+5D 11 27 Thrilling
+5D 11 28 Bada Boing
+5D 11 29 Confused
+5D 11 2A Revolution#9
+5D 11 2B Bugstep Noot
+5D 11 2C Crotals
+5D 11 2D Big Bang *
+5D 11 2E South Sahara
+5D 11 2F MunchiesPt12
+5D 11 30 AlternSawSRX
+5D 11 31 ElctroJamSRX
+5D 11 32 Zaps
+5D 11 33 B-Movie
+5D 11 34 ScientistSRX
+5D 11 35 Siren
+5D 11 36 Sliderz SRX
+5D 11 37 Krashead
+5D 11 38 Iron Hit SRX
+5D 11 39 DrumMeltDown
+5D 11 3A TR Synhit
+5D 11 3B Pit People
+5D 11 3C Mad RHyThM
+5D 11 3D ModrnLifeSRX
+5D 11 3E BigBang SRX
+5D 11 3F GateKeperSRX
+5D 11 40 UndrWaterSRX
+5D 11 41 TheWetSet
+5D 11 42 DJ stuff SRX
+5D 11 43 Skratchy SRX
+5D 11 44 78 RPM SRX
+5D 11 45 3D Turntable
+5D 11 46 RadioBrekSRX
+5D 11 47 Faze Gt&Bass
+5D 11 48 Hse Stb 125
+5D 11 49 Full Force
+5D 11 4A Soho Clubs
+5D 11 4B GarageChdSRX
+5D 11 4C Crap Stab
+5D 11 4D 2am-11am
+5D 11 4E Hit&Run SRX
+5D 11 4F HIT in face
+5D 11 50 LoFiHits SRX
+5D 11 51 Next Stab
+5D 11 52 Brazzer LoFi
+5D 11 53 Big Stab SRX
+5D 11 54 30?s Tpt SRX
+5D 11 55 BrsFall SRX
+5D 11 56 Slammer
+5D 11 57 Tribal Disco
+5D 11 58 DiscoStr Hit
+5D 11 59 Break HIT
+5D 11 5A Cwisp SRX
+5D 11 5B NYC Club SRX
+5D 11 5C Tape Stops
+5D 11 5D LoFi Subsine
+5D 11 5E Maj/Min /
+5D 11 5F Techno Logic
+5D 11 60 Slam Hit
+5D 11 61 Image BOOOM!
+5D 11 62 Keep Clubing
+5D 11 63 Techno Riff1
+5D 11 64 MySweetHouse
+5D 11 65 LateNiteTunz
+5D 11 66 Moody Vibes
+5D 11 67 Exit 2
+5D 11 68 Massive
+5D 11 69 Techno Riff2
+5D 11 6A Metalsmith
+5D 11 6B Meteor Pelt
+5D 11 6C China White
+5D 11 6D NewTech D&B
+5D 11 6E Water Plug
+5D 11 6F Tribal Steel
+5D 11 70 Tech Pno SRX
+5D 11 71 LightPno SRX
+5D 11 72 90s Pno SRX
+5D 11 73 1FingrPnoSRX
+5D 11 74 Pf/Key Menu
+5D 11 75 Substitute
+5D 11 76 HiphopEP SRX
+5D 11 77 Assembled
+5D 11 78 MelowTremSRX
+5D 11 79 Echo EP SRX
+5D 11 7A 77GaragesSRX
+5D 11 7B Wurlpool
+5D 11 7C Lo Fi Wurli
+5D 11 7D Dance Organ
+5D 11 7E Juno Org SRX
+5D 11 7F Clubed Organ
+5D 12 00 Pop B
+5D 12 01 Vel Syn Org
+5D 12 02 SpenderOrgan
+5D 12 03 Tines&Wheels
+5D 12 04 Thick Organ
+5D 12 05 1FingrOrgSRX
+5D 12 06 Shorty Organ
+5D 12 07 1FingrShrOrg
+5D 12 08 Clav-ClubSRX
+5D 12 09 DanceClavSRX
+5D 12 0A CeremonyBell
+5D 12 0B AnaBells SRX
+5D 12 0C Guitar Stuff
+5D 12 0D WahWahMelSRX
+5D 12 0E GTRPowerSRX1
+5D 12 0F GTRPowerSRX2
+5D 12 10 FakeHead Hit
+5D 12 11 Distinctive
+5D 12 12 Gtr&BassMenu
+5D 12 13 Pizz Xpress
+5D 12 14 Tek Pizz SRX
+5D 12 15 Stringy Stab
+5D 12 16 CS80Brass
+5D 12 17 Fat Brass
+5D 12 18 Talk Box SRX
+5D 12 19 TekMusic SRX
+5D 12 1A 1 .2 .3 .4 . SRX
+5D 12 1B 1234 x4  SRX
+5D 12 1C Baby   ? SRX
+5D 12 1D Vox Menu 1
+5D 12 1E Vox Menu 2
+5D 12 1F MelodicDrums
+5D 12 20 Drumpeopled1
+5D 12 21 Drumpeopled2
+5D 12 22 Drumpeopled3
+5D 12 23 KitTek .drmFX
+5D 12 24 Hardcore Hit
+5D 12 25 Kick Menu 1
+5D 12 26 Kick Menu 2
+5D 12 27 Kick Menu 3
+5D 12 28 Snare Menu 1
+5D 12 29 Snare Menu 2
+5D 12 2A Snare Menu 3
+5D 12 2B Snare Menu 4
+5D 12 2C Snare Menu 5
+5D 12 2D HiHat Menu 1
+5D 12 2E HiHat Menu 2
+5D 12 2F HH&Cym Menu
+5D 12 30 Cymbal Menu
+5D 12 31 Tom Menu
+5D 12 32 Clap Menu
+5D 12 33 808 Chord
+5D 12 34 808 Conga 3D
+5D 12 35 Slow Chimes
+5D 12 36 Dirty Sox
+5D 12 37 ExtremPercus
+5D 12 38 Pure Tribal
+5D 12 39 TeknoTriangl
+5D 12 3A Tamb&SkrMenu
+5D 12 3B Cow&Rim Menu
+5D 12 3C Perc . Menu 1
+5D 12 3D Perc . Menu 2
+5D 12 3E Perc . Menu 3
+5D 12 3F Perc . Menu 4
+5D 13 00 World Sounds
+5D 13 01 Go2China /C2
+5D 13 02 Go2India /C2
+5D 13 03 The Great W
+5D 13 04 Yuehchin+
+5D 13 05 Sweet Nylon
+5D 13 06 Tele R&F
+5D 13 07 Tubby Baby
+5D 13 08 HeavenGender
+5D 13 09 Gamelan Ems
+5D 13 0A Childwood
+5D 13 0B La Musette
+5D 13 0C Essence
+5D 13 0D Zampona /
+5D 13 0E GipsyTrumpt/
+5D 13 0F We Dream }{
+5D 13 10 Fun WithPerc
+5D 13 11 GuZheng arp
+5D 13 12 Feets
+5D 13 13 World Radio
+5D 13 14 ClanAdvances
+5D 13 15 Eastern Tour
+5D 13 16 Enough!STOP!
+5D 13 17 Banjo Phrs
+5D 13 18 Guitar Phrs1
+5D 13 19 Guitar Phrs2
+5D 13 1A PdlStl Phrs
+5D 13 1B Asia  UFO
+5D 13 1C UBeenSoBaa
+5D 13 1D Didgeri /
+5D 13 1E WorldGroove
+5D 13 1F LoopPhrase 1
+5D 13 20 LoopPhrase 2
+5D 13 21 TABLA groove
+5D 13 22 JasonGoEast
+5D 13 23 Flu&AcompSRX
+5D 13 24 Split Floot
+5D 13 25 Hot Salsa
+5D 13 26 TempBassSolo
+5D 13 27 CherryFlower
+5D 13 28 SplitThisSRX
+5D 13 29 Crane Dance
+5D 13 2A LostInMists
+5D 13 2B Qu DiEnsembl
+5D 13 2C NasalBlossom
+5D 13 2D Meditation 1
+5D 13 2E Art Of Feng
+5D 13 2F Orient xPres
+5D 13 30 Padded Sitar
+5D 13 31 No Worries
+5D 13 32 IntarMel SRX
+5D 13 33 Ode 2 An Oud
+5D 13 34 Fugi-man
+5D 13 35 China pluck
+5D 13 36 Yuehchin SRX
+5D 13 37 Kayakeum
+5D 13 38 Asian Pizz
+5D 13 39 PiPa SRX
+5D 13 3A Koto SRX
+5D 13 3B Shamisen SRX
+5D 13 3C Sanshin SRX
+5D 13 3D Yang Qin trm
+5D 13 3E Yang Qin/Mod
+5D 13 3F SultanPalace
+5D 13 40 Marco Polo
+5D 13 41 Bandolim SRX
+5D 13 42 K .Bandolim
+5D 13 43 Afro Harp
+5D 13 44 Ethnhit!
+5D 13 45 OctaHarp+
+5D 13 46 St .GuZhngSRX
+5D 13 47 Zheng Zither
+5D 13 48 Distance
+5D 13 49 Mandolin/Mod
+5D 13 4A Mandolin
+5D 13 4B Mando Club
+5D 13 4C MdlnTrmStSRX
+5D 13 4D Drone Sitar
+5D 13 4E Conch&Sitar
+5D 13 4F Punjab Rocks
+5D 13 50 Pas2IndiaSRX
+5D 13 51 Rain Drone
+5D 13 52 SitarGlisSRX
+5D 13 53 Tambura SRX
+5D 13 54 TambDroneSRX
+5D 13 55 St .SanturSRX
+5D 13 56 SanturTrmSRX
+5D 13 57 Santur /Mod
+5D 13 58 Canton
+5D 13 59 HamrDulcimer
+5D 13 5A 3D Dulcimer
+5D 13 5B Zither
+5D 13 5C Magic Pluck
+5D 13 5D Biwa SRX
+5D 13 5E Biwa Menu
+5D 13 5F BerimbauMenu
+5D 13 60 Berimbau
+5D 13 61 JawHarp Menu
+5D 13 62 Steel Rhythm
+5D 13 63 SoloSteelGtr
+5D 13 64 N?Ville Soft
+5D 13 65 Spruce Top
+5D 13 66 Procssd AGtr
+5D 13 67 High Strung
+5D 13 68 Compresd D18
+5D 13 69 12 String
+5D 13 6A Mixed 12Str1
+5D 13 6B Mixed 12Str2
+5D 13 6C Ac Gtr 12stg
+5D 13 6D No Borders
+5D 13 6E Loose 12Str
+5D 13 6F Living R .Gtr
+5D 13 70 Dobro Modro
+5D 13 71 ResonatorGtr
+5D 13 72 Ac .Gtrs SRX
+5D 13 73 2 Players
+5D 13 74 Solo RequGtr
+5D 13 75 Loose Nylon
+5D 13 76 AcousticBros
+5D 13 77 So Sad Nylon
+5D 13 78 Chinese Duo
+5D 13 79 ChugRunTrSRX
+5D 13 7A Chung Ruan
+5D 13 7B ChungRuanSRX
+5D 13 7C Bottom Ruan
+5D 13 7D RuangGtr SRX
+5D 13 7E Oud SRX
+5D 13 7F BlugrsSldSRX
+5D 14 00 Guitaro SRX
+5D 14 01 Natural Tele
+5D 14 02 Psyche Tele
+5D 14 03 Coral
+5D 14 04 Chorus Twang
+5D 14 05 Pick Licker
+5D 14 06 CleanStrtSRX
+5D 14 07 Velo 335 SRX
+5D 14 08 Right Funky
+5D 14 09 Comp Muted
+5D 14 0A E .GtrMt SRX
+5D 14 0B 335VelMt SRX
+5D 14 0C Wide Guitar
+5D 14 0D Dob-Compress
+5D 14 0E Nice Twelvey
+5D 14 0F RotaryCrunch
+5D 14 10 FastRotrySRX
+5D 14 11 EGDynaPikSRX
+5D 14 12 BackingEGSRX
+5D 14 13 Room Slide
+5D 14 14 Pedal Steel
+5D 14 15 Phased P .Stl
+5D 14 16 PureSteelSRX
+5D 14 17 MutedAmbient
+5D 14 18 GtrFX Menu
+5D 14 19 LP Gtr SRX
+5D 14 1A Tele-Funfken
+5D 14 1B 335 &Cabinet
+5D 14 1C Tele Licker
+5D 14 1D Short & Long
+5D 14 1E NewBeginning
+5D 14 1F Bouzouki
+5D 14 20 Bousoukhit!
+5D 14 21 3ChdStrumSRX
+5D 14 22 Strum Poetic
+5D 14 23 Strum Away
+5D 14 24 Banjo-Mando
+5D 14 25 5StringBanjo
+5D 14 26 Banjo SRX 1
+5D 14 27 Banjo SRX 2
+5D 14 28 Banjo SRX 3
+5D 14 29 Fiddle
+5D 14 2A Fiddle 2002
+5D 14 2B FiddleSwitch
+5D 14 2C Fiddle Sect .
+5D 14 2D FiddleStacto
+5D 14 2E AsianOrcPizz
+5D 14 2F AJapaneseInn
+5D 14 30 Deep Blue
+5D 14 31 Ethnic Ens
+5D 14 32 ChinesOrcSRX
+5D 14 33 ErHu / SRX
+5D 14 34 ErHuSolo SRX
+5D 14 35 ErHu Ld SRX
+5D 14 36 FiddleFXmenu
+5D 14 37 ViolnSoloSRX
+5D 14 38 Comp BabyBss
+5D 14 39 Baby Bass
+5D 14 3A Comp Fingerd
+5D 14 3B Jazz Fing .BS
+5D 14 3C Live Bass
+5D 14 3D Flango Bass
+5D 14 3E Bass Oddesy
+5D 14 3F 6Str Bs SRX1
+5D 14 40 Muted Bass
+5D 14 41 6Str/Mt SRX
+5D 14 42 PickBsHd SRX
+5D 14 43 PickedBs SRX
+5D 14 44 Tub Bass
+5D 14 45 GuitarnBsSRX
+5D 14 46 GtrrnOct SRX
+5D 14 47 PacificDream
+5D 14 48 Meditation 2
+5D 14 49 HybridKemong
+5D 14 4A Purify
+5D 14 4B Asia Bells
+5D 14 4C Rama Cym SRX
+5D 14 4D Bell Orchest
+5D 14 4E Sacred Bells
+5D 14 4F Spokes
+5D 14 50 Winter Bells
+5D 14 51 Wind Bells
+5D 14 52 BelAngk SRX
+5D 14 53 Tcheekolyna
+5D 14 54 Wood EPiano
+5D 14 55 Kalimba
+5D 14 56 Kalimbatch
+5D 14 57 VelAfro SRX1
+5D 14 58 BsKalimbaSRX
+5D 14 59 LogDetunrSRX
+5D 14 5A Baateri SRX
+5D 14 5B Balafon SRX
+5D 14 5C Asian Wood
+5D 14 5D Mellow tone
+5D 14 5E Glas Mlt SRX
+5D 14 5F SteelDr SRX1
+5D 14 60 SteelDr SRX2
+5D 14 61 Gendrous SRX
+5D 14 62 BonangGamSRX
+5D 14 63 VelAfro SRX2
+5D 14 64 TemleMetlSRX
+5D 14 65 Kemong / SRX
+5D 14 66 Kane / SRX
+5D 14 67 JeGong / SRX
+5D 14 68 Jegogn / SRX
+5D 14 69 Jublag / SRX
+5D 14 6A Reyong / SRX
+5D 14 6B Pemade / SRX
+5D 14 6C Cajun
+5D 14 6D D .Accordion
+5D 14 6E SquezeBoxSRX
+5D 14 6F Squeeze Box
+5D 14 70 St .AcdOp SRX
+5D 14 71 AcdionOp SRX
+5D 14 72 Acd ffOp SRX
+5D 14 73 St .AcdCl SRX
+5D 14 74 Bluesy
+5D 14 75 HarmonicaSRX
+5D 14 76 CuntryHrpSRX
+5D 14 77 Sessn HrpSRX
+5D 14 78 Esraj&Mizmar
+5D 14 79 Before Time
+5D 14 7A Gagaku Ems
+5D 14 7B Mizmar solo
+5D 14 7C PiriSolo SRX
+5D 14 7D Shahnai SRX
+5D 14 7E HichirikSRX
+5D 14 7F Bagpipes SRX
+5D 15 00 Sheng / SRX
+5D 15 01 Suona / SRX
+5D 15 02 VillageDance
+5D 15 03 Indian Ens
+5D 15 04 Nature Loves
+5D 15 05 PanPipes SRX
+5D 15 06 Sad  Pipe
+5D 15 07 Shell blow
+5D 15 08 Desert Flute
+5D 15 09 Zampona
+5D 15 0A Isolation
+5D 15 0B Ocarina
+5D 15 0C New IndFlute
+5D 15 0D Qu Di Vib
+5D 15 0E Bang Di Vib
+5D 15 0F New Kawala
+5D 15 10 BreathyIndia
+5D 15 11 New Shaku
+5D 15 12 Shakuhachi
+5D 15 13 DreamInColor
+5D 15 14 TwinHillyLd
+5D 15 15 Snake Eyes
+5D 15 16 Latin Trumpt
+5D 15 17 MariachiTpts
+5D 15 18 Trumpets
+5D 15 19 GrowlWah/Mod
+5D 15 1A Muted-Grw /
+5D 15 1B SoloTuba SRX
+5D 15 1C LatinTubaSRX
+5D 15 1D World Orch
+5D 15 1E Stab&Hold
+5D 15 1F Indian Radio
+5D 15 20 Wide Brass
+5D 15 21 Trombones
+5D 15 22 Brass Snapz
+5D 15 23 Brass sfzzZZ
+5D 15 24 2Tp+Tbn SRX
+5D 15 25 MemphisHORNS
+5D 15 26 SectStactSRX
+5D 15 27 LatinBrasses
+5D 15 28 Hit & Fall
+5D 15 29 BrsChd13 SRX
+5D 15 2A BrsChdMi9SRX
+5D 15 2B BrsChdMj9SRX
+5D 15 2C Blow Pad
+5D 15 2D Ceremony
+5D 15 2E Glasses
+5D 15 2F Ambiccordian
+5D 15 30 DroneFlanger
+5D 15 31 Rock Gods
+5D 15 32 ScotlandLass
+5D 15 33 Dry Fishes
+5D 15 34 SteroidBrass
+5D 15 35 Soul revived
+5D 15 36 Rain Pad
+5D 15 37 Rising Sun
+5D 15 38 Ethnopad
+5D 15 39 Ethno Strngs
+5D 15 3A & 40 Thieves
+5D 15 3B TromboSynthy
+5D 15 3C GrandExaltd1
+5D 15 3D Sun Dog
+5D 15 3E TechnoSpirit
+5D 15 3F Play Softly
+5D 15 40 WorkerBeetle
+5D 15 41 Glass Cut
+5D 15 42 GuruTronics
+5D 15 43 DubJazz Trip
+5D 15 44 Meditation 2
+5D 15 45 Political
+5D 15 46 G`day Mate
+5D 15 47 Mission
+5D 15 48 Jegorgan
+5D 15 49 Dyno Conga 1
+5D 15 4A Dyno Conga 2
+5D 15 4B Congas+Bongo
+5D 15 4C DynTimbale 1
+5D 15 4D DynTimbale 2
+5D 15 4E TimbaleCuica
+5D 15 4F Dyno Surdo
+5D 15 50 Rhythm Sect
+5D 15 51 Rainstick
+5D 15 52 Clap & Snap
+5D 15 53 CowbellRandm
+5D 15 54 Karachi-Man
+5D 15 55 That Was Zen
+5D 15 56 StreetParade
+5D 15 57 BUK
+5D 15 58 Gongs
+5D 15 59 Chenchen /
+5D 15 5A WisdomWithin
+5D 15 5B Tabla+
+5D 15 5C DrumsScene
+5D 15 5D Doholla Fun
+5D 15 5E AfricanRhtms
+5D 15 5F Big Logs SRX
+5D 15 60 WarDrums SRX
+5D 15 61 Samba Menu
+5D 15 62 Shaker Menu
+5D 15 63 Caixa  Menu
+5D 15 64 Cowbell Menu
+5D 15 65 JapanPrcMenu
+5D 15 66 Kabuki Menu
+5D 15 67 KwangwariSRX
+5D 15 68 Tuzumi / SRX
+5D 15 69 KoreaPrcMenu
+5D 15 6A ChinaPrcMenu
+5D 15 6B China Menu
+5D 15 6C ChinaGongSRX
+5D 15 6D Sanba /  SRX
+5D 15 6E St .ShouBoSRX
+5D 15 6F AsiaCym Menu
+5D 15 70 Gong Menu
+5D 15 71 Gamelan Menu
+5D 15 72 GamlnPrcMenu
+5D 15 73 BigBazar SRX
+5D 15 74 Udu Pot Menu
+5D 15 75 TablaBy Menu
+5D 15 76 Rek Menu
+5D 15 77 Dholak Menu1
+5D 15 78 Dholak Menu2
+5D 15 79 Dhol Menu
+5D 15 7A Egypt Tablah
+5D 15 7B Madal Menu
+5D 15 7C AfropercMenu
+5D 15 7D CommSatelite
+5D 15 7E Amazone
+5D 15 7F Tasman Sea
+5D 16 00 Ethnic FX 1
+5D 16 01 Ethnic FX 2
+5D 16 02 SpacetualBoy
+5D 16 03 Crystal
+5D 16 04 SpaceLuvSick
+5D 16 05 HitAscension
+5D 16 06 Nervous Man
+5D 16 07 Silk Stream
+5D 16 08 DerangedMind
+5D 16 09 PolyDrone
+5D 16 0A TequillaWorm
+5D 16 0B GlistenToYou
+5D 16 0C Dream Harp
+5D 16 0D Waterfall
+5D 16 0E Gender 3D
+5D 16 0F Doom Drum
+5D 16 10 Stalker
+5D 16 11 PlasticBones
+5D 16 12 PakistanVibe
+5D 16 13 ThusSpokeZtr
+5D 16 14 Kalissando
+5D 16 15 Rain Forest
+5D 16 16 AfropunchSRX
+5D 16 17 Dance Tape
+5D 16 18 Zaghruta SRX
+"5D 16 19 1,2,3,4! SRX"
+5D 16 1A Voices SRX
+5D 16 1B Voice Menu 1
+5D 16 1C Voice Menu 2
+5D 16 1D Voice Menu 3
+5D 17 00 Pop Brs Sect
+5D 17 01 Pop Brs Stac
+5D 17 02 Pop Brs Fall
+5D 17 03 Trumpet Sect
+5D 17 04 Tp Sect Stac
+5D 17 05 Tp Sect Doit
+5D 17 06 Mute Tp Sect
+5D 17 07 MtTpSect Stc
+5D 17 08 C Tp Section
+5D 17 09 C TpSect Stc
+5D 17 0A C TpSect Tri
+5D 17 0B TromboneSect
+5D 17 0C Tb Sect Stac
+5D 17 0D Tb Sect Fall
+5D 17 0E Horn Section
+5D 17 0F HornSect Stc
+5D 17 10 HornSect Rip
+5D 17 11 Tuba /
+5D 17 12 Tuba Stacc
+5D 17 13 Mezzo Pop
+5D 17 14 Mezzo Pop WS
+5D 17 15 DynaBrass  M
+5D 17 16 Smooth Brass
+5D 17 17 Oct PopBrass
+5D 17 18 PopBrass Sfz
+5D 17 19 Stac PopSect
+5D 17 1A PopBrs ShtFl
+5D 17 1B PopBrs LngFl
+5D 17 1C PopBrass Rip
+5D 17 1D PopBrs /Fl 1
+5D 17 1E PopBrs /Fl 2
+5D 17 1F ShortBrs /Fl
+5D 17 20 Smooth Tps
+5D 17 21 Tpt Section
+5D 17 22 Tpt Sect WS
+5D 17 23 Tpt Sect M
+5D 17 24 Mild Tp Sect
+5D 17 25 Tp Sect Sfz
+5D 17 26 Tp Sect Fall
+5D 17 27 TpSect RipFl
+5D 17 28 TpSect RipCp
+5D 17 29 TpSect Shake
+5D 17 2A Trumpets /Fl
+5D 17 2B Trumpts/Shak
+5D 17 2C Trumpts/Doit
+5D 17 2D ShortTps /Fl
+5D 17 2E  . .the Ripper
+5D 17 2F Don?t Doit!
+5D 17 30 MuteTpSect S
+5D 17 31 MuteTpSect M
+5D 17 32 Mild MuteTps
+5D 17 33 Smooth C-Tps
+5D 17 34 C-Tps w/Vib
+5D 17 35 C-Tp Sect
+5D 17 36 C-Tp Sect WS
+5D 17 37 C-Tp Sect M
+5D 17 38 Mild CTpSect
+5D 17 39 CTp Sect Sfz
+5D 17 3A Tripoli
+5D 17 3B Mainly Stacc
+5D 17 3C C Tpts /Trit
+5D 17 3D Smooth Tbs
+5D 17 3E Mild Tb Sect
+5D 17 3F Tb Sect
+5D 17 40 Tb Sect WS
+5D 17 41 Tb Sect M
+5D 17 42 Tb Sect Sfz
+5D 17 43 Tb Sect Rip
+5D 17 44 Tb Sect /Fl
+5D 17 45 ShortTbs /Fl
+5D 17 46 ToodleAction
+5D 17 47 Smooth Horns
+5D 17 48 Horn Sect
+5D 17 49 Horn Sect WS
+5D 17 4A Horn Sect M
+5D 17 4B EmotiveHorns
+5D 17 4C Mild Horns
+5D 17 4D HornSect Sfz
+5D 17 4E HornSect/Rip
+5D 17 4F HornSwitcher
+5D 17 50 Mild Tuba
+5D 17 51 Tuba Sect WS
+5D 17 52 Tuba Sect M
+5D 17 53 TubaSwitchOn
+5D 17 54 Tp+Tb Sect /
+5D 17 55 CTp+Tb Sect/
+5D 17 56 LOUD OK?!
+5D 17 57 Hey You Mute
+5D 17 58 FullOnBrass
+5D 17 59 Blend Brass
+5D 17 5A LR Mix Stacc
+5D 17 5B Warm Tp Sect
+5D 17 5C Dyna Section
+5D 17 5D Warm Horns
+5D 17 5E Schizo Brass
+5D 17 5F Don?t hit me
+5D 17 60 DiminerBrass
+5D 17 61 Wild Niner
+5D 17 62 Mid Thirties
+5D 17 63 BrsStac Echo
+5D 18 00 Superb Grand
+5D 18 01 WideStereoGd
+5D 18 02 ClassicGrand
+5D 18 03 Rock Grand
+5D 18 04 Superior Grd
+5D 18 05 PerfectGrand
+5D 18 06 SingUsASong
+5D 18 07 Dynamic Grd
+5D 18 08 BriteOnStage
+5D 18 09 BrightPopV/S
+5D 18 0A Grand P1
+5D 18 0B BrighterSide
+5D 18 0C Full Rock pF
+5D 18 0D Dark Ballad
+5D 18 0E Grand P2
+5D 18 0F Darker Side
+5D 18 10 VelocaverPno
+5D 18 11 Warm Room pF
+5D 18 12 AntiqueUprit
+5D 18 13 SuperiorMono
+5D 18 14 Ragtime Gd
+5D 18 15 Gnu House pF
+5D 18 16 Archive Pno
+5D 18 17 Lil? Takker
+5D 18 18 Grand n Str
+5D 18 19 Superior Str
+5D 18 1A Sad Farewell
+5D 18 1B Mixed Layer
+5D 18 1C SuperiorPd1
+5D 18 1D SuperiorPd2
+5D 18 1E First Star
+5D 18 1F New Age Layr
+5D 18 20 Deep Breath
+5D 18 21 Mc Reverse
+5D 18 22 Meditate
+5D 18 23 Penta Duo
+5D 18 24 D-lightful
+5D 18 25 Custom Clav
+5D 18 26 Barococo
+5D 18 27 Pianolins
+5D 18 28 RandoMeistro
+5D 18 29 Spooky Dimin
+5D 1A 00 Pure EP1
+5D 1A 01 Lo-Fi EP1
+5D 1A 02 Pure EP2
+5D 1A 03 Phaser EP1
+5D 1A 04 Soft Wurly
+5D 1A 05 Pure Wurly
+5D 1A 06 Pure Clav DB
+5D 1A 07 Pure Clav CB
+5D 1A 08 PhaseClav CB
+5D 1A 09 Wah Clav CB
+5D 1A 0A Comp Clav CB
+5D 1A 0B PureClavMtCB
+5D 1A 0C St .Trem EP1
+5D 1A 0D St .Trem EP2
+5D 1A 0E Chorus Wurly
+5D 1A 0F Chorus EP1
+5D 1A 10 Chorus EP2
+5D 1A 11 Dp-Cho EP1
+5D 1A 12 Dp-Cho EP2
+5D 1A 13 Soft EP1
+5D 1A 14 Soft EP2
+5D 1A 15 Phase Wurly
+5D 1A 16 Hard EP1
+5D 1A 17 Moving EP1
+5D 1A 18 EP1 w/FM
+5D 1A 19 EP1 w/VOX
+5D 1A 1A EP1 w/STR
+5D 1A 1B EP1 w/PAD
+5D 1A 1C Flanger EP1
+5D 1A 1D Flanger EP2
+5D 1A 1E FlangerWurly
+5D 1A 1F Melodic EP1
+5D 1A 20 Amped EP1
+5D 1A 21 Amped EP2
+5D 1A 22 Lo-Fi EP2
+5D 1A 23 Lo-Fi Wurly
+5D 1A 24 ModDly EP1
+5D 1A 25 ModDly EP2
+5D 1A 26 Dual EP1
+5D 1A 27 Dual Wurly
+5D 1A 28 Enhance Clav
+5D 1A 29 Peaking Clav
+5D 1A 2A Dual Clav DB
+5D 1A 2B Dual Clav DA
+5D 1A 2C Dual Clav CB
+5D 1A 2D Dual Clav CA
+5D 1A 2E DualClavMtDB
+5D 1A 2F DualClavMtCB
+5D 1A 30 PhaseClav DB
+5D 1A 31 PhaseClvMtCB
+5F 40 00 JP8 Strings1
+5F 40 01 JP8 Strings2
+5F 40 02 JP8 Strings3
+5F 40 03 JP8 Strings4
+5F 40 04 JP8 Strings5
+5F 40 05 JP8 Strings6
+5F 40 06 JP8 Strings7
+5F 40 07 JP8 Strings8
+5F 40 08 JP8 Strings9
+5F 40 09 JP8Strings10
+5F 40 0A JP8Strings11
+5F 40 0B JP8Strings12
+5F 40 0C JP8Strings13
+5F 40 0D JP8Strings14
+5F 40 0E JP8Strings15
+5F 40 0F JP8Strings16
+5F 40 10 JP-8 Pad 1
+5F 40 11 JP-8 Pad 2
+5F 40 12 JP-8 Pad 3
+5F 40 13 JP-8 Pad 4
+5F 40 14 JUNO Str 1
+5F 40 15 JUNO Str 2
+5F 40 16 JUNO Str 3
+5F 40 17 JX Strings
+5F 40 18 OB Strings 1
+5F 40 19 OB Strings 2
+5F 40 1A OB Strings 3
+5F 40 1B OB Strings 4
+5F 40 1C OB Strings 5
+5F 40 1D OB Strings 6
+5F 40 1E Vintage 1
+5F 40 1F Vintage 2
+5F 40 20 Vintage 3
+5F 40 21 Vintage 4
+5F 40 22 Vintage 5
+5F 40 23 Vintage 6
+5F 40 24 Vintage 7
+5F 40 25 Vintage 8
+5F 40 26 Vintage 9
+5F 40 27 Vintage 10
+5F 40 28 Vintage 11
+5F 40 29 Soft Pad 1
+5F 40 2A Soft Pad 2
+5F 40 2B Soft Pad 3
+5F 40 2C Soft Pad 4
+5F 40 2D Soft Pad 5
+5F 40 2E Soft Pad 6
+5F 40 2F Soft Pad 7
+5F 40 30 Soft Pad 8
+5F 40 31 Soft Pad 9
+5F 40 32 Soft Pad 10
+5F 40 33 Soft Pad 11
+5F 40 34 Soft Pad 12
+5F 40 35 Soft Pad 13
+5F 40 36 Soft Pad 14
+5F 40 37 Soft Pad 15
+5F 40 38 Soft Pad 16
+5F 40 39 Soft Pad 17
+5F 40 3A Oct Str 1
+5F 40 3B Oct Str 2
+5F 40 3C Oct Str 3
+5F 40 3D Oct Str 4
+5F 40 3E Oct Str 5
+5F 40 3F Oct Str 6
+5F 40 40 Oct Str 7
+5F 40 41 Cloud Pad
+5F 40 42 Slow Pad 1
+5F 40 43 Slow Pad 2
+5F 40 44 Brite Str 1
+5F 40 45 Brite Str 2
+5F 40 46 Brite Str 3
+5F 40 47 Brite Str 4
+5F 40 48 Boreal Pad
+5F 40 49 Flange Str
+5F 40 4A Organ Pad 1
+5F 40 4B Organ Pad 2
+5F 40 4C Organ Pad 3
+5F 40 4D Organ Pad 4
+5F 40 4E Digi Str 1
+5F 40 4F Digi Str 2
+5F 40 50 Digi Pad 1
+5F 40 51 Digi Pad 2
+5F 40 52 Digi Pad 3
+5F 40 53 Digi Pad 4
+5F 40 54 Heaven Pad 1
+5F 40 55 Heaven Pad 2
+5F 40 56 Heaven Pad 3
+5F 40 57 Heaven Pad 4
+5F 40 58 Voice Heaven
+5F 40 59 ChordOfCnada
+5F 40 5A Awakening
+5F 40 5B JP8 Hollow 1
+5F 40 5C JP8 Hollow 2
+5F 40 5D JP8 Hollow 3
+5F 40 5E Hollow Pad 1
+5F 40 5F Hollow Pad 2
+5F 40 60 Simple Air
+5F 40 61 Air Pad
+5F 40 62 Glass Pad
+5F 40 63 Flute Pad
+5F 40 64 Seek Flute
+5F 40 65 Syn Pad 1
+5F 40 66 Syn Pad 2
+5F 40 67 Syn Pad 3
+5F 40 68 Syn Pad 4
+5F 40 69 Syn Pad 5
+5F 40 6A Syn Pad 6
+5F 40 6B Syn Pad 7
+5F 40 6C Syn Pad 8
+5F 40 6D Syn Pad 9
+5F 40 6E Syn Pad 10
+5F 40 6F Syn Pad 11
+5F 40 70 Syn Pad 12
+5F 40 71 Syn Pad 13
+5F 40 72 Syn Pad 14
+5F 40 73 Syn Pad 15
+5F 40 74 Syn Pad 16
+5F 40 75 Syn Pad 17
+5F 40 76 Syn Pad 18
+5F 40 77 Syn Pad 19
+5F 40 78 Syn Pad 20
+5F 40 79 Syn Pad 21
+5F 40 7A Syn Pad 22
+5F 40 7B Syn Pad 23
+5F 40 7C Hybrid Str 1
+5F 40 7D Hybrid Str 2
+5F 40 7E Hybrid Str 3
+5F 40 7F LFO Pad 1
+5F 41 00 LFO Pad 2
+5F 41 01 RETROX 139
+5F 41 02 I Sync So
+5F 41 03 Sea Waves
+5F 41 04 FireFlies
+5F 41 05 Particles
+5F 41 06 Phr Str 1
+5F 41 07 Phr Str 2
+5F 41 08 Phr Str 3
+5F 41 09 Phr Str 4
+5F 41 0A Phr Str 5
+5F 41 0B Phr Str 6
+5F 41 0C Phr Str 7
+5F 41 0D Phr Str 8
+5F 41 0E Phr Str 9
+5F 41 0F Phr Str 10
+5F 41 10 Phr Str 11
+5F 41 11 Stone Pad
+5F 41 12 JP8 Stone 1
+5F 41 13 JP8 Stone 2
+5F 41 14 Sweep Pad 1
+5F 41 15 Sweep Pad 2
+5F 41 16 Sweep Pad 3
+5F 41 17 Sweep Pad 4
+5F 41 18 Sweep Pad 5
+5F 41 19 Sweep Pad 6
+5F 41 1A Sweep Pad 7
+5F 41 1B Sweep Pad 8
+5F 41 1C Sweep Pad 9
+5F 41 1D Sweep Pad 10
+5F 41 1E Sweep Pad 11
+5F 41 1F Sweep Pad 12
+5F 41 20 Sweep Pad 13
+5F 41 21 Sweep Pad 14
+5F 41 22 Sweep Pad 15
+5F 41 23 Sweep Pad 16
+5F 41 24 Sweep Pad 17
+5F 41 25 Chronic Pad
+5F 41 26 Sweep JD
+5F 41 27 SweepNz Pad
+5F 41 28 HPF Pad
+5F 41 29 Iso Pad
+5F 41 2A Reverie Pad
+5F 41 2B PWM Pad 1
+5F 41 2C PWM Pad 2
+5F 41 2D Stack Pad
+5F 41 2E Fanta Synth
+5F 41 2F Deepity
+5F 41 30 Fair Pad
+5F 41 31 Revalation
+5F 41 32 Trance Pad
+5F 41 33 Alan?s Pad
+5F 41 34 Dreamwarp
+5F 41 35 Emote String
+5F 41 36 PortamentPad
+5F 41 37 Cincosoft
+5F 41 38 5th Pad 1
+5F 41 39 5th Pad 2
+5F 41 3A 5th Pad 3
+5F 41 3B Metal Pad
+5F 41 3C Legend Pad
+5F 41 3D GlassFx Pad
+5F 41 3E Glass Forest
+5F 41 3F Jungle-Pool
+5F 41 40 Xadecimal
+5F 41 41 HPF Strings
+5F 41 42 Gate Game
+5F 41 43 Horror Pad
+5F 41 44 PLS Pad 1
+5F 41 45 PLS Pad 2
+5F 41 46 PLS Pad 3
+5F 41 47 PLS Pad 4
+5F 41 48 PLS Pad 5
+5F 41 49 PLS Pad 6
+5F 41 4A PLS Pad 7
+5F 41 4B PLS Pad 8
+5F 41 4C PLS Pad 9
+5F 41 4D PLS Pad 10
+5F 41 4E PLS Pad 11
+5F 41 4F PLS Pad 12
+5F 41 50 PLS Pad 13
+5F 41 51 PLS Pad 14
+5F 41 52 PLS Pad 15
+5F 41 53 PLS Pad 16
+5F 41 54 PLS Strings
+5F 41 55 LFO Hollow
+5F 41 56 Goes A Pad
+5F 41 57 Metal PLS
+5F 41 58 Trip 2 Mars
+5F 41 59 Fist Pumper1
+5F 41 5A Fist Pumper2
+5F 41 5B Pulsatron
+5F 41 5C LFO Poly
+5F 41 5D LFO Saw 1
+5F 41 5E LFO Saw 2
+5F 41 5F Thick Pans
+5F 41 60 LFO Ripple
+5F 41 61 JayMeJay
+5F 41 62 Karmalog
+5F 41 63 MINIM-L
+5F 41 64 Trance Staff
+5F 41 65 Radanceky
+5F 41 66 12303
+5F 41 67 Experiment
+5F 41 68 Pulserelay
+5F 41 69 Jazz Bubbles
+5F 41 6A Psychoscilo
+5F 41 6B PXZoon
+5F 41 6C Welding Bell
+5F 41 6D Glassphemia
+5F 41 6E Strobe Bell
+5F 41 6F Sawflutter
+5F 41 70 Dronified
+5F 41 71 Tri-Vector
+5F 41 72 Syn Vox 1
+5F 41 73 Syn Vox 2
+5F 41 74 Syn Vox 3
+5F 41 75 JD80 SoftVox
+5F 41 76 Valley Air
+5F 41 77 Vox Pad 1
+5F 41 78 Vox Pad 2
+5F 41 79 Vox Pad 3
+5F 41 7A Vox Pad 4
+5F 41 7B Vox Pad 5
+5F 41 7C 5th Vox Pad
+5F 41 7D Moving Chr
+5F 41 7E VP-330 Chr
+5F 41 7F HyperVentChr
+5F 42 00 Vento Choir
+5F 42 01 Scat Dow
+5F 42 02 JP8 Brs 1
+5F 42 03 JP8 Brs 2
+5F 42 04 JP8 Brs 3
+5F 42 05 JP8 Brs 4
+5F 42 06 JP8 Brs 5
+5F 42 07 JP8 Brs 6
+5F 42 08 JUNO Brs 1
+5F 42 09 JUNO Brs 2
+5F 42 0A JUNO Brs 3
+5F 42 0B JUNO Brs 4
+5F 42 0C JUNO Brs 5
+5F 42 0D JUNO Brs 6
+5F 42 0E JUNO Brs 7
+5F 42 0F JUNO Brs 8
+5F 42 10 JUNO Brs 9
+5F 42 11 JUNO Brs 10
+5F 42 12 JP8000 Brs 1
+5F 42 13 JP8000 Brs 2
+5F 42 14 80s Brs 1
+5F 42 15 80s Brs 2
+5F 42 16 80s Brs 3
+5F 42 17 80s Brs 4
+5F 42 18 80s Brs 5
+5F 42 19 80s Brs 6
+5F 42 1A 80s Brs 7
+5F 42 1B 80s Brs 8
+5F 42 1C 80s Brs 9
+5F 42 1D 80s Brs 10
+5F 42 1E 80s Brs 11
+5F 42 1F SynBrs Str
+5F 42 20 Analog Brs 1
+5F 42 21 Analog Brs 2
+5F 42 22 Analog Brs 3
+5F 42 23 Analog Brs 4
+5F 42 24 OB Brs
+5F 42 25 Euro Express
+5F 42 26 Syn Brs 1
+5F 42 27 Syn Brs 2
+5F 42 28 Syn Brs 3
+5F 42 29 Syn Brs 4
+5F 42 2A Syn Brs 5
+5F 42 2B Syn Brs 6
+5F 42 2C Syn Brs 7
+5F 42 2D Syn Brs 8
+5F 42 2E Syn Brs 9
+5F 42 2F Syn Brs 10
+5F 42 30 Syn Brs 11
+5F 42 31 Syn Brs 12
+5F 42 32 Syn Brs 13
+5F 42 33 Soft SynBrs1
+5F 42 34 Soft SynBrs2
+5F 42 35 Soft SynBrs3
+5F 42 36 Soft SynBrs4
+5F 42 37 Soft SynBrs5
+5F 42 38 Dyn SynBrs
+5F 42 39 Quiet Brs
+5F 42 3A Brassrub
+5F 42 3B Poly Brass 1
+5F 42 3C Poly Brass 2
+5F 42 3D Poly Brass 3
+5F 42 3E Poly Brass 4
+5F 42 3F Poly Brass 5
+5F 42 40 Octa Brass
+5F 42 41 Reso Brs 1
+5F 42 42 Reso Brs 2
+5F 42 43 Slow Brs 1
+5F 42 44 Slow Brs 2
+5F 42 45 FM Brass
+5F 42 46 Hybrid Brass
+5F 42 47 Power JP
+5F 42 48 Power SynBrs
+5F 42 49 Love Brs
+5F 42 4A LoveBrs Pad
+5F 42 4B 42 Brass
+5F 42 4C 80sBrsScoop1
+5F 42 4D 80sBrsScoop2
+5F 42 4E ResoSweepBrs
+5F 42 4F Porta Brs
+5F 42 50 Xpand Brs 1
+5F 42 51 Xpand Brs 2
+5F 42 52 Saws Key 1
+5F 42 53 Saws Key 2
+5F 42 54 Saws Key 3
+5F 42 55 Saws Key 4
+5F 42 56 Saws Key 5
+5F 42 57 Saws Key 6
+5F 42 58 Saws Key 7
+5F 42 59 Saws Key 8
+5F 42 5A Saws Key 9
+5F 42 5B Saws Key 10
+5F 42 5C Laserthroat
+5F 42 5D Poly Key 1
+5F 42 5E Poly Key 2
+5F 42 5F Poly Key 3
+5F 42 60 Poly Key 4
+5F 42 61 JP80 WaveSyn
+5F 42 62 Poly Syn 1
+5F 42 63 Poly Syn 2
+5F 42 64 Poly Syn 3
+5F 42 65 Poly Syn 4
+5F 42 66 Poly Syn 5
+5F 42 67 Poly Syn 6
+5F 42 68 Poly Syn 7
+5F 42 69 Poly Syn 8
+5F 42 6A Poly Syn 9
+5F 42 6B Poly Syn 10
+5F 42 6C Poly Syn 11
+5F 42 6D Poly Syn 12
+5F 42 6E Poly Syn 13
+5F 42 6F Poly Syn 14
+5F 42 70 Poly Syn 15
+5F 42 71 Poly Syn 16
+5F 42 72 Poly Syn 17
+5F 42 73 Poly Syn 18
+5F 42 74 Poly Syn 19
+5F 42 75 Poly Syn 20
+5F 42 76 Poly Syn 21
+5F 42 77 Poly Syn 22
+5F 42 78 Poly Syn 23
+5F 42 79 Poly Syn 24
+5F 42 7A Poly Syn 25
+5F 42 7B Poly Syn 26
+5F 42 7C Saw Dtune
+5F 42 7D Jester
+5F 42 7E Fusion Decay
+5F 42 7F Polysubito
+5F 43 00 Wave Scan
+5F 43 01 Wire String
+5F 43 02 Brusky Key
+5F 43 03 Cutter Key
+5F 43 04 PolySyn Atk
+5F 43 05 Harpsitone
+5F 43 06 Digi Key 1
+5F 43 07 Digi Key 2
+5F 43 08 Digi Key 3
+5F 43 09 Digi Key 4
+5F 43 0A Digi Key 5
+5F 43 0B Digi Key 6
+5F 43 0C Digi Poly 1
+5F 43 0D Digi Poly 2
+5F 43 0E Bit Poly 1
+5F 43 0F Bit Poly 2
+5F 43 10 Bit Poly 3
+5F 43 11 Bit Poly 4
+5F 43 12 Bit Poly 5
+5F 43 13 Bit Poly 6
+5F 43 14 Bit Poly 7
+5F 43 15 Bit Poly 8
+5F 43 16 Bit Poly 9
+5F 43 17 Bit Poly 10
+5F 43 18 5th Poly 1
+5F 43 19 5th Poly 2
+5F 43 1A 5th Poly 3
+5F 43 1B Poly Aug 5th
+5F 43 1C 5th Key
+5F 43 1D HPF Poly 1
+5F 43 1E HPF Poly 2
+5F 43 1F BPF Poly 1
+5F 43 20 BPF Poly 2
+5F 43 21 Sweep Poly 1
+5F 43 22 Sweep Poly 2
+5F 43 23 Sweep Poly 3
+5F 43 24 Scoop Poly 1
+5F 43 25 Scoop Poly 2
+5F 43 26 Scoop Poly 3
+5F 43 27 Scoop Poly 4
+5F 43 28 Scoop Poly 5
+5F 43 29 Scoop Poly 6
+5F 43 2A Tekno Poly 1
+5F 43 2B Tekno Poly 2
+5F 43 2C Tekno Poly 3
+5F 43 2D J-Pop Kira 1
+5F 43 2E J-Pop Kira 2
+5F 43 2F Square Poly
+5F 43 30 Slow Poly
+5F 43 31 Vox Poly
+5F 43 32 S-SawPoly 1
+5F 43 33 S-SawPoly 2
+5F 43 34 S-SawPoly 3
+5F 43 35 S-SawPoly 4
+5F 43 36 S-SawPoly 5
+5F 43 37 S-SawPoly 6
+5F 43 38 S-SawPoly 7
+5F 43 39 S-SawPoly 8
+5F 43 3A S-SawPoly 9
+5F 43 3B S-SawPoly 10
+5F 43 3C S-SawPoly 11
+5F 43 3D S-SawPoly 12
+5F 43 3E S-SawPoly 13
+5F 43 3F Trance Key 1
+5F 43 40 Trance Key 2
+5F 43 41 Trance Key 3
+5F 43 42 Trance Key 4
+5F 43 43 Trance Key 5
+5F 43 44 Trance Key 6
+5F 43 45 Delay Reso
+5F 43 46 3Delay Poly
+5F 43 47 JP80 FatPoly
+5F 43 48 Poly Fat
+5F 43 49 Trance Saw
+5F 43 4A SoHo Lucky
+5F 43 4B DLM SUM
+5F 43 4C H@sWillFall
+5F 43 4D A Log 4 Ana
+5F 43 4E Log An A
+5F 43 4F Androdrops
+5F 43 50 Vntg Stack
+5F 43 51 ANORMANALOG
+5F 43 52 Don?t you
+5F 43 53 Nailbiter
+5F 43 54 EinsZweiDry
+5F 43 55 Analog Key 1
+5F 43 56 Analog Key 2
+5F 43 57 Paperclip
+5F 43 58 Sqr Key
+5F 43 59 Tri Key
+5F 43 5A JP-8 PatchF2
+5F 43 5B Fantasy 1
+5F 43 5C Fantasy 2
+5F 43 5D Fantasy 3
+5F 43 5E Fantasy 4
+5F 43 5F Fantasy 5
+5F 43 60 Fantasy Pad
+5F 43 61 What Key!
+5F 43 62 EP-Cool Pad
+5F 43 63 D50 Stack
+5F 43 64 D-52 Babe
+5F 43 65 Dreaming 1
+5F 43 66 Dreaming 2
+5F 43 67 Dreaming 3
+5F 43 68 Dreaming 4
+5F 43 69 Dreaming 5
+5F 43 6A Dreaming 6
+5F 43 6B Dreaming 7
+5F 43 6C Dreambell
+5F 43 6D DreamingBox
+5F 43 6E New Jupiter
+5F 43 6F Analog Dream
+5F 43 70 Huge MIDI 1
+5F 43 71 Huge MIDI 2
+5F 43 72 Huge MIDI 3
+5F 43 73 MIDI Key
+5F 43 74 Pipe Key
+5F 43 75 Vox Key
+5F 43 76 Magichand
+5F 43 77 AnalogBell 1
+5F 43 78 AnalogBell 2
+5F 43 79 AnalogBell 3
+5F 43 7A AnalogBell 4
+5F 43 7B Synth Sniper
+5F 43 7C Temper Bell
+5F 43 7D Icycle
+5F 43 7E Pipe Chatter
+5F 43 7F Spring Wind
+5F 44 00 JP80 SynHarp
+5F 44 01 Bell 1
+5F 44 02 Bell 2
+5F 44 03 Bell 3
+5F 44 04 Bell 4
+5F 44 05 Bell 5
+5F 44 06 Bell 6
+5F 44 07 Bell 7
+5F 44 08 Bell 8
+5F 44 09 Bell 9
+5F 44 0A Bell 10
+5F 44 0B Bell 11
+5F 44 0C Bell 12
+5F 44 0D Bell 13
+5F 44 0E Bell 14
+5F 44 0F Bell 15
+5F 44 10 Bell 16
+5F 44 11 Bell 17
+5F 44 12 Bell 18
+5F 44 13 Bell 19
+5F 44 14 Bell 20
+5F 44 15 Bell 21
+5F 44 16 Bell 22
+5F 44 17 Tower Bell
+5F 44 18 Tubular Bell
+5F 44 19 OrganBell 1
+5F 44 1A OrganBell 2
+5F 44 1B OrganBell 3
+5F 44 1C Kalimbell
+5F 44 1D JP80 Bell
+5F 44 1E Glass Amb
+5F 44 1F Digi Crystal
+5F 44 20 Icy Keys
+5F 44 21 JP-8 PatchH1
+5F 44 22 SEQ 1
+5F 44 23 SEQ 2
+5F 44 24 SEQ 3
+5F 44 25 SEQ 4
+5F 44 26 SEQ 5
+5F 44 27 SEQ 6
+5F 44 28 SEQ 7
+5F 44 29 SEQ 8
+5F 44 2A SEQ 9
+5F 44 2B SEQ 10
+5F 44 2C SEQ 11
+5F 44 2D SEQ 12
+5F 44 2E SEQ 13
+5F 44 2F SEQ 14
+5F 44 30 SEQ 15
+5F 44 31 SEQ 16
+5F 44 32 SEQ 17
+5F 44 33 SEQ 18
+5F 44 34 SEQ 19
+5F 44 35 SEQ 20
+5F 44 36 SEQ 21
+5F 44 37 SEQ 22
+5F 44 38 SEQ 23
+5F 44 39 SEQ 24
+5F 44 3A SEQ 25
+5F 44 3B SEQ 26
+5F 44 3C SEQ 27
+5F 44 3D SEQ 28
+5F 44 3E SEQ 29
+5F 44 3F SEQ 30
+5F 44 40 SEQ 31
+5F 44 41 SEQ 32
+5F 44 42 SEQ 33
+5F 44 43 SEQ 34
+5F 44 44 SEQ 35
+5F 44 45 SEQ 36
+5F 44 46 SEQ 37
+5F 44 47 SEQ 38
+5F 44 48 SEQ 39
+5F 44 49 Stubby Mono
+5F 44 4A Scrt Decay
+5F 44 4B R&B Bs 1
+5F 44 4C R&B Bs 2
+5F 44 4D R&B Bs 3
+5F 44 4E R&B Bs 4
+5F 44 4F R&B Bs 5
+5F 44 50 R&B Bs 6
+5F 44 51 R&B Bs 7
+5F 44 52 R&B Bs 8
+5F 44 53 R&B Bs 9
+5F 44 54 MG Bs 1
+5F 44 55 MG Bs 2
+5F 44 56 MG Bs 3
+5F 44 57 MG Bs 4
+5F 44 58 MG Bs 5
+5F 44 59 MG Bs 6
+5F 44 5A MG Bs 7
+5F 44 5B MG Bs 8
+5F 44 5C MG Bs 9
+5F 44 5D MG Bs 10
+5F 44 5E MG Bs 11
+5F 44 5F MG Bs 12
+5F 44 60 MG Bs 13
+5F 44 61 MG Bs 14
+5F 44 62 MG Bs 15
+5F 44 63 MG Bs 16
+5F 44 64 MG Bs 17
+5F 44 65 MG Bs 18
+5F 44 66 MG Bs 19
+5F 44 67 MG Bs 20
+5F 44 68 MG Bs 21
+5F 44 69 MG Bs 22
+5F 44 6A MG Bs 23
+5F 44 6B MG Bs 24
+5F 44 6C MG Bs 25
+5F 44 6D MG Bs 26
+5F 44 6E Thickness Bs
+5F 44 6F Plastic Bs
+5F 44 70 Alpha Bs 1
+5F 44 71 Alpha Bs 2
+5F 44 72 Alpha Bs 3
+5F 44 73 Flat6Bs
+5F 44 74 Decay Bs 1
+5F 44 75 Decay Bs 2
+5F 44 76 Decay Bs 3
+5F 44 77 Decay Bs 4
+5F 44 78 106 Bass 1
+5F 44 79 106 Bass 2
+5F 44 7A 106 Bass 3
+5F 44 7B 106 Bass 4
+5F 44 7C 106 Bass 5
+5F 44 7D Breakdown Bs
+5F 44 7E Dopebass
+5F 44 7F MC202 Bs 1
+5F 45 00 MC202 Bs 2
+5F 45 01 Pulse Bs 1
+5F 45 02 Pulse Bs 2
+5F 45 03 Pulse Bs 3
+5F 45 04 Pulse Bs 4
+5F 45 05 FM Bs 1
+5F 45 06 FM Bs 2
+5F 45 07 JP Bs
+5F 45 08 Compu Bass 1
+5F 45 09 Compu Bass 2
+5F 45 0A Detune Bs 1
+5F 45 0B Detune Bs 2
+5F 45 0C Detune Bs 3
+5F 45 0D Detune Bs 4
+5F 45 0E Intrusive Bs
+5F 45 0F SH-101 Bs 1
+5F 45 10 SH-101 Bs 2
+5F 45 11 Sweep Bs 1
+5F 45 12 Sweep Bs 2
+5F 45 13 Sweep Bs 3
+5F 45 14 Sweep Bs 4
+5F 45 15 Sweep Bs 5
+5F 45 16 Sweep Bs 6
+5F 45 17 Sweep Bs 7
+5F 45 18 Rubbertouch
+5F 45 19 P5 Bs 1
+5F 45 1A P5 Bs 2
+5F 45 1B P5 Bs 3
+5F 45 1C P5 Bs 4
+5F 45 1D P5 Bs 5
+5F 45 1E Juno60 Bs
+5F 45 1F D-50 Bs
+5F 45 20 MKS-50 Bs
+5F 45 21 Wide Bs 1
+5F 45 22 Wide Bs 2
+5F 45 23 Wide Bs 3
+5F 45 24 Wide Bs 4
+5F 45 25 BASSH 10
+5F 45 26 Chow Bs 1
+5F 45 27 Chow Bs 2
+5F 45 28 House Bs
+5F 45 29 JP-4 Bs
+5F 45 2A SH Square Bs
+5F 45 2B JunoSqr Bs 1
+5F 45 2C JunoSqr Bs 2
+5F 45 2D TB Bass 1
+5F 45 2E TB Bass 2
+5F 45 2F TB Dist Bs 1
+5F 45 30 TB Dist Bs 2
+5F 45 31 Agresso Bass
+5F 45 32 Show Me Low
+5F 45 33 Organ Bs
+5F 45 34 Muffled Bass
+5F 45 35 Garage Bs 1
+5F 45 36 Garage Bs 2
+5F 45 37 Low Bs 1
+5F 45 38 Low Bs 2
+5F 45 39 Low Bs 3
+5F 45 3A Low Bs 4
+5F 45 3B Low Bs 5
+5F 45 3C Low Bs 6
+5F 45 3D Tri Bass 1
+5F 45 3E Tri Bass 2
+5F 45 3F Fat Analog 1
+5F 45 40 Fat Analog 2
+5F 45 41 Reso Bs 1
+5F 45 42 Reso Bs 2
+5F 45 43 Reso Bs 3
+5F 45 44 Reso Bs 4
+5F 45 45 Reso Bs 5
+5F 45 46 Reso Bs 6
+5F 45 47 Reso Bs 7
+5F 45 48 Reso Bs 8
+5F 45 49 Reso Bs 9
+5F 45 4A Reso Bs 10
+5F 45 4B Reso Bs 11
+5F 45 4C Reso Bs 12
+5F 45 4D Reso Bs 13
+5F 45 4E Reso Bs 14
+5F 45 4F Reso Bs 15
+5F 45 50 Reso Bs 16
+5F 45 51 Reso Bs 17
+5F 45 52 Reso Bs 18
+5F 45 53 Reso Bs 19
+5F 45 54 Reso Bs 20
+5F 45 55 Reso Bs 21
+5F 45 56 Reso Bs 22
+5F 45 57 Reso Bs 23
+5F 45 58 Reso Bs 24
+5F 45 59 Camblast
+5F 45 5A LA SynBs
+5F 45 5B Fat SynBs
+5F 45 5C Syn Bs 1
+5F 45 5D Syn Bs 2
+5F 45 5E Syn Bs 3
+5F 45 5F Rubber Bs 1
+5F 45 60 Rubber Bs 2
+5F 45 61 Dynamic Bs 1
+5F 45 62 Dynamic Bs 2
+5F 45 63 Round Bs
+5F 45 64 Acid Bs 1
+5F 45 65 Acid Bs 2
+5F 45 66 Acid Bs 3
+5F 45 67 Acid Bs 4
+5F 45 68 Acid Bs 5
+5F 45 69 Acid Bs 6
+5F 45 6A Spike Bs 1
+5F 45 6B Spike Bs 2
+5F 45 6C H&S Bass
+5F 45 6D Short Bs 1
+5F 45 6E Short Bs 2
+5F 45 6F Short Bs 3
+5F 45 70 HH Bs 1
+5F 45 71 HH Bs 2
+5F 45 72 HH Bs 3
+5F 45 73 HH Bs 4
+5F 45 74 HH Bs 5
+5F 45 75 HH Bs 6
+5F 45 76 Arpaccio
+5F 45 77 Carmelcorn
+5F 45 78 NoiseBs
+5F 45 79 Soft Bs
+5F 45 7A Slow Bs
+5F 45 7B Square Bs 1
+5F 45 7C Square Bs 2
+5F 45 7D Square Bs 3
+5F 45 7E Square Bs 4
+5F 45 7F Squaresville
+5F 46 00 PWM Bass 1
+5F 46 01 PWM Bass 2
+5F 46 02 Modular Bs 1
+5F 46 03 Modular Bs 2
+5F 46 04 Modular Bs 3
+5F 46 05 Modular Bs 4
+5F 46 06 Modular Bs 5
+5F 46 07 Modular Bs 6
+5F 46 08 Unison Bs 1
+5F 46 09 Unison Bs 2
+5F 46 0A Unison Bs 3
+5F 46 0B Unison Bs 4
+5F 46 0C Monster Bs 1
+5F 46 0D Monster Bs 2
+5F 46 0E Monster Bs 3
+5F 46 0F Monster Bs 4
+5F 46 10 Monster Bs 5
+5F 46 11 Monster Bs 6
+5F 46 12 Monster Bs 7
+5F 46 13 Monster Bs 8
+5F 46 14 Bit Bs 1
+5F 46 15 Bit Bs 2
+5F 46 16 Bit Bs 3
+5F 46 17 Bit Bs 4
+5F 46 18 SuperSawBs 1
+5F 46 19 SuperSawBs 2
+5F 46 1A SuperSawBs 3
+5F 46 1B SuperSawBs 4
+5F 46 1C SuperSawBs 5
+5F 46 1D Sync Bs 1
+5F 46 1E Sync Bs 2
+5F 46 1F Sync Bs 3
+5F 46 20 Sync Bs 4
+5F 46 21 SubOSC Bs 1
+5F 46 22 SubOSC Bs 2
+5F 46 23 Ramp Bs
+5F 46 24 LFO Bs 1
+5F 46 25 LFO Bs 2
+5F 46 26 LFO Bs 3
+5F 46 27 LFO Bs 4
+5F 46 28 Crackbass
+5F 46 29 Basschunk
+5F 46 2A Hi-Energy Bs
+5F 46 2B Saw Lead 1
+5F 46 2C Saw Lead 2
+5F 46 2D Saw Lead 3
+5F 46 2E Saw Lead 4
+5F 46 2F Saw Lead 5
+5F 46 30 Saw Lead 6
+5F 46 31 Saw Lead 7
+5F 46 32 Saw Lead 8
+5F 46 33 Saw Lead 9
+5F 46 34 Saw Lead 10
+5F 46 35 Saw Lead 11
+5F 46 36 Saw Lead 12
+5F 46 37 Saw Lead 13
+5F 46 38 Saw Lead 14
+5F 46 39 Saw Lead 15
+5F 46 3A Saw Lead 16
+5F 46 3B Saw Lead 17
+5F 46 3C Saw Lead 18
+5F 46 3D Saw Lead 19
+5F 46 3E Saw Lead 20
+5F 46 3F Saw Lead 21
+5F 46 40 Saw Lead 22
+5F 46 41 Saw Lead 23
+5F 46 42 Saw Lead 24
+5F 46 43 Saw Lead 25
+5F 46 44 Saw Lead 26
+5F 46 45 Saw Lead 27
+5F 46 46 Saw Lead 28
+5F 46 47 Saw Lead 29
+5F 46 48 Saw Lead 30
+5F 46 49 Saw Lead 31
+5F 46 4A Saw Lead 32
+5F 46 4B Saw Lead 33
+5F 46 4C Saw Lead 34
+5F 46 4D Saw Lead 35
+5F 46 4E Saw Lead 36
+5F 46 4F Saw Lead 37
+5F 46 50 Saw Lead 38
+5F 46 51 Saw Lead 39
+5F 46 52 Saw Lead 40
+5F 46 53 Saw Lead 41
+5F 46 54 Saw Lead 42
+5F 46 55 Saw Lead 43
+5F 46 56 Saw Lead 44
+5F 46 57 Saw Lead 45
+5F 46 58 CC Saw Ld 1
+5F 46 59 CC Saw Ld 2
+5F 46 5A CC Saw Ld 3
+5F 46 5B CC Saw Ld 4
+5F 46 5C CC Saw Ld 5
+5F 46 5D Bad Axe
+5F 46 5E Buzz Cut
+5F 46 5F Cutting Lead
+5F 46 60 Fat GR Lead
+5F 46 61 Bright Pls
+5F 46 62 Juicy JP
+5F 46 63 Abakababra
+5F 46 64 Crossfire
+5F 46 65 Borrowed
+5F 46 66 PulstarLd 1
+5F 46 67 PulstarLd 2
+5F 46 68 Dirty Saw Ld
+5F 46 69 Leadership
+5F 46 6A Ripping Mini
+5F 46 6B Love Lead
+5F 46 6C EQ Lead 1
+5F 46 6D EQ Lead 2
+5F 46 6E Stn MG Lead
+5F 46 6F Octa Juice
+5F 46 70 CR Lead
+5F 46 71 Hip Lead
+5F 46 72 Chubby Lead
+5F 46 73 Super Saws
+5F 46 74 NuWave
+5F 46 75 Flangepig
+5F 46 76 Bodyart
+5F 46 77 Buzz Synth
+5F 46 78 Hard Synth
+5F 46 79 Dance Saw 1
+5F 46 7A Dance Saw 2
+5F 46 7B Funky Lead
+5F 46 7C WaveShape Ld
+5F 46 7D Synchro Lead
+5F 46 7E LFO Saw Ld
+5F 46 7F Juno Soft Ld
+5F 47 00 Oct Lead
+5F 47 01 Slow Lead 1
+5F 47 02 Slow Lead 2
+5F 47 03 Slow Lead 3
+5F 47 04 Slow Lead 4
+5F 47 05 Slow Lead 5
+5F 47 06 Slow Lead 6
+5F 47 07 Slow Lead 7
+5F 47 08 Slow Lead 8
+5F 47 09 Slow Lead 9
+5F 47 0A Slow Lead 10
+5F 47 0B Slow Lead 11
+5F 47 0C Slow Lead 12
+5F 47 0D AnaVox Ld 1
+5F 47 0E AnaVox Ld 2
+5F 47 0F AnaVox Ld 3
+5F 47 10 AnaVox Ld 4
+5F 47 11 Pulse Lead 1
+5F 47 12 Pulse Lead 2
+5F 47 13 Pulse Lead 3
+5F 47 14 BellSaw Ld 1
+5F 47 15 BellSaw Ld 2
+5F 47 16 Bell Lead 1
+5F 47 17 Bell Lead 2
+5F 47 18 Bell Lead 3
+5F 47 19 Dig n D
+5F 47 1A Juicy Lead 1
+5F 47 1B Juicy Lead 2
+5F 47 1C Portament Ld
+5F 47 1D Reso Juno
+5F 47 1E Air Lead 1
+5F 47 1F Air Lead 2
+5F 47 20 Reso Pulser
+5F 47 21 Growl Lead
+5F 47 22 Vintager 1
+5F 47 23 Vintager 2
+5F 47 24 Vintager 3
+5F 47 25 SuperSaw Ld
+5F 47 26 5th SawLead1
+5F 47 27 5th SawLead2
+5F 47 28 Simple Sqr
+5F 47 29 Round Sqr 1
+5F 47 2A Round Sqr 2
+5F 47 2B Square Ld 1
+5F 47 2C Square Ld 2
+5F 47 2D Square Ld 3
+5F 47 2E Square Ld 4
+5F 47 2F Square Ld 5
+5F 47 30 Square Ld 6
+5F 47 31 Square Ld 7
+5F 47 32 Square Ld 8
+5F 47 33 Square Ld 9
+5F 47 34 Square Ld 10
+5F 47 35 Square Ld 11
+5F 47 36 Square Ld 12
+5F 47 37 Square Ld 13
+5F 47 38 Square Ld 14
+5F 47 39 Square Ld 15
+5F 47 3A Squareoff
+5F 47 3B Brite Sqr 1
+5F 47 3C Brite Sqr 2
+5F 47 3D Brite Sqr 3
+5F 47 3E Cpt McSquare
+5F 47 3F Tekno Sqr
+5F 47 40 Octa Square
+5F 47 41 Pure Square
+5F 47 42 SynOcarina 1
+5F 47 43 SynOcarina 2
+5F 47 44 SynOcarina 3
+5F 47 45 Crawler
+5F 47 46 OB Lead 1
+5F 47 47 OB Lead 2
+5F 47 48 Tri Lead 1
+5F 47 49 Tri Lead 2
+5F 47 4A Tri Lead 3
+5F 47 4B Tri Lead 4
+5F 47 4C Softy Lead
+5F 47 4D Sine Lead 1
+5F 47 4E Sine Lead 2
+5F 47 4F Sine Lead 3
+5F 47 50 Sine Lead 4
+5F 47 51 Sine Lead 5
+5F 47 52 OSC-SyncLd 1
+5F 47 53 OSC-SyncLd 2
+5F 47 54 OSC-SyncLd 3
+5F 47 55 OSC-SyncLd 4
+5F 47 56 OSC-SyncLd 5
+5F 47 57 OSC-SyncLd 6
+5F 47 58 OSC-SyncLd 7
+5F 47 59 OSC-SyncLd 8
+5F 47 5A Disturb Sync
+5F 47 5B Digi Lead 1
+5F 47 5C Digi Lead 2
+5F 47 5D Waspy Lead
+5F 47 5E Stitcher
+5F 47 5F Sweet 5th 1
+5F 47 60 Sweet 5th 2
+5F 47 61 SoloNzPeaker
+5F 47 62 Release Ld
+5F 47 63 Syn Lead 1
+5F 47 64 Syn Lead 2
+5F 47 65 Syn Lead 3
+5F 47 66 Syn Lead 4
+5F 47 67 Syn Lead 5
+5F 47 68 Syn Lead 6
+5F 47 69 Syn Lead 7
+5F 47 6A Syn Lead 8
+5F 47 6B Syn Lead 9
+5F 47 6C Syn Lead 10
+5F 47 6D Syn Lead 11
+5F 47 6E Tekno Ld 1
+5F 47 6F Tekno Ld 2
+5F 47 70 Tekno Ld 3
+5F 47 71 Tekno Ld 4
+5F 47 72 Tekno Ld 5
+5F 47 73 Tekno Ld 6
+5F 47 74 Tekno Ld 7
+5F 47 75 Tekno Ld 8
+5F 47 76 Tekno Ld 9
+5F 47 77 Tekno Ld 10
+5F 47 78 Tekno Ld 11
+5F 47 79 Tekno Ld 12
+5F 47 7A Tekno Ld 13
+5F 47 7B Tekno Ld 14
+5F 47 7C Tekno Ld 15
+5F 47 7D Tekno Ld 16
+5F 47 7E Tekno Ld 17
+5F 47 7F Tekno Ld 18
+5F 48 00 Tekno Ld 19
+5F 48 01 Tekno Ld 20
+5F 48 02 Tekno Ld 21
+5F 48 03 Tekno Ld 22
+5F 48 04 Tekno Ld 23
+5F 48 05 Tekno Ld 24
+5F 48 06 Tekno Ld 25
+5F 48 07 Tekno Ld 26
+5F 48 08 Tekno Ld 27
+5F 48 09 Tekno Ld 28
+5F 48 0A Tekno Ld 29
+5F 48 0B Tekno Ld 30
+5F 48 0C Tekno Ld 31
+5F 48 0D Tekno Ld 32
+5F 48 0E Tekno Ld 33
+5F 48 0F Tekno Ld 34
+5F 48 10 Tekno Ld 35
+5F 48 11 Tekno Ld 36
+5F 48 12 JP80 Ring-80
+5F 48 13 Distroubled
+5F 48 14 Hover Dive 1
+5F 48 15 Hover Dive 2
+5F 48 16 OhWowWow
+5F 48 17 Broken Lead
+5F 48 18 FX 1
+5F 48 19 FX 2
+5F 48 1A FX 3
+5F 48 1B FX 4
+5F 48 1C FX 5
+5F 48 1D FX 6
+5F 48 1E FX 7
+5F 48 1F FX 8
+5F 48 20 FX 9
+5F 48 21 FX 10
+5F 48 22 FX 11
+5F 48 23 FX 12
+5F 48 24 FX 13
+5F 48 25 FX 14
+5F 48 26 FX 15
+5F 48 27 FX 16
+5F 48 28 FX 17
+5F 48 29 FX 18
+5F 48 2A FX 19
+5F 48 2B FX 20
+5F 48 2C FX 21
+5F 48 2D FX 22
+5F 48 2E FX 23
+5F 48 2F FX 24
+5F 48 30 FX 25
+5F 48 31 Zapper
+5F 48 32 Sci-Fi Sweep
+5F 48 33 War Drum
+5F 48 34 Vox FX
+5F 48 35 Atomspheric
+5F 48 36 Angry Words
+5F 48 37 F6 = Critter
+5F 48 38 FreeJazz
+5F 48 39 FM EP 1
+5F 48 3A FM EP 2
+5F 48 3B FM EP 3
+5F 48 3C FM EP 4
+5F 48 3D FM EP 5
+5F 48 3E FM EP 6
+5F 48 3F FM EPhaser
+5F 48 40 EP Belle
+5F 48 41 80?s EP
+5F 48 42 Spirit Tine
+5F 48 43 70?s E .Org 1
+5F 48 44 70?s E .Org 2
+5F 48 45 Theater 1
+5F 48 46 Theater 2
+5F 48 47 Theater 3
+5F 48 48 Pulse Clav
+5F 48 49 Toy Box 1
+5F 48 4A Toy Box 2
+5F 48 4B Ethno Keys
+5F 48 4C Mood String
+5F 48 4D Orch Hit
+5F 48 4E Philly Hit 1
+5F 48 4F Philly Hit 2
+5F 48 50 Philly Hit 3
+5F 48 51 Philly Hit 4
+5F 48 52 House Hit 1
+5F 48 53 House Hit 2
+5F 48 54 LoFi Hit
+60 00 00 Standard 1
+60 00 01 Standard 2
+60 00 02 Standard 3
+60 00 03 Rock Kit
+60 00 04 Jazz Kit
+60 00 05 Brush Kit
+60 00 06 TR-808
+60 00 07 TR-909
+60 00 08 CR-78
+60 00 09 TR-606
+60 00 0A TR-707
+60 00 0B Machine Kit
+60 00 0C R&B T-Analog
+60 00 0D R&B Mini Kit
+60 00 0E HipHop Kit
+60 00 0F R&B Kit
+60 00 10 Dance Kit 1
+60 00 11 Dance Kit 2
+60 00 12 Dance Kit 3
+61 00 00 St .Piano 1
+61 00 01 St .Piano 2
+61 00 02 St .Piano 3
+61 00 03 St .Piano 4
+61 00 04 St .Piano 5
+61 00 05 St .Piano 6
+61 00 06 JD Piano
+61 00 07 Stage Piano
+61 00 08 Honky-tonk 2
+61 00 09 Pop Piano 1
+61 00 0A Pop Piano 2
+61 00 0B Pop Piano 3
+61 00 0C Stage EP 1
+61 00 0D Stage EP 2
+61 00 0E Stage EP Trm
+61 00 0F Tremolo EP 1
+61 00 10 E .Piano 3
+61 00 11 E .Piano 4
+61 00 12 E .Piano 5
+61 00 13 E .Piano 6
+61 00 14 E .Piano 7
+61 00 15 E .Piano 8
+61 00 16 Dyno EP
+61 00 17 Dyno EP Trm
+61 00 18 Tremolo EP 2
+61 00 19 Back2the60s
+61 00 1A Tine EP
+61 00 1B SA EP 1
+61 00 1C SA EP 2
+61 00 1D Psy EP
+61 00 1E Wurly EP
+61 00 1F Wurly EP Trm
+61 00 20 Curly Wurly
+61 00 21 Super Wurly
+61 00 22 EP Legend 3
+61 00 23 EP Belle
+61 00 24 80?s EP
+61 00 25 FM EP 1
+61 00 26 FM EP 2
+61 00 27 Sinus EP
+61 00 28 Spirit Tines
+61 00 29 Harpsichord2
+61 00 2A Clav 2
+61 00 2B Pulse Clav 2
+61 00 2C Pulse Clav 3
+61 00 2D Sweepin Clav
+61 00 2E Analog Clav
+61 00 2F Biting Clav
+61 00 30 Pulse Clv St
+61 00 31 Bell 1
+61 00 32 Bell 2
+61 00 33 Fantasy 1
+61 00 34 Fantasy 2
+61 00 35 D50 Fantasy
+61 00 36 D50 Bell
+61 00 37 Dreambell
+61 00 38 Dreaming Box
+61 00 39 Dreaming Bel
+61 00 3A Music Box 2
+61 00 3B Bell 3
+61 00 3C Bell 4
+61 00 3D Music Bells
+61 00 3E Kalimbells
+61 00 3F Org Bell
+61 00 40 Toy Box
+61 00 41 Soft Bell
+61 00 42 Analog Bell
+61 00 43 Carillon 2
+61 00 44 Tower Bell
+61 00 45 Bell Ring
+61 00 46 TubularBell2
+61 00 47 Vibraphone 2
+61 00 48 VibraphoneTr
+61 00 49 Jazz Vib
+61 00 4A BsMarimba 1
+61 00 4B BsMarimba 2
+61 00 4C Xylophone 2
+61 00 4D Xylophone 3
+61 00 4E Ethno Keys
+61 00 4F Steel Drums2
+61 00 50 Soft StlDrm
+61 00 51 Sine Mallet
+61 00 52 Rock Organ 1
+61 00 53 Rock Organ 2
+61 00 54 Rock Organ 3
+61 00 55 Rock Organ 4
+61 00 56 Rock Organ 5
+61 00 57 RotaryOrgan1
+61 00 58 RotaryOrgan2
+61 00 59 Perc .Organ 2
+61 00 5A Perc .Organ 3
+61 00 5B Perc .Organ 4
+61 00 5C E .Organ 1
+61 00 5D E .Organ 2
+61 00 5E E .Organ 3
+61 00 5F E .Organ 4
+61 00 60 E .Organ 5
+61 00 61 E .Organ 6
+61 00 62 E .Organ 7
+61 00 63 70?s E .Org 1
+61 00 64 70?s E .Org 2
+61 00 65 Grand Pipes
+61 00 66 Ana Organ 1
+61 00 67 Ana Organ 2
+61 00 68 Ana Organ 3
+61 00 69 Ana Organ 4
+61 00 6A Ana Organ 5
+61 00 6B AccordionIt2
+61 00 6C Musette
+61 00 6D Vodkakordion
+61 00 6E Nylon Gtr 3
+61 00 6F Nylon Gtr 4
+61 00 70 Folk Gtr 1
+61 00 71 Folk Gtr 2
+61 00 72 Folk Gtr 3
+61 00 73 Latin Gtr
+61 00 74 Aerial Harp
+61 00 75 LostParadise
+61 00 76 Indian Frtls
+61 00 77 Sitar 3
+61 00 78 Santur 2
+61 00 79 Santur 3
+61 00 7A Clean Gtr 2
+61 00 7B Clean Gtr 3
+61 00 7C Clean Gtr 4
+61 00 7D Jazz Guitar2
+61 00 7E Pick E .Gtr
+61 00 7F Funk Guitar2
+61 01 00 Wet E .Gtr
+61 01 01 Pedal Steel2
+61 01 02 OverdriveGt2
+61 01 03 Dist Gtr 1
+61 01 04 Dist Gtr 2
+61 01 05 Dist Gtr 3
+61 01 06 Acoustic Bs2
+61 01 07 Fretless Bs2
+61 01 08 Finger Slap2
+61 01 09 Return2Base!
+61 01 0A R&B Bass 1
+61 01 0B R&B Bass 2
+61 01 0C R&B Bass 3
+61 01 0D R&B Bass 4
+61 01 0E R&B Bass 5
+61 01 0F R&B Bass 6
+61 01 10 MG Bass 1
+61 01 11 MG Bass 2
+61 01 12 MG Bass 3
+61 01 13 MG Bass 4
+61 01 14 MG Bass 5
+61 01 15 MG Bass 6
+61 01 16 MG Bass 7
+61 01 17 106 Bass 1
+61 01 18 Synth Bass 3
+61 01 19 Synth Bass 4
+61 01 1A MC202 Bass
+61 01 1B Pulse Bass
+61 01 1C Pedal Bass 1
+61 01 1D Pedal Bass 2
+61 01 1E Alpha Bass 1
+61 01 1F P5 Bass
+61 01 20 Modular Bs 1
+61 01 21 Modular Bs 2
+61 01 22 Modular Bs 3
+61 01 23 Synth Bass 5
+61 01 24 Intrusive Bs
+61 01 25 Reso Bass 1
+61 01 26 Reso Bass 2
+61 01 27 Reso Bass 3
+61 01 28 Reso Bass 4
+61 01 29 Reso Bass 5
+61 01 2A Rubber Bass2
+61 01 2B Reso Bass 6
+61 01 2C Reso Bass 7
+61 01 2D Reso Bass 8
+61 01 2E TB Bass 3
+61 01 2F Acid Bass 2
+61 01 30 Acid Bass 3
+61 01 31 Acid Bass 4
+61 01 32 Alpha Bass 2
+61 01 33 Alpha ResoBs
+61 01 34 Monster Bs 1
+61 01 35 Nu Saw Bass
+61 01 36 Nu RnB SawBs
+61 01 37 Monster Bs 2
+61 01 38 JunoSqr Bs 1
+61 01 39 JunoSqr Bs 2
+61 01 3A 106 Bass 2
+61 01 3B Compu Bass 1
+61 01 3C Compu Bass 2
+61 01 3D Muffled Bass
+61 01 3E Garage Bass
+61 01 3F Sub Bass
+61 01 40 Flat Bass
+61 01 41 Brite Bass
+61 01 42 Pedal Bass 3
+61 01 43 Reso Bass 9
+61 01 44 Reso Bass10
+61 01 45 Ramp Bass
+61 01 46 Fat Bass
+61 01 47 80?s Bass
+61 01 48 TB Bass 1
+61 01 49 TB Bass 2
+61 01 4A Mood Strings
+61 01 4B Hall Strings
+61 01 4C Strings 2
+61 01 4D Strings 3
+61 01 4E Strings 4
+61 01 4F Strings 5
+61 01 50 Strings 6
+61 01 51 Stage Str 1
+61 01 52 Stage Str 2
+61 01 53 Pop Strings
+61 01 54 Hybrid Str
+61 01 55 Marc .Str
+61 01 56 StringsStacc
+61 01 57 Pizz 1
+61 01 58 Pizz 2
+61 01 59 TapeStrings1
+61 01 5A TapeStrings2
+61 01 5B VintageStr 8
+61 01 5C Orc .Unison 1
+61 01 5D Orc .Unison 2
+61 01 5E Full Orc
+61 01 5F Cheezy Movie
+61 01 60 Housechord
+61 01 61 Pan Flute 2
+61 01 62 Pan Pipes
+61 01 63 Ocarina 2
+61 01 64 Trumpet 2
+61 01 65 Romantic Tp
+61 01 66 Soprano Sax2
+61 01 67 BreathyTenor
+61 01 68 Tenor Sax 2
+61 01 69 Brass 3
+61 01 6A Brass 4
+61 01 6B Brass 5
+61 01 6C Brass 6
+61 01 6D JP8 Brass 1
+61 01 6E JP8 Brass 2
+61 01 6F JP8 Brass 3
+61 01 70 JP8 Brass 4
+61 01 71 80?s Brass 1
+61 01 72 80?s Brass 2
+61 01 73 JP8 Brass 5
+61 01 74 Soft SynBrs1
+61 01 75 Soft SynBrs2
+61 01 76 Soft SynBrs3
+61 01 77 Reso Brass
+61 01 78 Juno Brass
+61 01 79 FM Brass
+61 01 7A 80?s Brass 3
+61 01 7B 80?s Brass 4
+61 01 7C 80?s Brass 5
+61 01 7D 80?s Brass 6
+61 01 7E 80?s Brass 7
+61 01 7F 80?s Brass 8
+61 02 00 80?s Brass 9
+61 02 01 80?s Brass10
+61 02 02 JP Brass 2
+61 02 03 Warm SynBrs
+61 02 04 Brite SynBrs
+61 02 05 Express Brs
+61 02 06 EuroExpress1
+61 02 07 JP Brass 1
+61 02 08 Ox Brass
+61 02 09 Wide SynBrs
+61 02 0A 106 Brass
+61 02 0B Poly Brass 1
+61 02 0C Poly Brass 2
+61 02 0D Dual Saw Brs
+61 02 0E VintageBrs 1
+61 02 0F VintageBrs 2
+61 02 10 Saw Lead 1
+61 02 11 Saw Lead 2
+61 02 12 Saw Lead 3
+61 02 13 Saw Lead 4
+61 02 14 Saw Lead 5
+61 02 15 Saw Lead 6
+61 02 16 Saw Lead 7
+61 02 17 Saw Lead 8
+61 02 18 Ana Vox Lead
+61 02 19 BellSaw Lead
+61 02 1A OSC-Sync
+61 02 1B Digi Lead
+61 02 1C EQ Lead
+61 02 1D Saw Lead 9
+61 02 1E Saw Lead 10
+61 02 1F Saw Lead 11
+61 02 20 Saw Lead 12
+61 02 21 Saw Lead 13
+61 02 22 Saw Lead 14
+61 02 23 Classic GR
+61 02 24 Bright GR
+61 02 25 Pro Fat Ld 1
+61 02 26 Fat GR Lead
+61 02 27 MODified Ld
+61 02 28 JupiterLead1
+61 02 29 JupiterLead2
+61 02 2A Saw Lead 15
+61 02 2B Classic Lead
+61 02 2C On Air
+61 02 2D Pro Fat Ld 2
+61 02 2E Ramp Lead
+61 02 2F Wormy Lead
+61 02 30 Waspy Lead
+61 02 31 Brass Lead
+61 02 32 Legato Tkno
+61 02 33 Follow Me
+61 02 34 Octa Juice
+61 02 35 Octa Saw
+61 02 36 Octa Sync
+61 02 37 Leading Sync
+61 02 38 Sync Lead
+61 02 39 A Leader
+61 02 3A Alpha Spit
+61 02 3B Air Lead
+61 02 3C Pulstar Lead
+61 02 3D Therasaw
+61 02 3E Juicy Lead
+61 02 3F Resoform
+61 02 40 Reso Saw
+61 02 41 Detune Ramp
+61 02 42 Sweep Saw
+61 02 43 Bell Lead
+61 02 44 Square Lead
+61 02 45 OB Lead
+61 02 46 Soft Lead
+61 02 47 Simple Tri
+61 02 48 Simple Sine
+61 02 49 Sine Lead 1
+61 02 4A Sine Lead 2
+61 02 4B Square Pipe
+61 02 4C Spooky Lead
+61 02 4D Pure Lead
+61 02 4E Round SQR
+61 02 4F Brite SQR
+61 02 50 Square SAW
+61 02 51 Simple SQR
+61 02 52 Sqr Lead
+61 02 53 Pulse Lead
+61 02 54 Octa Square
+61 02 55 Tranceformer
+61 02 56 CS Lead
+61 02 57 Mini Growl
+61 02 58 Hoover Again
+61 02 59 5th Voice
+61 02 5A Sweet House
+61 02 5B Juno-D Maj7
+61 02 5C Major 7
+61 02 5D Ju-D Fifths
+61 02 5E Dance Saws 1
+61 02 5F Seq 1
+61 02 60 Seq Pop
+61 02 61 Detune Saws
+61 02 62 Seq 2
+61 02 63 Seq 3
+61 02 64 Detune Seq
+61 02 65 Analog Seq
+61 02 66 LFO Saw
+61 02 67 Keep Going
+61 02 68 Electrostar
+61 02 69 Shimmer Pad
+61 02 6A Sci-Fi
+61 02 6B ResoSweep Dn
+61 02 6C 909 Fx
+61 02 6D PolySweep Nz
+61 02 6E Passing By
+61 02 6F Cosmic Drops
+61 02 70 LoFi Piano
+61 02 71 FX Ramp
+61 02 72 Bubble 2
+61 02 73 Scratch 2
+61 02 74 Saws Key 1
+61 02 75 Saws Key 2
+61 02 76 Reso Key 1
+61 02 77 Analog Key
+61 02 78 Digital Key1
+61 02 79 Digital Key2
+61 02 7A Huge MIDI
+61 02 7B Dream Saws
+61 02 7C Dream Pulse
+61 02 7D Dream Trance
+61 02 7E Trance Synth
+61 02 7F Trance Keys
+61 03 00 Trance Saws
+61 03 01 Trancy
+61 03 02 S-Saw Poly
+61 03 03 Super Saws 1
+61 03 04 Analog Days
+61 03 05 Analog Saws
+61 03 06 Uni-G
+61 03 07 Digitaless
+61 03 08 Bustranza
+61 03 09 Jump Poly
+61 03 0A Super Saws 2
+61 03 0B Poly Synth 2
+61 03 0C Poly Synth 3
+61 03 0D Poly Synth 4
+61 03 0E Poly Synth 5
+61 03 0F Waspy Synth
+61 03 10 Vintage Key
+61 03 11 Str Machine
+61 03 12 Reso Key 2
+61 03 13 Reso Key 3
+61 03 14 EuroExpress2
+61 03 15 Fat Synth
+61 03 16 Hi Saw Band
+61 03 17 PWM Pad 1
+61 03 18 Ox Synth
+61 03 19 Heaven Key
+61 03 1A DigitalDream
+61 03 1B Dreamvox 1
+61 03 1C Dreamvox 2
+61 03 1D Sweet Keys
+61 03 1E Vox Key
+61 03 1F Air Key 1
+61 03 20 Air Key 2
+61 03 21 Stacc Heaven
+61 03 22 Dreamheaven
+61 03 23 Heaven Pad 1
+61 03 24 Heaven Pad 2
+61 03 25 Analog Dream
+61 03 26 DOC Stack
+61 03 27 Dance Saws 2
+61 03 28 Sync Key
+61 03 29 Harp Pad
+61 03 2A Sitar Pad
+61 03 2B Pipe Key
+61 03 2C 80?s Strings
+61 03 2D 106 Strings
+61 03 2E Fading Str
+61 03 2F OB Strings
+61 03 30 Sawtooth Str
+61 03 31 JP Strings 1
+61 03 32 JP Strings 2
+61 03 33 PWM Str 1
+61 03 34 JX Strings
+61 03 35 VintageStr 1
+61 03 36 VintageStr 2
+61 03 37 VintageStr 3
+61 03 38 VintageStr 4
+61 03 39 VintageStr 5
+61 03 3A Airy Pad
+61 03 3B VintageStr 6
+61 03 3C VintageStr 7
+61 03 3D Nu Epic Pad
+61 03 3E Trance Pad
+61 03 3F Giant Sweep
+61 03 40 Voyager
+61 03 41 Stringship
+61 03 42 Soft Pad 6
+61 03 43 PWM Str 2
+61 03 44 PWM Pad 2
+61 03 45 Reso Pad
+61 03 46 Brite Wine
+61 03 47 Wine Pad
+61 03 48 Sweep Pad 2
+61 03 49 Sweep Pad 3
+61 03 4A Sweep Pad 4
+61 03 4B Angelis Pad
+61 03 4C TrnsSweepPad
+61 03 4D Scoop Pad 1
+61 03 4E Scoop Pad 2
+61 03 4F BPF Pad
+61 03 50 Bubble 3
+61 03 51 Strobe Pad
+61 03 52 5th Pad 2
+61 03 53 JP8 Strings1
+61 03 54 JP8 Strings2
+61 03 55 Soft Pad 1
+61 03 56 Soft Pad 3
+61 03 57 Soft Pad 4
+61 03 58 JP8 Hollow 1
+61 03 59 JP8 Hollow 2
+61 03 5A Hollow Pad 1
+61 03 5B Hollow Pad 2
+61 03 5C Heaven Pad 3
+61 03 5D Warm Heaven
+61 03 5E Heaven Pad 4
+61 03 5F Heaven Pad 5
+61 03 60 Oct Heaven
+61 03 61 FineWinePad1
+61 03 62 FineWinePad2
+61 03 63 Digital Pad
+61 03 64 5th Pad 1
+61 03 65 Fairy?s Song
+61 03 66 Org Pad
+61 03 67 Bubble 4
+61 03 68 ParadisePad
+61 03 69 Soft PWM Pad
+61 03 6A Soft Pad 2
+61 03 6B Soft Pad 5
+61 03 6C Jazz Scat 1
+61 03 6D Jazz Scat 2
+61 03 6E Choir Pad
+61 03 6F Angels Choir
+61 03 70 Aerial Choir
+61 03 71 Doo Pad
+61 03 72 Humming 2
+61 03 73 Humming 3
+61 03 74 Gospel Hum
+61 03 75 Vox Pad 1
+61 03 76 Vox Pad 2
+61 03 77 VP-330 Chr
+61 03 78 80?s Vox
+61 03 79 SynVox 2
+61 03 7A SynVox 3
+61 03 7B Mini Vox
+61 03 7C Chipmunk
+61 03 7D Sample Opera
+61 03 7E Sop Vox
+61 03 7F Sad Ceremony
+78 00 00 GM2 STANDARD
+78 00 08 GM2 ROOM
+78 00 10 GM2 POWER
+78 00 18 GM2 ELECTRIC
+78 00 19 GM2 ANALOG
+78 00 20 GM2 JAZZ
+78 00 28 GM2 BRUSH
+78 00 30 GM2 ORCHSTRA
+78 00 38 GM2 SFX
+79 00 00 Piano 1
+79 00 01 Piano 2
+79 00 02 Piano 3
+79 00 03 Honky-tonk
+79 00 04 E .Piano 1
+79 00 05 E .Piano 2
+79 00 06 Harpsichord
+79 00 07 Clav
+79 00 08 Celesta
+79 00 09 Glockenspiel
+79 00 0A Music Box
+79 00 0B Vibraphone
+79 00 0C Marimba
+79 00 0D Xylophone
+79 00 0E TubularBells
+79 00 0F Santur
+79 00 10 Organ 1
+79 00 11 Organ 2
+79 00 12 Organ 3
+79 00 13 Church Org 1
+79 00 14 Reed Organ
+79 00 15 Accordion Fr
+79 00 16 Harmonica
+79 00 17 Bandoneon
+79 00 18 Nylon Gtr 1
+79 00 19 Steel-str .Gt
+79 00 1A Jazz Guitar
+79 00 1B Clean Guitar
+79 00 1C Muted Guitar
+79 00 1D Overdrive Gt
+79 00 1E DistortionGt
+79 00 1F Gt Harmonics
+79 00 20 Acoustic Bs
+79 00 21 Fingered Bs
+79 00 22 Picked Bass
+79 00 23 Fretless Bs
+79 00 24 Slap Bass 1
+79 00 25 Slap Bass 2
+79 00 26 Synth Bass 1
+79 00 27 Synth Bass 2
+79 00 28 Violin
+79 00 29 Viola
+79 00 2A Cello
+79 00 2B Contrabass
+79 00 2C Tremolo Str
+79 00 2D PizzicatoStr
+79 00 2E Harp
+79 00 2F Timpani
+79 00 30 Strings
+79 00 31 Slow Strings
+79 00 32 Syn .Strings1
+79 00 33 Syn .Strings2
+79 00 34 Choir Aahs
+79 00 35 Voice Oohs
+79 00 36 SynVox
+79 00 37 OrchestraHit
+79 00 38 Trumpet
+79 00 39 Trombone 1
+79 00 3A Tuba
+79 00 3B MuteTrumpet1
+79 00 3C F .Horn Sect
+79 00 3D Brass 1
+79 00 3E Synth Brass1
+79 00 3F Synth Brass2
+79 00 40 Soprano Sax
+79 00 41 Alto Sax
+79 00 42 Tenor Sax
+79 00 43 Baritone Sax
+79 00 44 Oboe
+79 00 45 English Horn
+79 00 46 Bassoon
+79 00 47 Clarinet
+79 00 48 Piccolo
+79 00 49 Flute
+79 00 4A Recorder
+79 00 4B Pan Flute
+79 00 4C Bottle Blow
+79 00 4D Shakuhachi
+79 00 4E Whistle
+79 00 4F Ocarina
+79 00 50 Square Wave
+79 00 51 Saw Wave
+79 00 52 Syn .Calliope
+79 00 53 Chiffer Lead
+79 00 54 Charang
+79 00 55 Solo Vox
+79 00 56 5th Saw Wave
+79 00 57 Bass & Lead
+79 00 58 Fantasia
+79 00 59 Warm Pad
+79 00 5A Poly Synth
+79 00 5B Space Voice
+79 00 5C Bowed Glass
+79 00 5D Metal Pad
+79 00 5E Halo Pad
+79 00 5F Sweep Pad
+79 00 60 Ice Rain
+79 00 61 Soundtrack
+79 00 62 Crystal
+79 00 63 Atmosphere
+79 00 64 Brightness
+79 00 65 Goblin
+79 00 66 Echo Drops
+79 00 67 Star Theme
+79 00 68 Sitar 1
+79 00 69 Banjo
+79 00 6A Shamisen
+79 00 6B Koto
+79 00 6C Kalimba
+79 00 6D Bagpipe
+79 00 6E Fiddle
+79 00 6F Shanai
+79 00 70 Tinkle Bell
+79 00 71 Agogo
+79 00 72 Steel Drums
+79 00 73 Woodblock
+79 00 73 Castanets
+79 00 74 Taiko
+79 00 75 Melo . Tom 1
+79 00 76 Synth Drum
+79 00 77 Reverse Cymb
+79 00 78 Gt FretNoise
+79 00 79 Breath Noise
+79 00 7A Seashore
+79 00 7B Bird 1
+79 00 7C Telephone 1
+79 00 7D Helicopter
+79 00 7E Applause
+79 00 7F Gun Shot
+79 01 00 Piano 1 w
+79 01 01 Piano 2 w
+79 01 02 Piano 3 w
+79 01 03 Honky-tonk w
+79 01 04 St .Soft EP
+79 01 05 Detuned EP
+79 01 06 Coupled Hps
+79 01 07 Pulse Clav
+79 01 0B Vibraphone w
+79 01 0C Marimba w
+79 01 0E Church Bell
+79 01 10 Trem . Organ
+79 01 11 Chorus Organ
+79 01 13 Church Org 2
+79 01 14 Puff Organ
+79 01 15 Accordion It
+79 01 18 Ukulele
+79 01 19 12-str . Gtr
+79 01 1A Pedal Steel
+79 01 1B Chorus Gtr
+79 01 1C Funk Pop
+79 01 1D Guitar Pinch
+79 01 1E Gt Feedback1
+79 01 1F Gt Feedback2
+79 01 21 Finger Slap
+79 01 26 SynthBass101
+79 01 27 SynSlap Bass
+79 01 28 Slow Violin
+79 01 2E Yang Qin
+79 01 30 Orchestra
+79 01 32 Syn .Strings3
+79 01 34 Chorus Aahs
+79 01 35 Humming
+79 01 36 Analog Voice
+79 01 37 Bass Hit
+79 01 38 Dark Trumpet
+79 01 39 Trombone 2
+79 01 3B MuteTrumpet2
+79 01 3C French Horn
+79 01 3D Brass 2
+79 01 3E JP Brass
+79 01 3F SynBrass sfz
+79 01 50 MG Square
+79 01 51 OB2 Saw
+79 01 54 Wire Lead
+79 01 57 Delayed Lead
+79 01 59 Sine Pad
+79 01 5B Itopia
+79 01 62 Syn Mallet
+79 01 66 Echo Bell
+79 01 68 Sitar 2
+79 01 6B Taisho Koto
+79 01 74 Concert BD
+79 01 75 Melo . Tom 2
+79 01 76 808 Tom
+79 01 78 Gt Cut Noise
+79 01 79 Fl .Key Click
+79 01 7A Rain
+79 01 7B Dog
+79 01 7C Telephone 2
+79 01 7D Car Engine
+79 01 7E Laughing
+79 01 7F Machine Gun
+79 02 00 European Pf
+79 02 04 EP Legend 1
+79 02 05 St .FM EP
+79 02 06 Harpsi w
+79 02 0E Carillon
+79 02 10 60?s Organ
+79 02 11 Perc . Organ
+79 02 13 Church Org 3
+79 02 18 Nylon Gtr 1o
+79 02 19 Mandolin
+79 02 1B Mid Tone Gtr
+79 02 1C Funk Guitar
+79 02 1E Dist Rtm Gtr
+79 02 26 Acid Bass
+79 02 27 Rubber Bass
+79 02 30 Oct Strings
+79 02 37 6th Hit
+79 02 39 Bright Tb
+79 02 3E Oct SynBrass
+79 02 3F Velo Brass
+79 02 50 2600 Sine
+79 02 51 Doctor Solo
+79 02 66 Echo Pan
+79 02 76 Elec Perc
+79 02 78 String Slap
+79 02 7A Thunder
+79 02 7B Horse Gallop
+79 02 7C DoorCreaking
+79 02 7D Car Stop
+79 02 7E Screaming
+79 02 7F Laser Gun
+79 03 04 Wurly
+79 03 05 EP Legend 2
+79 03 06 Harpsi o
+79 03 10 70?s E .Organ
+79 03 18 Nylon Gtr 2
+79 03 19 Steel + Body
+79 03 1C Jazz Man
+79 03 26 Clav Bass
+79 03 27 Attack Pulse
+79 03 37 Euro Hit
+79 03 3E Jump Brass
+79 03 51 Natural Lead
+79 03 7A Wind
+79 03 7B Bird 2
+79 03 7C Door
+79 03 7D Car Pass
+79 03 7E Punch
+79 03 7F Explosion
+79 04 05 EP Phase
+79 04 26 Hammer Bass
+79 04 51 SequencedSaw
+79 04 7A Stream
+79 04 7C Scratch
+79 04 7D Car Crash
+79 04 7E Heart Beat
+79 05 7A Bubble
+79 05 7C Wind Chimes
+79 05 7D Siren
+79 05 7E Footsteps
+79 06 7D Train
+79 07 7D Jetplane
+79 08 7D Starship
+79 09 7D Burst Noise

@@ -1,0 +1,63 @@
+procedure TForm1.PlayNoteListClick(Sender: TObject);
+var   {This may benefit from a rewrite, where Timer1 is enabled for
+       the next non-zero delta, before the next bunch of zeros is
+       played. The zeros are sent while Timer1 is enabled}
+  HoldTime: Double;
+  //LookAhead: integer;
+
+begin
+  AssignFile(f, ComPort);
+  Reset(f); {Needed even though writing to f}
+  labStatus.caption := '';
+  Application.ProcessMessages;
+
+  //LookAhead := 0;
+  EventIx := 1;
+
+
+  for EventIx := 1 to  EventCount do
+  begin
+    {Show in the grid}
+    //sgEventTable.Row := EventIx; sgEventTable.Col := 0; sgEventTable.SetFocus;
+    with EventRecArray[EventIx] do
+    begin
+      {Find the next delta time}
+
+
+
+
+      HoldTime := (DeltaTime / clicksPerCrotchet * 1000/tbTempo.position); {Delay in milliseconds}
+      if HoldTime > 0 then
+      begin
+        Timer1.Interval := Trunc(HoldTime);
+        Timer1.Enabled := true;
+        Application.ProcessMessages;
+        {Wait the program until Timer is disabled}
+        while Timer1.Enabled do begin
+          {Show in the grid. This may impair performance}
+          sgEventTable.Row := EventIx; sgEventTable.Col := 0; sgEventTable.SetFocus;
+          Application.ProcessMessages;
+        end;
+      end;
+
+      {There will probably be at least 2 bytes to go out. but to be thorough...}
+      case BytesToSend of
+        1: begin
+             PrepAndSend(Byte1);
+        end;
+        2: begin
+            PrepAndSend(Byte1);
+            PrepAndSend(Byte2);
+        end;
+        3: begin
+            PrepAndSend(Byte1);
+            PrepAndSend(Byte2);
+            PrepAndSend(Byte3);
+        end;
+      end; {case}
+    end; {with}
+    Application.ProcessMessages;
+  end; {for}
+
+  CloseFile(f);
+end;

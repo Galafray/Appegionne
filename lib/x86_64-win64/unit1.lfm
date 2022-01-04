@@ -1,0 +1,2112 @@
+object Form1: TForm1
+  Left = 942
+  Height = 701
+  Top = 194
+  Width = 668
+  ActiveControl = PageControl1
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsToolWindow
+  Caption = 'Arpeggione'
+  ClientHeight = 701
+  ClientWidth = 668
+  KeyPreview = True
+  OnCreate = OnProgramStart
+  OnKeyDown = FormKeyDown
+  LCLVersion = '2.0.4.0'
+  object labStatus: TLabel
+    Left = 8
+    Height = 16
+    Top = 680
+    Width = 624
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Status'
+    Color = clMenu
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object PageControl1: TPageControl
+    Left = 16
+    Height = 664
+    Top = 8
+    Width = 656
+    ActivePage = TabSheet3
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabIndex = 2
+    TabOrder = 0
+    OnChange = PageControl1Change
+    object TabSheet2: TTabSheet
+      Caption = 'Midi'
+      ClientHeight = 635
+      ClientWidth = 648
+      object sgMidiTable: TStringGrid
+        Left = 112
+        Height = 624
+        Top = 8
+        Width = 440
+        FixedCols = 0
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        RowCount = 2
+        TabOrder = 0
+        TitleFont.CharSet = ANSI_CHARSET
+        TitleFont.Color = clBlack
+        TitleFont.Height = -13
+        TitleFont.Name = 'Arial'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Quality = fqDraft
+        Cells = (
+          5
+          0
+          0
+          'Pos'
+          1
+          0
+          'Hx'
+          2
+          0
+          'Dec'
+          3
+          0
+          'Chr'
+          4
+          0
+          'Comment'
+        )
+      end
+      object btnLoadMidiFile: TButton
+        Left = 0
+        Height = 25
+        Top = 8
+        Width = 104
+        Caption = 'Load midi file'
+        OnClick = LoadMidiFileClick
+        TabOrder = 1
+      end
+      object btnParseArray: TButton
+        Left = 0
+        Height = 25
+        Top = 40
+        Width = 104
+        Caption = 'Parse array'
+        OnClick = ParseArray
+        TabOrder = 2
+      end
+      object edFind: TEdit
+        Left = 40
+        Height = 24
+        Top = 128
+        Width = 32
+        Alignment = taCenter
+        MaxLength = 2
+        TabOrder = 3
+        Text = '00'
+      end
+      object btnFind: TButton
+        Left = 0
+        Height = 25
+        Top = 152
+        Width = 104
+        Caption = 'Find hex'
+        OnClick = btnFindClick
+        TabOrder = 4
+      end
+      object btnMakeNoteList: TButton
+        Left = 0
+        Height = 25
+        Top = 72
+        Width = 104
+        Caption = 'Make note list'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = MakeNoteList
+        ParentFont = False
+        TabOrder = 5
+      end
+      object btnExport: TButton
+        Left = 560
+        Height = 22
+        Top = 24
+        Width = 84
+        Caption = 'Export'
+        OnClick = btnExportClick
+        TabOrder = 6
+      end
+    end
+    object TabSheet7: TTabSheet
+      Caption = 'MusicXml'
+      ClientHeight = 635
+      ClientWidth = 648
+      object memXml: TMemo
+        Left = -8
+        Height = 352
+        Top = 0
+        Width = 552
+        TabOrder = 0
+      end
+      object btnLoadMusicXmlFile: TButton
+        Left = 504
+        Height = 62
+        Top = 104
+        Width = 128
+        Caption = 'Load MusicXml'
+        OnClick = btnLoadMusicXmlFileClick
+        TabOrder = 1
+      end
+      object btnMakeArdList: TButton
+        Left = 504
+        Height = 62
+        Top = 176
+        Width = 128
+        Caption = 'Make Ard list'
+        OnClick = btnMakeArdListClick
+        TabOrder = 2
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Note list'
+      ClientHeight = 635
+      ClientWidth = 648
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -17
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      object btnSortNoteList: TButton
+        Left = 8
+        Height = 27
+        Top = 5
+        Width = 104
+        Caption = 'Sort note list'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = SortNoteListClick
+        ParentFont = False
+        TabOrder = 0
+      end
+      object btnSave: TButton
+        Left = 128
+        Height = 27
+        Top = 5
+        Width = 61
+        Caption = 'Save'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnSaveClick
+        ParentFont = False
+        TabOrder = 1
+      end
+      object sgEventTable: TStringGrid
+        Left = 8
+        Height = 568
+        Top = 64
+        Width = 488
+        ColCount = 8
+        RowCount = 1
+        TabOrder = 2
+        TitleFont.CharSet = ANSI_CHARSET
+        TitleFont.Color = clBlack
+        TitleFont.Height = -13
+        TitleFont.Name = 'Arial'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Quality = fqDraft
+        OnClick = EditNoteRow
+        OnDblClick = sgEventTableDblClick
+        ColWidths = (
+          64
+          78
+          75
+          43
+          53
+          56
+          50
+          50
+        )
+        Cells = (
+          8
+          0
+          0
+          'Item'
+          1
+          0
+          'Start'
+          2
+          0
+          'Delta'
+          3
+          0
+          'Synth'
+          4
+          0
+          'Cmd'
+          5
+          0
+          'Note'
+          6
+          0
+          'Vel'
+          7
+          0
+          'Midi'
+        )
+      end
+      object edFIndNote: TEdit
+        Left = 280
+        Height = 24
+        Top = 6
+        Width = 47
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 3
+        Text = '00'
+      end
+      object btnFindNote: TButton
+        Left = 208
+        Height = 27
+        Top = 5
+        Width = 67
+        Caption = 'Find cmd'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnFindNoteClick
+        ParentFont = False
+        TabOrder = 4
+      end
+      object btnFindNoteInList: TButton
+        Left = 208
+        Height = 27
+        Top = 35
+        Width = 67
+        Caption = 'Find note'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = FindNoteInList
+        ParentFont = False
+        TabOrder = 5
+      end
+      object edFindNoteInList: TEdit
+        Left = 280
+        Height = 24
+        Top = 36
+        Width = 47
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 6
+        Text = '00'
+      end
+      object btnMakeGM2: TButton
+        Left = 554
+        Height = 27
+        Top = 5
+        Width = 79
+        Caption = 'Make GM2'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnMakeGM2Click
+        ParentFont = False
+        TabOrder = 7
+      end
+      object btnMakeGM: TButton
+        Left = 472
+        Height = 27
+        Top = 5
+        Width = 79
+        Caption = 'Make GM'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnMakeGMClick
+        ParentFont = False
+        TabOrder = 8
+      end
+      object edC1: TEdit
+        Left = 504
+        Height = 24
+        Top = 51
+        Width = 32
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 9
+      end
+      object edC2: TEdit
+        Left = 537
+        Height = 24
+        Top = 51
+        Width = 32
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 10
+      end
+      object edC3: TEdit
+        Left = 569
+        Height = 24
+        Top = 51
+        Width = 32
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 11
+      end
+      object edC4: TEdit
+        Left = 601
+        Height = 24
+        Top = 51
+        Width = 32
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentFont = False
+        TabOrder = 12
+      end
+      object labRow: TLabel
+        Left = 504
+        Height = 16
+        Top = 35
+        Width = 25
+        Caption = 'Row'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object btnPostback: TButton
+        Left = 504
+        Height = 27
+        Top = 75
+        Width = 130
+        Caption = 'Post back'
+        OnClick = btnPostbackClick
+        TabOrder = 13
+      end
+      object btnMakeAuto: TButton
+        Left = 504
+        Height = 27
+        Top = 275
+        Width = 130
+        Caption = 'Make auto'
+        OnClick = btnMakeAutoClick
+        TabOrder = 14
+      end
+      object edAutoFrom: TEdit
+        Left = 555
+        Height = 27
+        Hint = 'DoubleClick here for row number'
+        Top = 211
+        Width = 79
+        Alignment = taCenter
+        OnDblClick = edAutoFromDblClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 15
+      end
+      object edAutoTo: TEdit
+        Left = 555
+        Height = 27
+        Hint = 'DoubleClick here for row number'
+        Top = 243
+        Width = 78
+        Alignment = taCenter
+        OnDblClick = edAutoToDblClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 16
+      end
+      object Label6: TLabel
+        Left = 504
+        Height = 19
+        Top = 219
+        Width = 38
+        Caption = 'From'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 504
+        Height = 19
+        Top = 251
+        Width = 16
+        Caption = 'To'
+        ParentColor = False
+      end
+      object btnDeleteRow: TButton
+        Left = 504
+        Height = 27
+        Top = 139
+        Width = 130
+        Caption = 'Delete row'
+        OnClick = btnDeleteRowClick
+        TabOrder = 17
+      end
+      object btnInsertRow: TButton
+        Left = 504
+        Height = 27
+        Top = 107
+        Width = 130
+        Caption = 'Insert row'
+        OnClick = btnInsertRowClick
+        TabOrder = 18
+      end
+      object udMove: TUpDown
+        Left = 555
+        Height = 37
+        Top = 171
+        Width = 28
+        Min = 0
+        OnClick = udMoveClick
+        Position = 0
+        TabOrder = 19
+      end
+      object btnPageBreak: TButton
+        Left = 504
+        Height = 27
+        Hint = 'Forward 4 02 FF FF'#13#10'Backward 4 02 BB BB'
+        Top = 312
+        Width = 130
+        Caption = 'Page turn'
+        OnClick = btnPageBreakClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 20
+      end
+      object labEventsUsed: TLabel
+        Left = 352
+        Height = 24
+        Hint = 'Click to edit'
+        Top = 35
+        Width = 104
+        Alignment = taCenter
+        AutoSize = False
+        Color = 13488812
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -19
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        Transparent = False
+        OnClick = labEventsUsedClick
+      end
+      object btnPractPoint: TButton
+        Left = 504
+        Height = 27
+        Hint = 'Ctrl p'
+        Top = 340
+        Width = 130
+        Caption = 'Practice point'
+        OnClick = btnPractPointClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 21
+      end
+      object btnCheckNoteOffs: TButton
+        Left = 353
+        Height = 27
+        Top = 5
+        Width = 103
+        Caption = 'Check note-offs'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnCheckNoteOffsClick
+        ParentFont = False
+        TabOrder = 22
+      end
+      object btnToClipboard: TButton
+        Left = 8
+        Height = 27
+        Top = 35
+        Width = 104
+        Caption = 'To clipboard'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnToClipboardClick
+        ParentFont = False
+        TabOrder = 23
+      end
+      object btnAddTimeToPrev: TButton
+        Left = 503
+        Height = 27
+        Top = 392
+        Width = 130
+        Caption = 'Add to prev delta'
+        OnClick = btnAddTimeToPrevClick
+        TabOrder = 24
+      end
+    end
+    object TabSheet8: TTabSheet
+      Caption = 'Score'
+      ClientHeight = 635
+      ClientWidth = 648
+      object lbPractice: TListBox
+        Left = 296
+        Height = 623
+        Top = 9
+        Width = 72
+        Color = 10083802
+        ItemHeight = 0
+        OnClick = lbPracticeClick
+        OnDblClick = lbPracticeDblClick
+        OnDrawItem = lbPracticeDrawItem
+        Style = lbOwnerDrawVariable
+        TabOrder = 0
+      end
+      object Label8: TLabel
+        Left = 573
+        Height = 22
+        Top = 17
+        Width = 35
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'ff'
+        Font.Height = -19
+        Font.Name = 'Sans'
+        Font.Style = [fsBold, fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label9: TLabel
+        Left = 573
+        Height = 22
+        Top = 65
+        Width = 35
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'f'
+        Font.Height = -19
+        Font.Name = 'Sans'
+        Font.Style = [fsBold, fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label10: TLabel
+        Left = 571
+        Height = 22
+        Top = 113
+        Width = 35
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'mf'
+        Font.Height = -19
+        Font.Name = 'Sans'
+        Font.Style = [fsBold, fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label11: TLabel
+        Left = 573
+        Height = 22
+        Top = 161
+        Width = 35
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'mp'
+        Font.Height = -19
+        Font.Name = 'Sans'
+        Font.Style = [fsBold, fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label12: TLabel
+        Left = 571
+        Height = 22
+        Top = 209
+        Width = 35
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'p'
+        Font.Height = -19
+        Font.Name = 'Sans'
+        Font.Style = [fsBold, fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label13: TLabel
+        Left = 571
+        Height = 22
+        Top = 257
+        Width = 35
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'pp'
+        Font.Height = -19
+        Font.Name = 'Sans'
+        Font.Style = [fsBold, fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+      object ProgressBar1: TProgressBar
+        Left = 611
+        Height = 354
+        Top = 9
+        Width = 28
+        Max = 127
+        Orientation = pbVertical
+        Position = 63
+        Smooth = True
+        Step = 16
+        TabOrder = 1
+      end
+      object btnLoad: TButton
+        Left = 475
+        Height = 27
+        Top = 9
+        Width = 88
+        Caption = 'Load'
+        Enabled = False
+        TabOrder = 2
+      end
+      object btnSend: TButton
+        Left = 483
+        Height = 27
+        Top = 145
+        Width = 80
+        Caption = 'Send'
+        OnClick = btnSendClick
+        TabOrder = 3
+      end
+      object edStartEvent: TEdit
+        Left = 411
+        Height = 25
+        Hint = 'Double click reset'
+        Top = 145
+        Width = 67
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnDblClick = edStartEventDblClick
+        ParentFont = False
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 4
+        Text = '1'
+      end
+      object btnMrecall: TButton
+        Left = 376
+        Height = 25
+        Top = 145
+        Width = 26
+        Caption = 'MR'
+        OnClick = btnMrecallClick
+        TabOrder = 5
+      end
+      object btnMplus: TButton
+        Left = 376
+        Height = 25
+        Top = 177
+        Width = 26
+        Caption = 'M+'
+        OnClick = btnMplusClick
+        TabOrder = 6
+      end
+      object labUsedEvents: TLabel
+        Left = 411
+        Height = 25
+        Top = 177
+        Width = 67
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Events'
+        Color = clGradientInactiveCaption
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        OnClick = labUsedEventsClick
+      end
+      object btnPractPrev: TButton
+        Left = 376
+        Height = 27
+        Top = 209
+        Width = 88
+        Caption = 'Pract prev'
+        OnClick = btnPractPrevClick
+        TabOrder = 7
+      end
+      object btnPractNext: TButton
+        Left = 483
+        Height = 27
+        Top = 209
+        Width = 80
+        Caption = 'Pract next'
+        OnClick = btnPractNextClick
+        TabOrder = 8
+      end
+      object btnPageTurn: TButton
+        Left = 475
+        Height = 27
+        Top = 73
+        Width = 88
+        Caption = 'Page turn'
+        OnClick = btnPageTurnClick
+        TabOrder = 9
+      end
+      object btnGetSibelius: TButton
+        Left = 475
+        Height = 27
+        Top = 41
+        Width = 88
+        Caption = 'Get score'
+        OnClick = btnGetSibeliusClick
+        TabOrder = 10
+      end
+      object btnSoundOff1: TButton
+        Left = 376
+        Height = 107
+        Top = 257
+        Width = 187
+        Caption = 'Sound off'
+        Font.Height = -16
+        Font.Name = 'Sans'
+        OnClick = AllSoundOff
+        ParentFont = False
+        TabOrder = 11
+      end
+      object TvArdFiles: TTreeView
+        Left = 0
+        Height = 223
+        Top = 9
+        Width = 288
+        ReadOnly = True
+        ScrollBars = ssVertical
+        TabOrder = 12
+        OnDblClick = TvArdFilesDblClick
+        Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+        Items.Data = {
+          F9FFFFFF020001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF090000000000
+          0000010800000041726446696C6573FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+          0000000000000000080000004D6564696576616CFFFFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFF0000000000000000000B00000052656E61697373616E6365FFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFF000000000000000000070000004261726F717565
+          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000009000000436C61
+          73736963616CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000008
+          000000526F6D616E746963FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000
+          000000000D000000496D7072657373696F6E697374FFFFFFFFFFFFFFFFFFFFFF
+          FFFFFFFFFF010000000000000001060000004D6F6465726EFFFFFFFFFFFFFFFF
+          FFFFFFFFFFFFFFFF00000000000000000007000000506F70756C6172FFFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFF010000000000000001040000004A617A7AFFFFFF
+          FFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000000700000052616774696D
+          65FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000060000004368
+          6F72616C
+        }
+      end
+      object lbArdFiles: TListBox
+        Left = 0
+        Height = 400
+        Top = 232
+        Width = 288
+        ItemHeight = 0
+        OnDblClick = lbArdFilesDblClick
+        TabOrder = 13
+      end
+      object labSent: TLabel
+        Left = 376
+        Height = 24
+        Top = 576
+        Width = 168
+        AutoSize = False
+        Caption = 'labSent'
+        Color = 10083802
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+      end
+      object labReceived: TLabel
+        Left = 376
+        Height = 24
+        Top = 608
+        Width = 168
+        AutoSize = False
+        Caption = 'labReceived'
+        Color = clMoneyGreen
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+      end
+    end
+    object TabSheet1: TTabSheet
+      Caption = 'Arduino'
+      ClientHeight = 635
+      ClientWidth = 648
+      object btnStartArduino: TButton
+        Left = 408
+        Height = 36
+        Top = 16
+        Width = 111
+        Caption = 'Start Arduino'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        OnClick = btnStartArduinoClick
+        ParentFont = False
+        TabOrder = 0
+      end
+      object btnToggleLed: TButton
+        Left = 557
+        Height = 35
+        Top = 16
+        Width = 86
+        HelpContext = 29
+        Caption = 'Toggle led'
+        OnClick = btnToggleLedClick
+        TabOrder = 1
+      end
+      object btnStop: TButton
+        Left = 408
+        Height = 35
+        Top = 80
+        Width = 112
+        Caption = 'Stop'
+        OnClick = btnStopClick
+        TabOrder = 2
+      end
+      object lbReceived: TListBox
+        Left = 176
+        Height = 624
+        Top = 8
+        Width = 160
+        Color = clMoneyGreen
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ItemHeight = 0
+        OnDblClick = ClearReceived
+        ParentFont = False
+        ScrollWidth = 198
+        TabOrder = 3
+      end
+      object labStarted: TLabel
+        Left = 454
+        Height = 21
+        Top = 56
+        Width = 20
+        AutoSize = False
+        Color = clRed
+        ParentColor = False
+        Transparent = False
+      end
+      object btnSoundOff: TButton
+        Left = 456
+        Height = 107
+        Top = 248
+        Width = 187
+        Caption = 'Sound off'
+        Font.Height = -16
+        Font.Name = 'Sans'
+        OnClick = AllSoundOff
+        ParentFont = False
+        TabOrder = 4
+      end
+      object rgKeyboard: TRadioGroup
+        Left = 344
+        Height = 112
+        Top = 243
+        Width = 104
+        AutoFill = True
+        Caption = 'Keyboard'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 91
+        ClientWidth = 100
+        Color = clMoneyGreen
+        ItemIndex = 0
+        Items.Strings = (
+          'Trigger'
+          'Integra'
+          'SC-88'
+        )
+        OnClick = rgKeyboardClick
+        ParentColor = False
+        TabOrder = 5
+      end
+      object cbAllowPointer: TCheckBox
+        Left = 549
+        Height = 20
+        Top = 128
+        Width = 94
+        Caption = 'Allow pointer'
+        OnChange = cbAllowPointerChange
+        TabOrder = 6
+      end
+      object lbSent: TListBox
+        Left = 0
+        Height = 624
+        Top = 8
+        Width = 168
+        Color = 10083802
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ItemHeight = 0
+        OnDblClick = lbSentDblClick
+        ParentFont = False
+        ScrollWidth = 198
+        TabOrder = 7
+      end
+      object btnReport: TButton
+        Left = 408
+        Height = 35
+        Top = 128
+        Width = 112
+        Caption = 'Report'
+        OnClick = btnReportClick
+        TabOrder = 8
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'INTEGRA-7'
+      ClientHeight = 635
+      ClientWidth = 648
+      object Label5: TLabel
+        Left = 112
+        Height = 16
+        Top = 6
+        Width = 139
+        Caption = 'INTEGRA-7 Instruments'
+        ParentColor = False
+      end
+      object sgIntegra7: TStringGrid
+        Left = 112
+        Height = 580
+        Top = 24
+        Width = 392
+        FixedCols = 0
+        TabOrder = 0
+        TitleFont.CharSet = ANSI_CHARSET
+        TitleFont.Color = clBlack
+        TitleFont.Height = -13
+        TitleFont.Name = 'Arial'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Quality = fqDraft
+        ColWidths = (
+          41
+          212
+          42
+          42
+          40
+        )
+        Cells = (
+          5
+          0
+          0
+          'No.'
+          1
+          0
+          'Name'
+          2
+          0
+          'MSB'
+          3
+          0
+          'LSB'
+          4
+          0
+          'PC'
+        )
+      end
+      object edSearchI7: TEdit
+        Left = 512
+        Height = 24
+        Top = 56
+        Width = 128
+        TabOrder = 1
+      end
+      object btnIntegra7Search: TButton
+        Left = 552
+        Height = 33
+        Top = 80
+        Width = 88
+        Caption = 'Search'
+        OnClick = SearchI7List
+        TabOrder = 2
+      end
+      object btnToMemEvents: TButton
+        Left = 0
+        Height = 28
+        Top = 256
+        Width = 108
+        Caption = 'To Memo events'
+        OnClick = btnToMemEventsClick
+        TabOrder = 3
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'SC-88VL'
+      ClientHeight = 635
+      ClientWidth = 648
+      object Label1: TLabel
+        Left = 112
+        Height = 16
+        Top = 8
+        Width = 108
+        Caption = 'SC-88 Instruments'
+        ParentColor = False
+      end
+      object sgSc88: TStringGrid
+        Left = 112
+        Height = 584
+        Top = 24
+        Width = 392
+        FixedCols = 0
+        TabOrder = 0
+        TitleFont.CharSet = ANSI_CHARSET
+        TitleFont.Color = clBlack
+        TitleFont.Height = -13
+        TitleFont.Name = 'Arial'
+        TitleFont.Pitch = fpVariable
+        TitleFont.Quality = fqDraft
+        ColWidths = (
+          41
+          212
+          42
+          42
+          40
+        )
+        Cells = (
+          5
+          0
+          0
+          'No.'
+          1
+          0
+          'Name'
+          2
+          0
+          'MSB'
+          3
+          0
+          'LSB'
+          4
+          0
+          'PC'
+        )
+      end
+      object edSearchSc88: TEdit
+        Left = 512
+        Height = 24
+        Top = 56
+        Width = 128
+        TabOrder = 1
+      end
+      object btnSc88Search: TButton
+        Left = 552
+        Height = 31
+        Top = 80
+        Width = 88
+        Caption = 'Search'
+        OnClick = btnSc88SearchClick
+        TabOrder = 2
+      end
+      object btn2MemEvents: TButton
+        Left = 0
+        Height = 31
+        Top = 256
+        Width = 105
+        Caption = 'To Memo events'
+        OnClick = btn2MemEventsClick
+        TabOrder = 3
+      end
+    end
+    object TabSheet9: TTabSheet
+      Caption = 'Channel'
+      ClientHeight = 635
+      ClientWidth = 648
+      OnContextPopup = TabSheet9ContextPopup
+      object cgChannel: TCheckGroup
+        Left = 8
+        Height = 248
+        Top = 32
+        Width = 109
+        AutoFill = True
+        Caption = 'Channel'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 2
+        ClientHeight = 227
+        ClientWidth = 105
+        Columns = 2
+        Items.Strings = (
+          '0'
+          '1'
+          '2'
+          '3'
+          '4'
+          '5'
+          '6'
+          '7'
+          '8'
+          '9'
+          'A'
+          'B'
+          'C'
+          'D'
+          'E'
+          'F'
+        )
+        TabOrder = 0
+        Data = {
+          1000000002020202020202020202020202020202
+        }
+      end
+      object rgAttrib: TRadioGroup
+        Left = 128
+        Height = 263
+        Top = 32
+        Width = 244
+        AutoFill = True
+        Caption = 'Channel attributes'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 2
+        ClientHeight = 242
+        ClientWidth = 240
+        Color = clNone
+        Columns = 2
+        ParentColor = False
+        TabOrder = 1
+        object rbVar: TRadioButton
+          Tag = 70
+          Left = 6
+          Height = 35
+          Top = 0
+          Width = 115
+          Caption = 'Variation'
+          Checked = True
+          TabOrder = 0
+          TabStop = True
+        end
+        object rbTim: TRadioButton
+          Tag = 71
+          Left = 121
+          Height = 35
+          Top = 0
+          Width = 113
+          Caption = 'Timbre'
+          TabOrder = 1
+        end
+        object rbRel: TRadioButton
+          Tag = 72
+          Left = 6
+          Height = 35
+          Top = 35
+          Width = 115
+          Caption = 'Release'
+          TabOrder = 2
+        end
+        object rbAtt: TRadioButton
+          Tag = 73
+          Left = 121
+          Height = 35
+          Top = 35
+          Width = 113
+          Caption = 'Attack'
+          TabOrder = 3
+        end
+        object rbFil: TRadioButton
+          Tag = 74
+          Left = 6
+          Height = 35
+          Top = 70
+          Width = 115
+          Caption = 'Filter'
+          TabOrder = 4
+        end
+        object rbDec: TRadioButton
+          Tag = 75
+          Left = 121
+          Height = 35
+          Top = 70
+          Width = 113
+          Caption = 'Decay'
+          TabOrder = 5
+        end
+        object rbVra: TRadioButton
+          Tag = 76
+          Left = 6
+          Height = 35
+          Top = 105
+          Width = 115
+          Caption = 'Vib rate'
+          TabOrder = 6
+        end
+        object rbVdep: TRadioButton
+          Tag = 77
+          Left = 121
+          Height = 35
+          Top = 105
+          Width = 113
+          Caption = 'Vib depth'
+          TabOrder = 7
+        end
+        object rbVDel: TRadioButton
+          Tag = 78
+          Left = 6
+          Height = 35
+          Top = 140
+          Width = 115
+          Caption = 'Vib Delay'
+          TabOrder = 8
+        end
+        object rbRev: TRadioButton
+          Tag = 91
+          Left = 121
+          Height = 35
+          Top = 140
+          Width = 113
+          Caption = 'Reverb'
+          TabOrder = 9
+        end
+        object rbTrem: TRadioButton
+          Tag = 92
+          Left = 6
+          Height = 35
+          Top = 175
+          Width = 115
+          Caption = 'Tremelo'
+          TabOrder = 10
+        end
+        object rbCho: TRadioButton
+          Tag = 93
+          Left = 121
+          Height = 35
+          Top = 175
+          Width = 113
+          Caption = 'Chorus'
+          TabOrder = 11
+        end
+        object rbDel: TRadioButton
+          Tag = 94
+          Left = 6
+          Height = 32
+          Top = 210
+          Width = 115
+          Caption = 'Delay'
+          TabOrder = 12
+        end
+        object rbPhas: TRadioButton
+          Tag = 95
+          Left = 121
+          Height = 32
+          Top = 210
+          Width = 113
+          Caption = 'Phaser'
+          TabOrder = 13
+        end
+      end
+      object memEvents: TMemo
+        Left = 383
+        Height = 204
+        Top = 40
+        Width = 144
+        TabOrder = 2
+      end
+      object UpDn1: TUpDown
+        Left = 272
+        Height = 40
+        Top = 304
+        Width = 22
+        Min = 0
+        OnClick = UpDn1Click
+        Position = 0
+        TabOrder = 3
+      end
+      object labAttrib: TLabel
+        Left = 208
+        Height = 21
+        Top = 316
+        Width = 64
+        AutoSize = False
+        Caption = '01B00001'
+        ParentColor = False
+        OnDblClick = labAttribDblClick
+      end
+      object btnToArduino: TButton
+        Left = 392
+        Height = 28
+        Top = 360
+        Width = 98
+        Caption = 'To Arduino'
+        OnClick = btnToArduinoClick
+        TabOrder = 4
+      end
+      object btnTrill: TButton
+        Left = 392
+        Height = 28
+        Top = 232
+        Width = 95
+        Caption = 'Trill outline'
+        OnClick = btnTrillClick
+        TabOrder = 5
+      end
+      object btnPokeArray: TButton
+        Left = 392
+        Height = 28
+        Top = 328
+        Width = 95
+        Caption = 'Insert the array'
+        OnClick = btnPokeArrayClick
+        TabOrder = 6
+      end
+      object Label15: TLabel
+        Left = 384
+        Height = 16
+        Top = 24
+        Width = 79
+        Caption = 'Memo Events'
+        ParentColor = False
+      end
+      object lbMidiNotes: TListBox
+        Left = 544
+        Height = 616
+        Hint = 'DblClick to play'
+        Top = 8
+        Width = 82
+        Color = 14480339
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -15
+        Font.Name = 'Consolas'
+        Font.Pitch = fpFixed
+        Font.Quality = fqDraft
+        ItemHeight = 0
+        OnDblClick = lbMidiNotesDblClick
+        ParentShowHint = False
+        ParentFont = False
+        ShowHint = True
+        TabOrder = 7
+      end
+      object btnBend: TButton
+        Left = 392
+        Height = 29
+        Top = 264
+        Width = 95
+        Caption = 'Bend outline'
+        OnClick = btnBendClick
+        TabOrder = 8
+      end
+      object btnSwellOutline: TButton
+        Left = 392
+        Height = 28
+        Top = 296
+        Width = 95
+        Caption = 'Swell outline'
+        OnClick = btnSwellOutlineClick
+        TabOrder = 9
+      end
+    end
+    object TabSheet5: TTabSheet
+      Hint = 'Integra 1'#13#10'SC-88   2'
+      Caption = 'Balance'
+      ClientHeight = 635
+      ClientWidth = 648
+      object labChInst0: TLabel
+        Left = 102
+        Height = 16
+        Top = 64
+        Width = 48
+        Anchors = [akLeft]
+        Caption = 'Chan 00'
+        ParentColor = False
+      end
+      object labChInst1: TLabel
+        AnchorSideLeft.Control = labChInst0
+        AnchorSideTop.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 80
+        Width = 48
+        Anchors = [akLeft]
+        Caption = 'Chan 01'
+        ParentColor = False
+      end
+      object labChInst2: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 96
+        Width = 48
+        Caption = 'Chan 02'
+        ParentColor = False
+      end
+      object labChInst3: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 112
+        Width = 48
+        Caption = 'Chan 03'
+        ParentColor = False
+      end
+      object labChInst4: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 128
+        Width = 48
+        Caption = 'Chan 04'
+        ParentColor = False
+      end
+      object labChInst5: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 144
+        Width = 48
+        Caption = 'Chan 05'
+        ParentColor = False
+      end
+      object labChInst6: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 160
+        Width = 48
+        Caption = 'Chan 06'
+        ParentColor = False
+      end
+      object labChInst7: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 176
+        Width = 48
+        Caption = 'Chan 07'
+        ParentColor = False
+      end
+      object labChInst8: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 192
+        Width = 48
+        Anchors = [akLeft]
+        Caption = 'Chan 08'
+        ParentColor = False
+      end
+      object labChInst9: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 208
+        Width = 48
+        Anchors = [akLeft]
+        Caption = 'Chan 09'
+        ParentColor = False
+      end
+      object labChInst10: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 224
+        Width = 50
+        Anchors = [akLeft]
+        Caption = 'Chan 0A'
+        ParentColor = False
+      end
+      object labChInst11: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 240
+        Width = 50
+        Anchors = [akLeft]
+        Caption = 'Chan 0B'
+        ParentColor = False
+      end
+      object labChInst12: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 256
+        Width = 50
+        Anchors = [akLeft]
+        Caption = 'Chan 0C'
+        ParentColor = False
+      end
+      object labChInst13: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 272
+        Width = 50
+        Anchors = [akLeft]
+        Caption = 'Chan 0D'
+        ParentColor = False
+      end
+      object labChInst14: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 288
+        Width = 50
+        Anchors = [akLeft]
+        Caption = 'Chan 0E'
+        ParentColor = False
+      end
+      object labChInst15: TLabel
+        AnchorSideLeft.Control = labChInst0
+        Left = 102
+        Height = 16
+        Top = 304
+        Width = 49
+        Anchors = [akLeft]
+        Caption = 'Chan 0F'
+        ParentColor = False
+      end
+      object btnGetChInst: TButton
+        Left = 24
+        Height = 31
+        Top = 8
+        Width = 123
+        Caption = 'Get instruments'
+        OnClick = btnGetChInstClick
+        TabOrder = 0
+      end
+      object btnChangeUsedChannel: TButton
+        Left = 464
+        Height = 31
+        Top = 117
+        Width = 110
+        Caption = 'Change channel'
+        OnClick = btnChangeUsedChannelClick
+        TabOrder = 1
+      end
+      object labVol0: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 60
+        Height = 16
+        Top = 64
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol1: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 80
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        Left = 44
+        Height = 16
+        Top = 48
+        Width = 43
+        Caption = 'Volume'
+        ParentColor = False
+      end
+      object labVol3: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 112
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol4: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 128
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol5: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 144
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol6: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 160
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol7: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 176
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol8: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 192
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVol9: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 208
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVolA: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 224
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVolB: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 240
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVolC: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 257
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVolD: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 272
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVolE: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 288
+        Width = 14
+        Anchors = [akLeft]
+        Caption = '00'
+        ParentColor = False
+      end
+      object labVolF: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 304
+        Width = 14
+        Anchors = [akRight]
+        Caption = '00'
+        ParentColor = False
+      end
+      object edFromChn: TEdit
+        Left = 464
+        Height = 24
+        Top = 89
+        Width = 44
+        Alignment = taRightJustify
+        TabOrder = 2
+        TextHint = 'From'
+      end
+      object edToChn: TEdit
+        Left = 529
+        Height = 24
+        Top = 89
+        Width = 44
+        Alignment = taRightJustify
+        TabOrder = 3
+        TextHint = 'To'
+      end
+      object Label14: TLabel
+        Left = 8
+        Height = 16
+        Top = 48
+        Width = 23
+        Caption = 'Pan'
+        ParentColor = False
+      end
+      object labPan0: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 64
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan1: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 80
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan2: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 97
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan3: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 112
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan4: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 128
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan5: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 144
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan6: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 160
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan7: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 175
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan8: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 192
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPan9: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 208
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPanA: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 224
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPanB: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 240
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPanC: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 257
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPanD: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 272
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPanE: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 288
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object labPanF: TLabel
+        AnchorSideRight.Control = labChInst0
+        Left = 8
+        Height = 16
+        Top = 304
+        Width = 14
+        Anchors = []
+        Caption = '00'
+        ParentColor = False
+      end
+      object edSynthChn: TEdit
+        Left = 464
+        Height = 24
+        Top = 171
+        Width = 44
+        Alignment = taRightJustify
+        TabOrder = 4
+        TextHint = 'Chn'
+      end
+      object edSynthTo: TEdit
+        Left = 529
+        Height = 24
+        Top = 171
+        Width = 44
+        Alignment = taRightJustify
+        TabOrder = 5
+        TextHint = 'To synth'
+      end
+      object btnChangeChnSynth: TButton
+        Left = 464
+        Height = 31
+        Hint = 'Integra 1, SC-88 2'
+        Top = 200
+        Width = 109
+        Caption = 'Change synth'
+        OnClick = btnChangeChnSynthClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 6
+      end
+      object labVol2: TLabel
+        AnchorSideLeft.Control = labVol0
+        AnchorSideTop.Control = labVol0
+        Left = 60
+        Height = 16
+        Top = 96
+        Width = 14
+        Anchors = [akRight]
+        Caption = '00'
+        ParentColor = False
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'Midi files|*.mid|'
+    InitialDir = 'C:\George\Midi02\'
+    left = 496
+    top = 616
+  end
+end

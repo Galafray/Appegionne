@@ -1,0 +1,733 @@
+/*
+ Arpeggione
+ Co-ordinates the computer, Music-keyboard, sound-modules, volume pedal, LED pointer and detector
+ Written by George Cox of Code Research 
+ 
+Use Alt Space to move this window on the Raspberry Pi
+
+ Arduino Mega 2560
+   USB    (Serial  I/O) Computer
+   
+   Pin 18 (Serial1 out) MIDI synth Integra)
+   Pin 19 (Serial1  in) MIDI Keyboard 
+   
+   Pin 16 (Serial2 out) MIDI synth SC-88
+   Pin 17 (Serial2  in) Roland GL-10
+   
+   //Pin 15 (Serial3  in) Pointer 
+*/
+
+ 
+// Global variables
+const int EventSize = 600; //Max size of the array.
+                           //Could be up to 750
+struct Event {
+  int synth; //Which synth, 1 to 3 
+    //3 UARTs are available for synths on the mega.
+    //If s contains 0, it's a timimg record, not sent to a synth.
+    //Integra 1 
+    //SC-88 2
+  int comm; //Command
+  int note; //Pitch of note
+  int velo; //Velocity
+};
+struct Event Events[EventSize]; 
+
+const int exPressionPin = A15;
+const int PointerPin = 22;
+boolean PointerAllowed;
+boolean PointerOn;
+const int ReceiverPin = 2;
+volatile boolean ReceiveState;
+boolean prevReceiveState;
+
+struct PacketRec {
+  int ByteCount = 0;
+  int synth = 0;
+  int comm = 0; //Command
+  int note = 0; //Pitch of note
+  int velo = 0; //Velocity
+};
+PacketRec Packet;
+PacketRec KbdPacket;
+
+struct SpeedTrap {
+  //Used for setting Speedfactor
+  unsigned long ThisTime; 
+  int PrevDelta;
+  int ThisDelta; //Command
+  float SpeedFactor = 1.04;  
+  unsigned long LastTime = 0;
+  unsigned long NextTime = 0;
+};
+SpeedTrap ST;
+
+const float Delta2Millis = 25/24; // 1000 / 960 = 1.0417
+
+long EventsUsed = 0;
+String SerStr2; 
+const int led = 13; //Pin 13 is the onboard led. 
+//Toggles with input from a midi controller
+
+int eIndexH = 11; //Index to the Events array head. The   
+                  //end of the practice array below
+int eIndexT = 0; //Index to the Events array tail.
+                //Next one to be played
+byte ThisVel = 0x40; //Velocity of note just played
+byte LastVel = 0x40; //Initial guess at volume
+byte PedlVel = 0x00;
+float PedlFactor = 0.65;
+byte HoldVel = 0x00;
+byte bCount = 0;
+byte pCount = 0;
+//long TimeNextEvent = 0; //In milliseconds
+//long LastTrigger = 0;
+
+byte KeyboardTriggers = 0; 
+//0 Default, plays event array. 1 To Integra. 2 To SC-88 
+boolean GuitarIsTrigger  = true;
+
+
+void setup() {                
+  //Init the digital led pin as an output.
+  pinMode(led, OUTPUT);  
+  digitalWrite(led, LOW);
+  pinMode(PointerPin, OUTPUT);
+  digitalWrite(PointerPin, LOW);
+  attachInterrupt(digitalPinToInterrupt(ReceiverPin), IsrReceived, CHANGE);
+  PointerAllowed = false;
+  PointerOn = false;
+  prevReceiveState = ReceiveState; //Equal at start
+  Serial.begin(9600);   //Serial with computer. 
+                        //RPi cannot do 31250
+  Serial.println("Arpeggione");                      
+  //Set MIDI baud rates 
+  Serial1.begin(31250); //Serial Keyboard In
+                        //Serial to Integra-7 Out
+  Serial2.begin(31250); //Roland GL-10 In 
+                        //Roland SC-88 Out
+  
+//Some sample data for use with when developing
+  Events[0].synth = 0x00; //Timing
+  Events[0].comm = 0x00; //Initial delta time
+  Events[0].note = 0x01;
+  Events[0].velo = 0x90;
+
+  Events[1].synth = 0x02; //Which synth
+  Events[1].comm = 0x90; //For playing middle C
+  Events[1].note = 0x3C; //C3
+  Events[1].velo = 0x50; //Velocity
+  
+  Events[2].synth = 0x00; //Timing
+  Events[2].comm = 0x00; //Next delta time
+  Events[2].note = 0x01;
+  Events[2].velo = 0x90;
+  
+  Events[3].synth = 0x02; //Which synth
+  Events[3].comm = 0x80; //For Stoping middle C
+  Events[3].note = 0x3C;
+  Events[3].velo = 0x00;  
+
+  Events[4].synth = 0x02; //Which synth
+  Events[4].comm = 0x90; //For playing D
+  Events[4].note = 0x3E;
+  Events[4].velo = 0x50;
+  
+  Events[5].synth = 0x00; //Timing
+  Events[5].comm = 0x00; //Next delta time
+  Events[5].note = 0x06;
+  Events[5].velo = 0x40;
+  
+  Events[6].synth = 0x02; //Which synth
+  Events[6].comm = 0x80; //Silence D
+  Events[6].note = 0x3E;
+  Events[6].velo = 0x00;  
+
+  Events[7].synth = 0x02; //Which synth
+  Events[7].comm = 0x90; //For playing middle C
+  Events[7].note = 0x3C; //C3
+  Events[7].velo = 0x50; //Velocity
+  
+  Events[8].synth = 0x02; //Which synth
+  Events[8].comm = 0x90; //For playing E3
+  Events[8].note = 0x40; //E3
+  Events[8].velo = 0x50; //Velocity
+
+  Events[9].synth = 0x00; //Timing
+  Events[9].comm = 0x00; //Delta time
+  Events[9].note = 0x00; 
+  Events[9].velo = 0x00; 
+  
+  Events[10].synth = 0x02; //Which synth
+  Events[10].comm = 0x80; //Silence middle C
+  Events[10].note = 0x3C; //C3
+  Events[10].velo = 0x00; //Velocity
+  
+  Events[11].synth = 0x02; //Which synth
+  Events[11].comm = 0x80; //Silence E
+  Events[11].note = 0x40; //E3
+  Events[11].velo = 0x00; //Velocity      
+}
+
+
+void InitEventArray() {
+  for (int Rec = 0; Rec < EventSize; Rec++) {
+    Events[Rec].synth = 0x00; 
+    Events[Rec].comm = 0x00; 
+    Events[Rec].note = 0x00; 
+    Events[Rec].velo = 0x00; 
+  }
+}
+
+
+String IntToHexStr(int Numb) {
+String theStr = "";
+  if (Numb < 0x10) theStr = "0"; //Leading 0 
+  theStr = theStr + String(Numb, HEX);
+  theStr.toUpperCase();
+  return theStr;
+}
+
+
+String EventToStr(int Idx) {
+  String aStr = IntToHexStr(Events[Idx].synth);
+  aStr = aStr + IntToHexStr(Events[Idx].comm);
+  aStr = aStr + IntToHexStr(Events[Idx].note);
+  aStr = aStr + IntToHexStr(Events[Idx].velo);
+  return  aStr;
+}
+
+
+void ReportStatus() {  
+String aStr;  
+  aStr = IntToHexStr(PedlVel);
+  Serial.print("Pedal ");  Serial.println(aStr);
+  
+  aStr = String(PedlFactor);
+  Serial.print("PedlFactor ");  Serial.println(aStr);
+
+  aStr = String(ST.SpeedFactor);
+  Serial.print("SpeedFactor ");  Serial.println(aStr);
+  
+  if (PointerAllowed) {
+    Serial.println("Pointer allowed");
+  } else {
+    Serial.println("Pointer not allowed");
+  }
+
+  Serial.print("Keyboard to ");
+  switch (KeyboardTriggers) {
+    case 0: Serial.println("array trigger"); break;
+    case 1: Serial.println("Integra 7"); break;
+    case 2: Serial.println("SC-88"); break;
+  }
+    
+  aStr = IntToHexStr(eIndexH);
+  Serial.print("eIndexH ");  Serial.println(aStr);
+  
+  aStr = IntToHexStr(eIndexT);
+  Serial.print("eIndexT ");  Serial.println(aStr);
+  
+  for (int Ix = 0; Ix < 8; Ix++) {
+    aStr = IntToHexStr(eIndexT + Ix);
+    aStr = aStr + " ";
+    aStr = aStr + EventToStr(eIndexT + Ix);
+    Serial.println(aStr);  
+  }  
+}
+
+
+void ToggleLed() {
+  digitalWrite(led, !digitalRead(led));  
+}
+
+
+byte ReadExp() { //Read the pot in the expression pedal
+int ExpVelocity = 0;
+  ExpVelocity = analogRead(exPressionPin);
+  ExpVelocity = map(ExpVelocity, 0, 1023, 0x00, 0x7F);
+  return ExpVelocity;
+}
+
+void CheckExpressionPedal() {
+  PedlVel = ReadExp();
+  if (abs(PedlVel - HoldVel) > 2) {
+    //Must vary by more than 2 to stop jitters
+    if (PedlVel < 0x10) {
+      Serial.print("EP01zz0"); //Leading naught
+      digitalWrite(PointerPin, LOW);
+      PointerOn = false;
+    } else  {
+      Serial.print("EP01zz"); 
+      if (PointerAllowed) {
+        digitalWrite(PointerPin, HIGH);
+        PointerOn = true;
+      }  
+    }  
+    Serial.println(PedlVel, HEX);
+    HoldVel = PedlVel;
+    PedlFactor = (float)PedlVel / (float)0x7F;
+  }
+}  
+
+
+void PeekPokePort() {
+byte PeekOrPoke;
+byte PortNumb;
+byte OnOff;
+int val;
+
+  PeekOrPoke = Packet.comm;
+  PortNumb = Packet.note;
+  switch (PeekOrPoke) {
+    case 0: //It's a peek
+      val = digitalRead(PortNumb); 
+      Serial.println(val);
+      break;
+    case 1: //It's a poke
+      OnOff = Packet.velo; 
+      digitalWrite(PortNumb, OnOff);  
+      break; 
+  }
+}
+
+
+//void PokeEventArray(String aStr) {
+void PokeEventArray() {
+  eIndexH = eIndexH + 1;  
+  if (eIndexH == EventSize)  
+    eIndexH = 0; //Wrap
+  Events[eIndexH].synth = Packet.synth;
+  Events[eIndexH].comm  = Packet.comm;
+  Events[eIndexH].note  = Packet.note;
+  Events[eIndexH].velo  = Packet.velo;
+}
+
+
+void incIndexT() {  
+  //Each index pointer moves contiguously from 0 to EventSize, and then loops back
+  EventsUsed = EventsUsed + 1;
+  eIndexT = eIndexT + 1;    
+  if (eIndexT == eIndexH + 1) { //Tortoise passes Hare
+    MuteAllChannels();
+    InitEventArray();
+    eIndexH = -1;
+    eIndexT = 0;
+    EventsUsed = 0;
+    String aStr = "200z0258"; //Ask for first records
+    //Will get 600 initially, 300 after that
+    Serial.println(aStr);      
+  }
+  if (eIndexT > EventSize - 1) { //Means we've overshot the array
+    eIndexT = 0; //Wrap
+    //break;
+  }  
+  if  ((eIndexH == 299) && (eIndexT == 0)) {
+    String aStr = "201z012C"; //Ask for next lot of records
+    //Got 600 initially, 300 after that
+    Serial.println(aStr);
+    //break;
+  }  
+  if  ((eIndexH == 599) && (eIndexT == 300)) {
+    String aStr = "201z012C"; //Ask for next lot of records
+    Serial.println(aStr);
+  }  
+}
+
+
+void StraightToSynth() {
+  switch(Packet.synth) {
+  case 0x11: //To Integra
+    Serial1.write(Packet.comm);    
+    Serial1.write(Packet.note);
+    Serial1.write(Packet.velo);
+    break;
+  case 0x12: //To SC-88
+    Serial2.write(Packet.comm);    
+    Serial2.write(Packet.note);
+    Serial2.write(Packet.velo);
+    break;
+  }   
+}
+
+
+void MuteAllChannels() {
+int Channel;  
+byte Chn;
+  for (Channel = 0; Channel <= 15; Channel++) {
+    Chn = 0xB0 + Channel;
+    Serial1.write(Chn);    
+    Serial1.write(0x7B);
+    Serial1.write((byte)0x00);
+    
+    Serial2.write(Chn);    
+    Serial2.write(0x7B);
+    Serial2.write((byte)0x00);
+  }
+}
+
+
+long GetDeltaTime(int Index) {
+//Two bytes of the array record - note, and velo are used to make up the time
+  long Hold = Events[Index].note;
+  Hold = Hold * 256;
+  Hold = Hold + Events[Index].velo;
+  //This can be proportionally altered by SpeedFactor
+  //The larger SpeedFactor is, the slower the music
+  Hold = Hold * (float)ST.SpeedFactor;
+  return Hold;
+}
+
+
+void SendNote(int Index) {  //What's the point of passing an index number?
+String aStr; //Plays a MIDI note. Doesn't check data values
+  //aStr = EventToStr(eIndexT);
+  //Serial.println(aStr);
+  byte theSynth = Events[eIndexT].synth;
+  switch (theSynth) {
+    case 1: { //Integra 
+      Serial1.write(Events[eIndexT].comm);    
+      Serial1.write(Events[eIndexT].note);
+      Serial1.write(Events[eIndexT].velo);
+      break;
+    }  
+    case 2: { //SC-88
+      Serial2.write(Events[eIndexT].comm);    
+      Serial2.write(Events[eIndexT].note);
+      Serial2.write(Events[eIndexT].velo);
+      //aStr = "21YYYYY" + String(theSynth, HEX);
+      //Serial.println(aStr);
+      break;
+    }  
+    case 3: { //SC-88 Old default
+      Serial2.write(Events[eIndexT].comm);    
+      Serial2.write(Events[eIndexT].note);
+      Serial2.write(Events[eIndexT].velo);
+      break;
+    }  
+    case 4: { //From event array back to computer
+      if (Events[eIndexT].comm == 0x02) {
+        if (Events[eIndexT].note == 0xFF) {
+          Serial.println("PageF");
+          //break;
+        }  
+        if (Events[eIndexT].note == 0xBB) {
+          Serial.println("PageB");
+          //break;
+        }  
+      }
+      break;
+    }  
+  }   
+}
+
+
+void PlayThisBatch() {
+  while (Events[eIndexT].synth != 0) { //Send this group
+    if ((Events[eIndexT].comm > 0x8F) && (Events[eIndexT].comm < 0xA0)) {
+      //For note-on cmds only, modifying the velocity
+      //Events[eIndexT].v = ThisVel;  
+      //Events[eIndexT].v = PedlVel;
+      Events[eIndexT].velo = ThisVel * PedlFactor;
+    }  
+    SendNote(eIndexT);
+    incIndexT();
+  } 
+  String aStr = "EU" + String(EventsUsed, HEX);
+  Serial.println(aStr);
+}  
+
+
+void PlayTriggeredEventsAuto() {
+  if (millis() >= ST.NextTime) {
+    //Do not have to calculate ST.SpeedFactor
+    //Get set for the ST.NextTime
+    ST.ThisTime = millis();
+    ST.ThisDelta = Events[eIndexT].note * 256;
+    ST.ThisDelta = ST.ThisDelta + Events[eIndexT].velo;
+    incIndexT(); //Get past timing record
+    PlayThisBatch();
+    ST.NextTime = ST.ThisTime + (ST.ThisDelta * Delta2Millis * ST.SpeedFactor); 
+    ST.PrevDelta = ST.PrevDelta + ST.ThisDelta;
+  }
+}
+
+
+void EchoPacket() { //Back to the computer
+  String aStr = IntToHexStr(Packet.ByteCount);
+  aStr = aStr + IntToHexStr(Packet.synth);
+  aStr = aStr + IntToHexStr(Packet.comm);
+  aStr = aStr + IntToHexStr(Packet.note);
+  aStr = aStr + IntToHexStr(Packet.velo);
+  Serial.println(aStr);
+}
+
+void PacketComplete() { //From the computer. Direct the data flow
+  switch (Packet.synth) {
+  case 0 ... 4: //something for arduino to do
+    PokeEventArray();
+    break;
+  case 5: 
+    MuteAllChannels();
+    break;
+  case 6: //Peek or poke a port 
+    PeekPokePort();
+    break;
+  case 7: //Reset event-array pointers
+    eIndexH = -1;
+    eIndexT = 0;
+    //Get number from the packet
+    EventsUsed = Packet.comm * 65536; 
+    EventsUsed = EventsUsed + (Packet.note * 256); 
+    EventsUsed = EventsUsed + Packet.velo; 
+    break;
+  case 8: //LED Pointer
+    if (Packet.velo == 1) 
+      PointerAllowed = true;
+    else 
+      PointerAllowed = false;
+    break;
+  case 9:
+    ReportStatus();
+    break;
+  case 0x11 ... 0x12:
+    StraightToSynth();
+    break;
+  case 0x30: //Directing keyboard's output
+    KeyboardTriggers = Packet.velo; 
+    digitalWrite(led, LOW);
+    break;
+  } //End switch
+}
+
+
+void CheckIncomingComp() { //From computer
+String aStr;
+  if (Serial.available() > 0) {
+    byte bytRead = Serial.read();
+    Packet.ByteCount = Packet.ByteCount + 1;
+    switch (Packet.ByteCount) {
+    case 1:
+      Packet.synth = bytRead;
+      break;  
+    case 2:
+      Packet.comm = bytRead;
+      break;  
+    case 3:
+      Packet.note = bytRead;
+     break;  
+    case 4:
+      Packet.velo = bytRead;
+      //Serial.println("PacketComplete");
+      //EchoPacket();
+      PacketComplete();
+      Packet.ByteCount = 0;
+      break;  
+    }  
+  }
+}
+
+void KbdPacketComplete() {
+  switch (KbdPacket.comm) {
+  case 0x90 ... 0x9F: //Kbd key down. Ignoring everything else
+    ThisVel = KbdPacket.velo;
+    if (ThisVel == 0) {//Note on cmd, but zero vel
+      return;
+      break;
+    }  
+    LastVel = ThisVel; //Last velocity used when auto playing  
+    if (Events[eIndexT].comm == 0x01) { //If there was an auto that has not played, because
+      //the player is too quick, play it now. Especially good for slurred or 
+      //staccato notes that have not turned off
+      incIndexT();
+      PlayThisBatch();
+    }
+
+    ST.ThisTime = millis();
+    ST.ThisDelta = Events[eIndexT].note * 256;
+    ST.ThisDelta = ST.ThisDelta + Events[eIndexT].velo;
+    incIndexT();
+    PlayThisBatch();
+
+    //ST.SpeedFactor = ((float)ST.PrevDelta * (float)Delta2Millis) / (float)(ST.ThisTime - ST.LastTime);
+    if (ST.PrevDelta > 0)
+      ST.SpeedFactor = (float)(ST.ThisTime - ST.LastTime) / ((float)ST.PrevDelta * (float)Delta2Millis);
+    if (ST.SpeedFactor < 0.3 || ST.SpeedFactor > 3) 
+      ST.SpeedFactor = 1; //In case of a long pause before continuing
+
+    ST.NextTime = ST.ThisTime + ((float)ST.ThisDelta * (float)Delta2Millis * (float)ST.SpeedFactor); 
+    ST.LastTime = ST.ThisTime;
+    ST.PrevDelta = ST.ThisDelta;
+    
+    break;
+  }  
+} 
+  
+void CheckIncomingKybd() { //From music keyboard
+String aStr;
+long DeltaTime = 0;
+  if (Serial1.available() > 0) { 
+    byte KbdRead = Serial1.read();
+    //Read as unsigned byte
+    switch (KeyboardTriggers) {
+    case 1: Serial1.write(KbdRead);
+      return;
+      break;
+    case 2: Serial2.write(KbdRead);
+      return;
+      break;
+    }
+    KbdPacket.ByteCount = KbdPacket.ByteCount + 1;
+    switch (KbdPacket.ByteCount) {
+    case 1:
+      KbdPacket.comm = KbdRead;
+      break;  
+    case 2:
+      KbdPacket.note = KbdRead;
+      break;  
+    case 3:
+      KbdPacket.velo = KbdRead;
+      //EchoPacket();
+      KbdPacketComplete();
+      KbdPacket.ByteCount = 0;
+      break;  
+    }  
+  }
+}
+
+/*  
+void CheckIncomingKybd() { //From music keyboard
+String aStr;
+long DeltaTime = 0;
+  if (Serial1.available() > 0) { 
+    char KbdRead = Serial1.read();
+    //Read as signed char so that stuff other than ff9 will be ignored
+    switch (KeyboardTriggers) {
+      case 1: Serial1.write(KbdRead);
+              goto DoNot;
+              break;
+      case 2: Serial2.write(KbdRead);
+              goto DoNot;
+              break;
+    }
+    aStr = String(KbdRead, HEX);  
+    if (aStr.substring(0, 3) == "ff9") { //Only key-downs accepted
+      SerStr2 = aStr;
+      bCount = 1;
+      goto DoNot;}
+    if (bCount == 1) {
+      SerStr2 = SerStr2 + aStr;
+      bCount = 2;
+      goto DoNot;}
+    if (bCount == 2) { 
+      SerStr2 = SerStr2 + aStr;
+      //Serial.println(SerStr2);
+      
+      SerStr2 = ""; //This third byte is the velocity
+      ThisVel = KbdRead;
+      bCount = 0;
+      if (ThisVel == 0) {//Note on cmd, but zero vel
+        goto DoNot;}
+      LastVel = ThisVel; //Last velocity used when auto playing
+
+      if (Events[eIndexT].comm == 0x01) { //If there was an auto that has not played, because
+        //the player is too quick, play it now. Especially good for slurred or 
+        //staccato notes that have not turned off
+        incIndexT();
+        PlayThisBatch();
+      }
+
+      ST.ThisTime = millis();
+      ST.ThisDelta = Events[eIndexT].note * 256;
+      ST.ThisDelta = ST.ThisDelta + Events[eIndexT].velo;
+      incIndexT();
+      PlayThisBatch();
+
+      //ST.SpeedFactor = ((float)ST.PrevDelta * (float)Delta2Millis) / (float)(ST.ThisTime - ST.LastTime);
+      if (ST.PrevDelta > 0)
+        ST.SpeedFactor = (float)(ST.ThisTime - ST.LastTime) / ((float)ST.PrevDelta * (float)Delta2Millis);
+      if (ST.SpeedFactor < 0.3 || ST.SpeedFactor > 3) 
+        ST.SpeedFactor = 1; //In case of a long pause before continuing
+
+      ST.NextTime = ST.ThisTime + ((float)ST.ThisDelta * (float)Delta2Millis * (float)ST.SpeedFactor); 
+      ST.LastTime = ST.ThisTime;
+      ST.PrevDelta = ST.ThisDelta;
+      //Serial.println(ST.TimeNextEvent);
+      //ToggleLed();
+    }  
+DoNot:
+    aStr = ""; //Need something after a label
+  } 
+}  
+*/
+
+
+void CheckIncomingPntr() {
+String aStr;
+long DeltaTime = 0;
+  if (ReceiveState != prevReceiveState) { //From laser pointer 
+    //Comes in here whether going on or off
+    if (!ReceiveState) {
+      if (PointerOn) {
+
+        //Added 13 Oct 2021 to improve Led pointer performance on Sukiyaki
+        if (Events[eIndexT].comm == 0x01) { //If there was an auto that has not played, because
+          //the player is too quick, play it now. Especially good for slurred or 
+          //staccato notes that have not turned off
+          incIndexT();
+          while (Events[eIndexT].synth != 0) { //Send this group
+            if ((Events[eIndexT].comm > 0x8F) && (Events[eIndexT].comm < 0xA0)) {
+              //Events[eIndexT].velo = Events[eIndexT].v * PedlFactor;
+              Events[eIndexT].velo = PedlVel;
+            }  
+            SendNote(eIndexT);
+            incIndexT();
+          } 
+        }
+
+        ST.ThisTime = millis();
+        ST.ThisDelta = Events[eIndexT].note * 256;
+        ST.ThisDelta = ST.ThisDelta + Events[eIndexT].velo;
+        incIndexT();
+        while (Events[eIndexT].synth != 0) { //Send this group
+          if ((Events[eIndexT].comm > 0x8F) && (Events[eIndexT].comm < 0xA0)) {
+            //Events[eIndexT].velo = Events[eIndexT].v * PedlFactor;
+            Events[eIndexT].velo = PedlVel;
+          }  
+          SendNote(eIndexT);
+          incIndexT();
+        } 
+        String aStr = "EU" + String(EventsUsed, HEX);
+        Serial.println(aStr);
+        if (ST.PrevDelta > 0)
+           ST.SpeedFactor = (float)(ST.ThisTime - ST.LastTime) / ((float)ST.PrevDelta * (float)Delta2Millis);
+        if (ST.SpeedFactor < 0.3 || ST.SpeedFactor > 3) 
+          ST.SpeedFactor = 1; //In case of a long pause before continuing
+        ST.NextTime = ST.ThisTime + ((float)ST.ThisDelta * (float)Delta2Millis * (float)ST.SpeedFactor); 
+        ST.LastTime = ST.ThisTime;
+        ST.PrevDelta = ST.ThisDelta;
+        ToggleLed();
+      }  
+    }
+    prevReceiveState = ReceiveState;
+DoNot:
+    aStr = ""; //Need something after a label
+  }   
+}
+
+void loop() {
+  CheckIncomingComp();
+  CheckExpressionPedal();
+  if (Events[eIndexT].comm == 0x01) { //eIndexT always points to a timing record in this part of the sketch
+    PlayTriggeredEventsAuto();
+  }
+  CheckIncomingPntr();
+  CheckIncomingKybd();
+}
+
+
+void IsrReceived() {
+//Interrupt service routine. Executes pin D2 changes 
+//For the LED pointer detector
+  ReceiveState = !ReceiveState;  
+}
